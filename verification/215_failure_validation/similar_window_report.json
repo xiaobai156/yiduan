@@ -1,0 +1,1379 @@
+{
+  "schema": "duan_215_failure_validation.v1",
+  "issue": 215,
+  "site_count": 13,
+  "validated_count": 0,
+  "failed_count": 13,
+  "error_count": 0,
+  "results": [
+    {
+      "name": "烘云托月",
+      "url": "https://hfauoob.xu36n-9s7v3-jtrkpg.xyz:16677/topic/448332.html",
+      "pick": "bottom",
+      "target_issue": 215,
+      "status": "failed",
+      "document_count": 192,
+      "fetch_errors": [],
+      "evidence_documents": [
+        {
+          "index": 15,
+          "has_anchor": false,
+          "has_target": true,
+          "source_key": [
+            "https://xia06.cosds.ahsccn.com/upload/script/08/210cdf5d0303c410.js",
+            "script",
+            "None",
+            "https://xia06.cosds.ahsccn.com/upload/script/08/210cdf5d0303c410.js"
+          ],
+          "snippet": "215期[绝杀一段]各显神通"
+        },
+        {
+          "index": 16,
+          "has_anchor": true,
+          "has_target": false,
+          "source_key": [
+            "https://xia06.cosds.ahsccn.com/upload/script/08/210cdf5d0303c410.js",
+            "script",
+            "None",
+            "https://xia06.cosds.ahsccn.com/upload/script/08/210cdf5d0303c410.js"
+          ],
+          "snippet": "烘云托月发表于08月03日00:11:28 073期绝杀一段[1段]开:鸡34中 074期绝杀一段[5段]开:鸡10中"
+        },
+        {
+          "index": 31,
+          "has_anchor": false,
+          "has_target": true,
+          "source_key": [
+            "https://xia06.cosds.ahsccn.com/upload/script/08/210cdf5d0303c410.js",
+            "script",
+            "None",
+            "https://xia06.cosds.ahsccn.com/upload/script/08/210cdf5d0303c410.js"
+          ],
+          "snippet": "215期绝杀一段[1段]开:0000中 1段--01.02.03.04.05.06.07 2段--08.09.10.11.12.13.14 3段--15.16.17.18.19.20.21 4段--22.23.24.25.26.27.28 5段--29.30.31.32.33.34.35 6段--36.37.38.39.40.41.42 7段--43.44.45.46.47.48.49"
+        },
+        {
+          "index": 49,
+          "has_anchor": false,
+          "has_target": true,
+          "source_key": [
+            "https://xia06.cosds.ahsccn.com/upload/script/08/210cdf5d0303c410.js",
+            "script",
+            "None",
+            "https://xia06.cosds.ahsccn.com/upload/script/08/210cdf5d0303c410.js"
+          ],
+          "snippet": "215期[绝杀一段]各显神通 215期[九肖中特]各显神通 215期[大小中特]各显神通 215期[平特一尾]各显神通 215期[肉菜草肖]各显神通 215期[三头中特]各显神通 215期[吉美凶丑]各显神通 215期[前后中特]各显神通"
+        }
+      ],
+      "formal_matches": [
+        {
+          "issue": 215,
+          "value": "1段",
+          "source_url": "https://xia06.cosds.ahsccn.com/upload/script/08/210cdf5d0303c410.js",
+          "document_type": "script",
+          "block_id": "https://xia06.cosds.ahsccn.com/upload/script/08/210cdf5d0303c410.js",
+          "anchor": "烘云托月",
+          "raw_block": "215期绝杀一段[1段]开:0000中"
+        }
+      ],
+      "anchored_script_blocks": [
+        [
+          "https://xia06.cosds.ahsccn.com/upload/script/08/210cdf5d0303c410.js",
+          "script",
+          "None",
+          "https://xia06.cosds.ahsccn.com/upload/script/08/210cdf5d0303c410.js"
+        ]
+      ],
+      "target_matches": [],
+      "all_target_candidates": [],
+      "adjacent_matches": [
+        {
+          "issue": 214,
+          "value": "5段",
+          "source_url": "https://xia06.cosds.ahsccn.com/upload/script/08/210cdf5d0303c410.js",
+          "document_type": "script",
+          "block_id": "https://xia06.cosds.ahsccn.com/upload/script/08/210cdf5d0303c410.js",
+          "anchor": "烘云托月",
+          "raw_block": "214期绝杀一段[5段]开:兔04中"
+        }
+      ],
+      "nonexistent_matches": [],
+      "direction_window": [
+        {
+          "issue": 212,
+          "value": "1段",
+          "source_url": "https://xia06.cosds.ahsccn.com/upload/script/08/210cdf5d0303c410.js",
+          "document_type": "script",
+          "block_id": "https://xia06.cosds.ahsccn.com/upload/script/08/210cdf5d0303c410.js",
+          "anchor": "烘云托月",
+          "raw_block": "212期绝杀一段[1段]开:牛06错"
+        },
+        {
+          "issue": 213,
+          "value": "4段",
+          "source_url": "https://xia06.cosds.ahsccn.com/upload/script/08/210cdf5d0303c410.js",
+          "document_type": "script",
+          "block_id": "https://xia06.cosds.ahsccn.com/upload/script/08/210cdf5d0303c410.js",
+          "anchor": "烘云托月",
+          "raw_block": "213期绝杀一段[4段]开:猴35中"
+        },
+        {
+          "issue": 214,
+          "value": "5段",
+          "source_url": "https://xia06.cosds.ahsccn.com/upload/script/08/210cdf5d0303c410.js",
+          "document_type": "script",
+          "block_id": "https://xia06.cosds.ahsccn.com/upload/script/08/210cdf5d0303c410.js",
+          "anchor": "烘云托月",
+          "raw_block": "214期绝杀一段[5段]开:兔04中"
+        }
+      ],
+      "conflicts": {}
+    },
+    {
+      "name": "神神道道",
+      "url": "https://gboqrz.d2cda-p5u2y-gwxmnf.work/topic/333165.html",
+      "pick": "bottom",
+      "target_issue": 215,
+      "status": "failed",
+      "document_count": 205,
+      "fetch_errors": [],
+      "evidence_documents": [
+        {
+          "index": 21,
+          "has_anchor": true,
+          "has_target": true,
+          "source_key": [
+            "https://xia04.cosds.ahsccn.com/upload/script/08/7b2ca1e863d96d6a.js",
+            "script",
+            "None",
+            "https://xia04.cosds.ahsccn.com/upload/script/08/7b2ca1e863d96d6a.js"
+          ],
+          "snippet": "绝杀料215期:[绝杀一段] 作者:神神道道 177期:绝杀一段[2段]开:04中 178期:绝杀一段[3段]开:27中 179期:绝杀一段[5段]开:24中 180期:绝杀一段[1段]开:29中 181期:绝杀一段[7段]开:23中 182期:绝杀一段[4段]开:42中 183期:绝杀一段[6段]开:33中 184期:绝杀一段[2段]开:28中 185期:绝杀一段[5段]开:05中 186期:绝杀一段[4段]开:08中 187期:绝杀一段[6段]开:45中 188期:绝杀一段[2段]开:15中 189期:绝杀一段[7段]开:17中 190期:绝杀一段[5段]开:18中 191期:绝杀一段[2段]开:29中 192期:绝杀一段[6段]开:45中 193期:绝杀一段[1段]开:24中 194期:绝杀一段[5段]开:29错 195期:绝杀一段[2段]开:25中 196期:绝杀一段[6段]开:14中 197期:绝杀一段[2段]开:34中 1"
+        },
+        {
+          "index": 22,
+          "has_anchor": false,
+          "has_target": true,
+          "source_key": [
+            "https://xia04.cosds.ahsccn.com/upload/script/08/7b2ca1e863d96d6a.js",
+            "script",
+            "None",
+            "https://xia04.cosds.ahsccn.com/upload/script/08/7b2ca1e863d96d6a.js"
+          ],
+          "snippet": "210期:绝杀一段[2段]开:15中 211期:绝杀一段[5段]开:02中 212期:绝杀一段[4段]开:18中 213期:绝杀一段[1段]开:11中 214期:绝杀一段[6段]开:15中 215期:绝杀一段[3段]开:21错 216期:绝杀一段[7段]开:23中 217期:绝杀一段[4段]开:46中 218期:绝杀一段[1段]开:23中 219期:绝杀一段[6段]开:09中"
+        },
+        {
+          "index": 59,
+          "has_anchor": false,
+          "has_target": true,
+          "source_key": [
+            "https://xia04.cosds.ahsccn.com/upload/script/08/7b2ca1e863d96d6a.js",
+            "script",
+            "None",
+            "https://xia04.cosds.ahsccn.com/upload/script/08/7b2ca1e863d96d6a.js"
+          ],
+          "snippet": "215期:绝杀一段[3段]开:00中 1段--01.02.03.04.05.06.07 2段--08.09.10.11.12.13.14 3段--15.16.17.18.19.20.21 4段--22.23.24.25.26.27.28 5段--29.30.31.32.33.34.35 6段--36.37.38.39.40.41.42 7段--43.44.45.46.47.48.49 @所有彩民:用您快人一步头脑记住42048c.com 杜绝跟风·谁与争锋42048c.com成功需要耐心和毅力！ 不要轻言放弃·坚持下去·你一定能够取得自己想要的结果！ 本站承诺禁止卖料·杜绝一切假料·请大家放心查阅！"
+        }
+      ],
+      "formal_matches": [],
+      "anchored_script_blocks": [
+        [
+          "https://xia04.cosds.ahsccn.com/upload/script/08/7b2ca1e863d96d6a.js",
+          "script",
+          "None",
+          "https://xia04.cosds.ahsccn.com/upload/script/08/7b2ca1e863d96d6a.js"
+        ]
+      ],
+      "target_matches": [],
+      "all_target_candidates": [
+        {
+          "issue": 215,
+          "value": "3段",
+          "source_url": "https://xia04.cosds.ahsccn.com/upload/script/08/7b2ca1e863d96d6a.js",
+          "document_type": "script",
+          "block_id": "https://xia04.cosds.ahsccn.com/upload/script/08/7b2ca1e863d96d6a.js",
+          "anchor": "神神道道",
+          "raw_block": "215期:绝杀一段[3段]开:21错"
+        }
+      ],
+      "adjacent_matches": [],
+      "nonexistent_matches": [],
+      "direction_window": [
+        {
+          "issue": 217,
+          "value": "4段",
+          "source_url": "https://xia04.cosds.ahsccn.com/upload/script/08/7b2ca1e863d96d6a.js",
+          "document_type": "script",
+          "block_id": "https://xia04.cosds.ahsccn.com/upload/script/08/7b2ca1e863d96d6a.js",
+          "anchor": "神神道道",
+          "raw_block": "217期:绝杀一段[4段]开:46中"
+        },
+        {
+          "issue": 218,
+          "value": "1段",
+          "source_url": "https://xia04.cosds.ahsccn.com/upload/script/08/7b2ca1e863d96d6a.js",
+          "document_type": "script",
+          "block_id": "https://xia04.cosds.ahsccn.com/upload/script/08/7b2ca1e863d96d6a.js",
+          "anchor": "神神道道",
+          "raw_block": "218期:绝杀一段[1段]开:23中"
+        },
+        {
+          "issue": 219,
+          "value": "6段",
+          "source_url": "https://xia04.cosds.ahsccn.com/upload/script/08/7b2ca1e863d96d6a.js",
+          "document_type": "script",
+          "block_id": "https://xia04.cosds.ahsccn.com/upload/script/08/7b2ca1e863d96d6a.js",
+          "anchor": "神神道道",
+          "raw_block": "219期:绝杀一段[6段]开:09中"
+        }
+      ],
+      "conflicts": {}
+    },
+    {
+      "name": "皇帝奴才",
+      "url": "https://kfsujebc.djiz8-4tqt6-hubani.xyz:16677/topic/280942.html",
+      "pick": "bottom",
+      "target_issue": 215,
+      "status": "failed",
+      "document_count": 137,
+      "fetch_errors": [],
+      "evidence_documents": [
+        {
+          "index": 24,
+          "has_anchor": false,
+          "has_target": true,
+          "source_key": [
+            "https://xia06.cosds.ahsccn.com/upload/script/08/3a0f09e7d4fbabe0.js",
+            "script",
+            "None",
+            "https://xia06.cosds.ahsccn.com/upload/script/08/3a0f09e7d4fbabe0.js"
+          ],
+          "snippet": "精华帖子215期:〓[绝杀一段]〓期期准确"
+        },
+        {
+          "index": 25,
+          "has_anchor": true,
+          "has_target": false,
+          "source_key": [
+            "https://xia06.cosds.ahsccn.com/upload/script/08/3a0f09e7d4fbabe0.js",
+            "script",
+            "None",
+            "https://xia06.cosds.ahsccn.com/upload/script/08/3a0f09e7d4fbabe0.js"
+          ],
+          "snippet": "皇帝奴才发表于08月02日23:20:58"
+        },
+        {
+          "index": 32,
+          "has_anchor": false,
+          "has_target": true,
+          "source_key": [
+            "https://xia06.cosds.ahsccn.com/upload/script/08/3a0f09e7d4fbabe0.js",
+            "script",
+            "None",
+            "https://xia06.cosds.ahsccn.com/upload/script/08/3a0f09e7d4fbabe0.js"
+          ],
+          "snippet": "213期:〓[绝杀一段]〓[七段]开:羊11中 214期:〓[绝杀一段]〓[七段]开:兔15中 215期:〓[绝杀一段]〓[六段]开:鸡21中 216期:〓[绝杀一段]〓[五段]开:羊23中 217期:〓[绝杀一段]〓[一段]开:猴46中 218期:〓[绝杀一段]〓[一段]开:羊23中 219期:〓[绝杀一段]〓[二段]开:鸡09错 220期:〓[绝杀一段]〓[三段]开:狗08中 221期:〓[绝杀一段]〓[五段]开:狗08中 222期:〓[绝杀一段]〓[七段]开:猪43错"
+        },
+        {
+          "index": 68,
+          "has_anchor": false,
+          "has_target": true,
+          "source_key": [
+            "https://xia06.cosds.ahsccn.com/upload/script/08/3a0f09e7d4fbabe0.js",
+            "script",
+            "None",
+            "https://xia06.cosds.ahsccn.com/upload/script/08/3a0f09e7d4fbabe0.js"
+          ],
+          "snippet": "49中 211期:〓[绝杀一段]〓[一段]开:马01错 212期:〓[绝杀一段]〓[三段]开:牛06中 213期:〓[绝杀一段]〓[三段]开:猴35中 214期:〓[绝杀一段]〓[二段]开:兔04中 215期:〓[绝杀一段]〓[一段]开:00中 1段--01.02.03.04.05.06.07"
+        }
+      ],
+      "formal_matches": [],
+      "anchored_script_blocks": [
+        [
+          "https://xia06.cosds.ahsccn.com/upload/script/08/3a0f09e7d4fbabe0.js",
+          "script",
+          "None",
+          "https://xia06.cosds.ahsccn.com/upload/script/08/3a0f09e7d4fbabe0.js"
+        ]
+      ],
+      "target_matches": [],
+      "all_target_candidates": [
+        {
+          "issue": 215,
+          "value": "6段",
+          "source_url": "https://xia06.cosds.ahsccn.com/upload/script/08/3a0f09e7d4fbabe0.js",
+          "document_type": "script",
+          "block_id": "https://xia06.cosds.ahsccn.com/upload/script/08/3a0f09e7d4fbabe0.js",
+          "anchor": "皇帝奴才",
+          "raw_block": "215期:〓[绝杀一段]〓[六段]开:鸡21中"
+        }
+      ],
+      "adjacent_matches": [],
+      "nonexistent_matches": [],
+      "direction_window": [
+        {
+          "issue": 220,
+          "value": "3段",
+          "source_url": "https://xia06.cosds.ahsccn.com/upload/script/08/3a0f09e7d4fbabe0.js",
+          "document_type": "script",
+          "block_id": "https://xia06.cosds.ahsccn.com/upload/script/08/3a0f09e7d4fbabe0.js",
+          "anchor": "皇帝奴才",
+          "raw_block": "220期:〓[绝杀一段]〓[三段]开:狗08中"
+        },
+        {
+          "issue": 221,
+          "value": "5段",
+          "source_url": "https://xia06.cosds.ahsccn.com/upload/script/08/3a0f09e7d4fbabe0.js",
+          "document_type": "script",
+          "block_id": "https://xia06.cosds.ahsccn.com/upload/script/08/3a0f09e7d4fbabe0.js",
+          "anchor": "皇帝奴才",
+          "raw_block": "221期:〓[绝杀一段]〓[五段]开:狗08中"
+        },
+        {
+          "issue": 222,
+          "value": "7段",
+          "source_url": "https://xia06.cosds.ahsccn.com/upload/script/08/3a0f09e7d4fbabe0.js",
+          "document_type": "script",
+          "block_id": "https://xia06.cosds.ahsccn.com/upload/script/08/3a0f09e7d4fbabe0.js",
+          "anchor": "皇帝奴才",
+          "raw_block": "222期:〓[绝杀一段]〓[七段]开:猪43错"
+        }
+      ],
+      "conflicts": {}
+    },
+    {
+      "name": "一五一十",
+      "url": "https://spkhheda.6pb1u-v37cv-dcemcz.xyz:16677/topic/445668.html",
+      "pick": "bottom",
+      "target_issue": 215,
+      "status": "failed",
+      "document_count": 188,
+      "fetch_errors": [],
+      "evidence_documents": [
+        {
+          "index": 11,
+          "has_anchor": true,
+          "has_target": true,
+          "source_key": [
+            "https://xia02.cosds.ahsccn.com/upload/script/08/923151f70f171e4c.js",
+            "script",
+            "None",
+            "https://xia02.cosds.ahsccn.com/upload/script/08/923151f70f171e4c.js"
+          ],
+          "snippet": "e:12px} .detail_info_forum2_item.forum-body>.container.buttom{min-height:100px;margin-bottom:10px;} 215期[一五一十][绝杀一段]"
+        },
+        {
+          "index": 12,
+          "has_anchor": true,
+          "has_target": false,
+          "source_key": [
+            "https://xia02.cosds.ahsccn.com/upload/script/08/923151f70f171e4c.js",
+            "script",
+            "None",
+            "https://xia02.cosds.ahsccn.com/upload/script/08/923151f70f171e4c.js"
+          ],
+          "snippet": "一五一十发表于08月02日23:27:35"
+        },
+        {
+          "index": 20,
+          "has_anchor": false,
+          "has_target": true,
+          "source_key": [
+            "https://xia02.cosds.ahsccn.com/upload/script/08/923151f70f171e4c.js",
+            "script",
+            "None",
+            "https://xia02.cosds.ahsccn.com/upload/script/08/923151f70f171e4c.js"
+          ],
+          "snippet": "215期[绝杀一段][5段]开鸡21准 216期[绝杀一段][7段]开羊23准 217期[绝杀一段][7段]开猴46错 218期[绝杀一段][1段]开羊23准 219期[绝杀一段][1段]开鸡09准 220期[绝杀一段][3段]开狗08准 221期[绝杀一段][5段]开狗08准 222期[绝杀一段][5段]开猪43准 223期[绝杀一段][4段]开蛇25错 224期[绝杀一段][1段]开虎16准"
+        },
+        {
+          "index": 56,
+          "has_anchor": false,
+          "has_target": true,
+          "source_key": [
+            "https://xia02.cosds.ahsccn.com/upload/script/08/923151f70f171e4c.js",
+            "script",
+            "None",
+            "https://xia02.cosds.ahsccn.com/upload/script/08/923151f70f171e4c.js"
+          ],
+          "snippet": "210期[绝杀一段][6段]开马49准 211期[绝杀一段][4段]开马01准 212期[绝杀一段][5段]开牛06准 213期[绝杀一段][4段]开猴35准 214期[绝杀一段][3段]开兔04准 215期[绝杀一段][4段]开0000准"
+        }
+      ],
+      "formal_matches": [],
+      "anchored_script_blocks": [
+        [
+          "https://xia02.cosds.ahsccn.com/upload/script/08/923151f70f171e4c.js",
+          "script",
+          "None",
+          "https://xia02.cosds.ahsccn.com/upload/script/08/923151f70f171e4c.js"
+        ]
+      ],
+      "target_matches": [],
+      "all_target_candidates": [],
+      "adjacent_matches": [
+        {
+          "issue": 214,
+          "value": "6段",
+          "source_url": "https://xia02.cosds.ahsccn.com/upload/script/08/923151f70f171e4c.js",
+          "document_type": "script",
+          "block_id": "https://xia02.cosds.ahsccn.com/upload/script/08/923151f70f171e4c.js",
+          "anchor": "一五一十",
+          "raw_block": "214期[绝杀一段][6段]开兔15准"
+        }
+      ],
+      "nonexistent_matches": [],
+      "direction_window": [
+        {
+          "issue": 212,
+          "value": "3段",
+          "source_url": "https://xia02.cosds.ahsccn.com/upload/script/08/923151f70f171e4c.js",
+          "document_type": "script",
+          "block_id": "https://xia02.cosds.ahsccn.com/upload/script/08/923151f70f171e4c.js",
+          "anchor": "一五一十",
+          "raw_block": "212期[绝杀一段][3段]开鼠18错"
+        },
+        {
+          "issue": 213,
+          "value": "5段",
+          "source_url": "https://xia02.cosds.ahsccn.com/upload/script/08/923151f70f171e4c.js",
+          "document_type": "script",
+          "block_id": "https://xia02.cosds.ahsccn.com/upload/script/08/923151f70f171e4c.js",
+          "anchor": "一五一十",
+          "raw_block": "213期[绝杀一段][5段]开羊11准"
+        },
+        {
+          "issue": 214,
+          "value": "6段",
+          "source_url": "https://xia02.cosds.ahsccn.com/upload/script/08/923151f70f171e4c.js",
+          "document_type": "script",
+          "block_id": "https://xia02.cosds.ahsccn.com/upload/script/08/923151f70f171e4c.js",
+          "anchor": "一五一十",
+          "raw_block": "214期[绝杀一段][6段]开兔15准"
+        }
+      ],
+      "conflicts": {}
+    },
+    {
+      "name": "武松打虎",
+      "url": "https://ebhxngwb.2ljj5-vdh8s-gbvkgl.xyz:16677/topic/258480.html",
+      "pick": "bottom",
+      "target_issue": 215,
+      "status": "failed",
+      "document_count": 141,
+      "fetch_errors": [],
+      "evidence_documents": [
+        {
+          "index": 6,
+          "has_anchor": true,
+          "has_target": true,
+          "source_key": [
+            "https://xia01.cosds.ahsccn.com/upload/script/08/e526fb543e3d43b4.js",
+            "script",
+            "None",
+            "https://xia01.cosds.ahsccn.com/upload/script/08/e526fb543e3d43b4.js"
+          ],
+          "snippet": "215期:武松打虎[绝杀一段]准准 提高速度,减少浏览流量,不保留大量往期记录! 001期:绝杀一段[三段]开:牛29中 002期:绝杀一段[二段]开:猴22中 003期:绝杀一段[六段]开:鸡09中 004期:绝杀一段[三段]开:鸡45中"
+        },
+        {
+          "index": 28,
+          "has_anchor": false,
+          "has_target": true,
+          "source_key": [
+            "https://xia01.cosds.ahsccn.com/upload/script/08/e526fb543e3d43b4.js",
+            "script",
+            "None",
+            "https://xia01.cosds.ahsccn.com/upload/script/08/e526fb543e3d43b4.js"
+          ],
+          "snippet": "215期:绝杀一段[一段]开:0000中 1段--01.02.03.04.05.06.07 2段--08.09.10.11.12.13.14 3段--15.16.17.18.19.20.21 4段--22.23.24.25.26.27.28 5段--29.30.31.32.33.34.35 6段--36.37.38.39.40.41.42 7段--43.44.45.46.47.48.49 上一篇:沒有了"
+        }
+      ],
+      "formal_matches": [
+        {
+          "issue": 215,
+          "value": "1段",
+          "source_url": "https://xia01.cosds.ahsccn.com/upload/script/08/e526fb543e3d43b4.js",
+          "document_type": "script",
+          "block_id": "https://xia01.cosds.ahsccn.com/upload/script/08/e526fb543e3d43b4.js",
+          "anchor": "武松打虎",
+          "raw_block": "215期:绝杀一段[一段]开:0000中"
+        }
+      ],
+      "anchored_script_blocks": [
+        [
+          "https://xia01.cosds.ahsccn.com/upload/script/08/e526fb543e3d43b4.js",
+          "script",
+          "None",
+          "https://xia01.cosds.ahsccn.com/upload/script/08/e526fb543e3d43b4.js"
+        ]
+      ],
+      "target_matches": [],
+      "all_target_candidates": [],
+      "adjacent_matches": [
+        {
+          "issue": 214,
+          "value": "5段",
+          "source_url": "https://xia01.cosds.ahsccn.com/upload/script/08/e526fb543e3d43b4.js",
+          "document_type": "script",
+          "block_id": "https://xia01.cosds.ahsccn.com/upload/script/08/e526fb543e3d43b4.js",
+          "anchor": "武松打虎",
+          "raw_block": "214期:绝杀一段[五段]开:兔04中"
+        }
+      ],
+      "nonexistent_matches": [],
+      "direction_window": [
+        {
+          "issue": 212,
+          "value": "1段",
+          "source_url": "https://xia01.cosds.ahsccn.com/upload/script/08/e526fb543e3d43b4.js",
+          "document_type": "script",
+          "block_id": "https://xia01.cosds.ahsccn.com/upload/script/08/e526fb543e3d43b4.js",
+          "anchor": "武松打虎",
+          "raw_block": "212期:绝杀一段[一段]开:牛06错"
+        },
+        {
+          "issue": 213,
+          "value": "7段",
+          "source_url": "https://xia01.cosds.ahsccn.com/upload/script/08/e526fb543e3d43b4.js",
+          "document_type": "script",
+          "block_id": "https://xia01.cosds.ahsccn.com/upload/script/08/e526fb543e3d43b4.js",
+          "anchor": "武松打虎",
+          "raw_block": "213期:绝杀一段[七段]开:猴35中"
+        },
+        {
+          "issue": 214,
+          "value": "5段",
+          "source_url": "https://xia01.cosds.ahsccn.com/upload/script/08/e526fb543e3d43b4.js",
+          "document_type": "script",
+          "block_id": "https://xia01.cosds.ahsccn.com/upload/script/08/e526fb543e3d43b4.js",
+          "anchor": "武松打虎",
+          "raw_block": "214期:绝杀一段[五段]开:兔04中"
+        }
+      ],
+      "conflicts": {}
+    },
+    {
+      "name": "祝你发财",
+      "url": "https://ebhxngwb.2ljj5-vdh8s-gbvkgl.xyz:16677/topic/255950.html",
+      "pick": "bottom",
+      "target_issue": 215,
+      "status": "failed",
+      "document_count": 141,
+      "fetch_errors": [],
+      "evidence_documents": [
+        {
+          "index": 6,
+          "has_anchor": true,
+          "has_target": true,
+          "source_key": [
+            "https://xia02.cosds.ahsccn.com/upload/script/08/be94cde79949a639.js",
+            "script",
+            "None",
+            "https://xia02.cosds.ahsccn.com/upload/script/08/be94cde79949a639.js"
+          ],
+          "snippet": "215期:祝你发财[绝杀一段]准准 提高速度,减少浏览流量,不保留大量往期记录! 001期:绝杀一段→杀3段←开:牛29准 002期:绝杀一段→杀1段←开:猴22准 003期:绝杀一段→杀4段←开:鸡09准 004期:绝杀一段→杀3段←开:鸡45准"
+        },
+        {
+          "index": 28,
+          "has_anchor": false,
+          "has_target": true,
+          "source_key": [
+            "https://xia02.cosds.ahsccn.com/upload/script/08/be94cde79949a639.js",
+            "script",
+            "None",
+            "https://xia02.cosds.ahsccn.com/upload/script/08/be94cde79949a639.js"
+          ],
+          "snippet": "215期:绝杀一段→杀6段←开:0000准 1段:01.02.03.04.05.06.07 2段:08.09.10.11.12.13.14 3段:15.16.17.18.19.20.21 4段:22.23.24.25.26.27.28 5段:29.30.31.32.33.34.35 6段:36.37.38.39.40.41.42 7段:43.44.45.46.47.48.49 上一篇: 215期:云楚官人[绝杀一肖]准准 下一篇:沒有了"
+        }
+      ],
+      "formal_matches": [
+        {
+          "issue": 215,
+          "value": "6段",
+          "source_url": "https://xia02.cosds.ahsccn.com/upload/script/08/be94cde79949a639.js",
+          "document_type": "script",
+          "block_id": "https://xia02.cosds.ahsccn.com/upload/script/08/be94cde79949a639.js",
+          "anchor": "祝你发财",
+          "raw_block": "215期:绝杀一段→杀6段←开:0000准"
+        }
+      ],
+      "anchored_script_blocks": [
+        [
+          "https://xia02.cosds.ahsccn.com/upload/script/08/be94cde79949a639.js",
+          "script",
+          "None",
+          "https://xia02.cosds.ahsccn.com/upload/script/08/be94cde79949a639.js"
+        ]
+      ],
+      "target_matches": [],
+      "all_target_candidates": [],
+      "adjacent_matches": [
+        {
+          "issue": 214,
+          "value": "2段",
+          "source_url": "https://xia02.cosds.ahsccn.com/upload/script/08/be94cde79949a639.js",
+          "document_type": "script",
+          "block_id": "https://xia02.cosds.ahsccn.com/upload/script/08/be94cde79949a639.js",
+          "anchor": "祝你发财",
+          "raw_block": "214期:绝杀一段→杀2段←开:兔04准"
+        }
+      ],
+      "nonexistent_matches": [],
+      "direction_window": [
+        {
+          "issue": 212,
+          "value": "5段",
+          "source_url": "https://xia02.cosds.ahsccn.com/upload/script/08/be94cde79949a639.js",
+          "document_type": "script",
+          "block_id": "https://xia02.cosds.ahsccn.com/upload/script/08/be94cde79949a639.js",
+          "anchor": "祝你发财",
+          "raw_block": "212期:绝杀一段→杀5段←开:牛06准"
+        },
+        {
+          "issue": 213,
+          "value": "1段",
+          "source_url": "https://xia02.cosds.ahsccn.com/upload/script/08/be94cde79949a639.js",
+          "document_type": "script",
+          "block_id": "https://xia02.cosds.ahsccn.com/upload/script/08/be94cde79949a639.js",
+          "anchor": "祝你发财",
+          "raw_block": "213期:绝杀一段→绝杀一段←开:猴35准"
+        },
+        {
+          "issue": 214,
+          "value": "2段",
+          "source_url": "https://xia02.cosds.ahsccn.com/upload/script/08/be94cde79949a639.js",
+          "document_type": "script",
+          "block_id": "https://xia02.cosds.ahsccn.com/upload/script/08/be94cde79949a639.js",
+          "anchor": "祝你发财",
+          "raw_block": "214期:绝杀一段→杀2段←开:兔04准"
+        }
+      ],
+      "conflicts": {}
+    },
+    {
+      "name": "不成方圆",
+      "url": "https://sgxozo.4b5jw-x2zou-ukbybu.xyz:16677/topic/267724.html",
+      "pick": "bottom",
+      "target_issue": 215,
+      "status": "failed",
+      "document_count": 174,
+      "fetch_errors": [],
+      "evidence_documents": [
+        {
+          "index": 23,
+          "has_anchor": true,
+          "has_target": true,
+          "source_key": [
+            "https://xia05.cosds.ahsccn.com/upload/script/08/f6217474989f55e1.js",
+            "script",
+            "None",
+            "https://xia05.cosds.ahsccn.com/upload/script/08/f6217474989f55e1.js"
+          ],
+          "snippet": "精品贴215期:[不成方圆]绝杀一段-致富资料"
+        },
+        {
+          "index": 24,
+          "has_anchor": true,
+          "has_target": false,
+          "source_key": [
+            "https://xia05.cosds.ahsccn.com/upload/script/08/f6217474989f55e1.js",
+            "script",
+            "None",
+            "https://xia05.cosds.ahsccn.com/upload/script/08/f6217474989f55e1.js"
+          ],
+          "snippet": "不成方圆发表于08月03日10:01:12 040期:[绝杀一段](1段)开狗20准"
+        },
+        {
+          "index": 42,
+          "has_anchor": false,
+          "has_target": true,
+          "source_key": [
+            "https://xia05.cosds.ahsccn.com/upload/script/08/f6217474989f55e1.js",
+            "script",
+            "None",
+            "https://xia05.cosds.ahsccn.com/upload/script/08/f6217474989f55e1.js"
+          ],
+          "snippet": "211期:[绝杀一段](4段)开龙02准 212期:[绝杀一段](5段)开鼠18准 213期:[绝杀一段](6段)开羊11准 214期:[绝杀一段](5段)开兔15准 215期:[绝杀一段](7段)开鸡21准 216期:[绝杀一段](2段)开羊23准 217期:[绝杀一段](6段)开猴46准 218期:[绝杀一段](4段)开羊23错 219期:[绝杀一段](7段)开鸡09准 220期:[绝杀一段](6段)开狗08准"
+        },
+        {
+          "index": 78,
+          "has_anchor": false,
+          "has_target": true,
+          "source_key": [
+            "https://xia05.cosds.ahsccn.com/upload/script/08/f6217474989f55e1.js",
+            "script",
+            "None",
+            "https://xia05.cosds.ahsccn.com/upload/script/08/f6217474989f55e1.js"
+          ],
+          "snippet": "[绝杀一段](5段)开马49准 211期:[绝杀一段](4段)开马01准 212期:[绝杀一段](6段)开牛06准 213期:[绝杀一段](5段)开猴35错 214期:[绝杀一段](2段)开兔04准 215期:[绝杀一段](3段)开0000准"
+        },
+        {
+          "index": 94,
+          "has_anchor": true,
+          "has_target": true,
+          "source_key": [
+            "https://xia05.cosds.ahsccn.com/upload/script/08/f6217474989f55e1.js",
+            "script",
+            "None",
+            "https://xia05.cosds.ahsccn.com/upload/script/08/f6217474989f55e1.js"
+          ],
+          "snippet": "精品贴215期:[日日夜夜]吉美凶丑-致富资料 精品贴215期:[贩卖梦境]东南西北-致富资料 精品贴215期:[无量天尊]三行必中-致富资料 精品贴215期:[不成方圆]绝杀一段-致富资料 精品贴215期:[诗人礼献]五段中特-致富资料 精品贴215期:[大地情人]五尾中特-致富资料 精品贴215期:[平凡的我]合数单双-致富资料 精品贴215期:[生活喵喵]大小中特-致富资料 精品贴215期:[倦鸟投林]24码中特-致富资料 精品贴215期:[春夏秋冬]单双中特-致富资料"
+        }
+      ],
+      "formal_matches": [],
+      "anchored_script_blocks": [
+        [
+          "https://xia05.cosds.ahsccn.com/upload/script/08/f6217474989f55e1.js",
+          "script",
+          "None",
+          "https://xia05.cosds.ahsccn.com/upload/script/08/f6217474989f55e1.js"
+        ]
+      ],
+      "target_matches": [],
+      "all_target_candidates": [
+        {
+          "issue": 215,
+          "value": "7段",
+          "source_url": "https://xia05.cosds.ahsccn.com/upload/script/08/f6217474989f55e1.js",
+          "document_type": "script",
+          "block_id": "https://xia05.cosds.ahsccn.com/upload/script/08/f6217474989f55e1.js",
+          "anchor": "不成方圆",
+          "raw_block": "215期:[绝杀一段](7段)开鸡21准"
+        }
+      ],
+      "adjacent_matches": [],
+      "nonexistent_matches": [],
+      "direction_window": [
+        {
+          "issue": 218,
+          "value": "4段",
+          "source_url": "https://xia05.cosds.ahsccn.com/upload/script/08/f6217474989f55e1.js",
+          "document_type": "script",
+          "block_id": "https://xia05.cosds.ahsccn.com/upload/script/08/f6217474989f55e1.js",
+          "anchor": "不成方圆",
+          "raw_block": "218期:[绝杀一段](4段)开羊23错"
+        },
+        {
+          "issue": 219,
+          "value": "7段",
+          "source_url": "https://xia05.cosds.ahsccn.com/upload/script/08/f6217474989f55e1.js",
+          "document_type": "script",
+          "block_id": "https://xia05.cosds.ahsccn.com/upload/script/08/f6217474989f55e1.js",
+          "anchor": "不成方圆",
+          "raw_block": "219期:[绝杀一段](7段)开鸡09准"
+        },
+        {
+          "issue": 220,
+          "value": "6段",
+          "source_url": "https://xia05.cosds.ahsccn.com/upload/script/08/f6217474989f55e1.js",
+          "document_type": "script",
+          "block_id": "https://xia05.cosds.ahsccn.com/upload/script/08/f6217474989f55e1.js",
+          "anchor": "不成方圆",
+          "raw_block": "220期:[绝杀一段](6段)开狗08准"
+        }
+      ],
+      "conflicts": {}
+    },
+    {
+      "name": "习以为常",
+      "url": "https://txhbxsi.160ar-q87yu-rnnpxl.xyz:16677/topic/439182.html",
+      "pick": "bottom",
+      "target_issue": 215,
+      "status": "failed",
+      "document_count": 211,
+      "fetch_errors": [],
+      "evidence_documents": [
+        {
+          "index": 12,
+          "has_anchor": true,
+          "has_target": true,
+          "source_key": [
+            "https://xia02.cosds.ahsccn.com/upload/script/08/a853fdbe3024c2ab.js",
+            "script",
+            "None",
+            "https://xia02.cosds.ahsccn.com/upload/script/08/a853fdbe3024c2ab.js"
+          ],
+          "snippet": "高手贴215期[绝杀一段]已更新 作者:习以为常 108期[绝杀一段]《2段》开兔27准 109期[绝杀一段]《6段》开兔03准 110期[绝杀一段]《4段》开羊47准 111期[绝杀一段]《5段》开鸡45准 112期[绝杀一段]《2段》开鸡45准 113期[绝杀一段]《3段》开猴46准 114期[绝杀一段]《7段》开龙38准"
+        },
+        {
+          "index": 23,
+          "has_anchor": false,
+          "has_target": true,
+          "source_key": [
+            "https://xia02.cosds.ahsccn.com/upload/script/08/a853fdbe3024c2ab.js",
+            "script",
+            "None",
+            "https://xia02.cosds.ahsccn.com/upload/script/08/a853fdbe3024c2ab.js"
+          ],
+          "snippet": "215期[绝杀一段]《2段》开鸡21准 216期[绝杀一段]《4段》开羊23错 217期[绝杀一段]《5段》开猴46准 218期[绝杀一段]《1段》开羊23准 219期[绝杀一段]《3段》开鸡09准 220期[绝杀一段]《6段》开狗08准 221期[绝杀一段]《4段》开狗08准 222期[绝杀一段]《2段》开猪43准 223期[绝杀一段]《5段》开蛇25准 224期[绝杀一段]《1段》开虎16准"
+        },
+        {
+          "index": 59,
+          "has_anchor": false,
+          "has_target": true,
+          "source_key": [
+            "https://xia02.cosds.ahsccn.com/upload/script/08/a853fdbe3024c2ab.js",
+            "script",
+            "None",
+            "https://xia02.cosds.ahsccn.com/upload/script/08/a853fdbe3024c2ab.js"
+          ],
+          "snippet": "210期[绝杀一段]《1段》开马49准 211期[绝杀一段]《4段》开马01准 212期[绝杀一段]《3段》开牛06准 213期[绝杀一段]《5段》开猴35错 214期[绝杀一段]《6段》开兔04准 215期[绝杀一段]《2段》开0000准 ★1段:01-07★2段:08-14 ★3段:15-21★4段:22-28 ★5段:29-35★6段:36-42"
+        },
+        {
+          "index": 79,
+          "has_anchor": false,
+          "has_target": true,
+          "source_key": [
+            "https://xia02.cosds.ahsccn.com/upload/script/08/a853fdbe3024c2ab.js",
+            "script",
+            "None",
+            "https://xia02.cosds.ahsccn.com/upload/script/08/a853fdbe3024c2ab.js"
+          ],
+          "snippet": "高手贴215期[绝杀一段]已更新 高手贴215期[七肖中特]已更新 高手贴215期[四头中特]已更新"
+        }
+      ],
+      "formal_matches": [],
+      "anchored_script_blocks": [
+        [
+          "https://xia02.cosds.ahsccn.com/upload/script/08/a853fdbe3024c2ab.js",
+          "script",
+          "None",
+          "https://xia02.cosds.ahsccn.com/upload/script/08/a853fdbe3024c2ab.js"
+        ]
+      ],
+      "target_matches": [],
+      "all_target_candidates": [],
+      "adjacent_matches": [
+        {
+          "issue": 214,
+          "value": "3段",
+          "source_url": "https://xia02.cosds.ahsccn.com/upload/script/08/a853fdbe3024c2ab.js",
+          "document_type": "script",
+          "block_id": "https://xia02.cosds.ahsccn.com/upload/script/08/a853fdbe3024c2ab.js",
+          "anchor": "习以为常",
+          "raw_block": "214期[绝杀一段]《3段》开兔15错"
+        }
+      ],
+      "nonexistent_matches": [],
+      "direction_window": [
+        {
+          "issue": 212,
+          "value": "5段",
+          "source_url": "https://xia02.cosds.ahsccn.com/upload/script/08/a853fdbe3024c2ab.js",
+          "document_type": "script",
+          "block_id": "https://xia02.cosds.ahsccn.com/upload/script/08/a853fdbe3024c2ab.js",
+          "anchor": "习以为常",
+          "raw_block": "212期[绝杀一段]《5段》开鼠18准"
+        },
+        {
+          "issue": 213,
+          "value": "1段",
+          "source_url": "https://xia02.cosds.ahsccn.com/upload/script/08/a853fdbe3024c2ab.js",
+          "document_type": "script",
+          "block_id": "https://xia02.cosds.ahsccn.com/upload/script/08/a853fdbe3024c2ab.js",
+          "anchor": "习以为常",
+          "raw_block": "213期[绝杀一段]《1段》开羊11准"
+        },
+        {
+          "issue": 214,
+          "value": "3段",
+          "source_url": "https://xia02.cosds.ahsccn.com/upload/script/08/a853fdbe3024c2ab.js",
+          "document_type": "script",
+          "block_id": "https://xia02.cosds.ahsccn.com/upload/script/08/a853fdbe3024c2ab.js",
+          "anchor": "习以为常",
+          "raw_block": "214期[绝杀一段]《3段》开兔15错"
+        }
+      ],
+      "conflicts": {}
+    },
+    {
+      "name": "花间辞令",
+      "url": "https://yqjfwqsc.1dayz-aetgp-kbjidr.xyz:16677/topic/682019.html",
+      "pick": "bottom",
+      "target_issue": 215,
+      "status": "failed",
+      "document_count": 129,
+      "fetch_errors": [],
+      "evidence_documents": [
+        {
+          "index": 12,
+          "has_anchor": true,
+          "has_target": true,
+          "source_key": [
+            "https://xia04.cosds.ahsccn.com/upload/script/08/15236d3d05876ba8.js",
+            "script",
+            "None",
+            "https://xia04.cosds.ahsccn.com/upload/script/08/15236d3d05876ba8.js"
+          ],
+          "snippet": "e:12px} .detail_info_forum2_item.forum-body>.container.buttom{min-height:100px;margin-bottom:10px;} 215期[花间辞令][绝杀一段]"
+        },
+        {
+          "index": 13,
+          "has_anchor": true,
+          "has_target": false,
+          "source_key": [
+            "https://xia04.cosds.ahsccn.com/upload/script/08/15236d3d05876ba8.js",
+            "script",
+            "None",
+            "https://xia04.cosds.ahsccn.com/upload/script/08/15236d3d05876ba8.js"
+          ],
+          "snippet": "花间辞令发表于05月30日14:46:27"
+        },
+        {
+          "index": 29,
+          "has_anchor": false,
+          "has_target": true,
+          "source_key": [
+            "https://xia04.cosds.ahsccn.com/upload/script/08/15236d3d05876ba8.js",
+            "script",
+            "None",
+            "https://xia04.cosds.ahsccn.com/upload/script/08/15236d3d05876ba8.js"
+          ],
+          "snippet": "212期:绝杀一段[五段]开:18中 213期:绝杀一段[三段]开:11中 214期:绝杀一段[一段]开:15中 215期:绝杀一段[四段]开:21中 216期:绝杀一段[六段]开:23中 217期:绝杀一段[五段]开:46中 218期:绝杀一段[二段]开:23中 219期:绝杀一段[七段]开:09中 220期:绝杀一段[三段]开:08中 221期:绝杀一段[五段]开:08中"
+        },
+        {
+          "index": 65,
+          "has_anchor": false,
+          "has_target": true,
+          "source_key": [
+            "https://xia04.cosds.ahsccn.com/upload/script/08/15236d3d05876ba8.js",
+            "script",
+            "None",
+            "https://xia04.cosds.ahsccn.com/upload/script/08/15236d3d05876ba8.js"
+          ],
+          "snippet": ":08错 210期:绝杀一段[四段]开:49中 211期:绝杀一段[七段]开:01中 212期:绝杀一段[三段]开:06中 213期:绝杀一段[五段]开:35错 214期:绝杀一段[三段]开:04中 215期:绝杀一段[一段]开:00中"
+        }
+      ],
+      "formal_matches": [],
+      "anchored_script_blocks": [
+        [
+          "https://xia04.cosds.ahsccn.com/upload/script/08/15236d3d05876ba8.js",
+          "script",
+          "None",
+          "https://xia04.cosds.ahsccn.com/upload/script/08/15236d3d05876ba8.js"
+        ]
+      ],
+      "target_matches": [],
+      "all_target_candidates": [
+        {
+          "issue": 215,
+          "value": "4段",
+          "source_url": "https://xia04.cosds.ahsccn.com/upload/script/08/15236d3d05876ba8.js",
+          "document_type": "script",
+          "block_id": "https://xia04.cosds.ahsccn.com/upload/script/08/15236d3d05876ba8.js",
+          "anchor": "花间辞令",
+          "raw_block": "215期:绝杀一段[四段]开:21中"
+        }
+      ],
+      "adjacent_matches": [],
+      "nonexistent_matches": [],
+      "direction_window": [
+        {
+          "issue": 219,
+          "value": "7段",
+          "source_url": "https://xia04.cosds.ahsccn.com/upload/script/08/15236d3d05876ba8.js",
+          "document_type": "script",
+          "block_id": "https://xia04.cosds.ahsccn.com/upload/script/08/15236d3d05876ba8.js",
+          "anchor": "花间辞令",
+          "raw_block": "219期:绝杀一段[七段]开:09中"
+        },
+        {
+          "issue": 220,
+          "value": "3段",
+          "source_url": "https://xia04.cosds.ahsccn.com/upload/script/08/15236d3d05876ba8.js",
+          "document_type": "script",
+          "block_id": "https://xia04.cosds.ahsccn.com/upload/script/08/15236d3d05876ba8.js",
+          "anchor": "花间辞令",
+          "raw_block": "220期:绝杀一段[三段]开:08中"
+        },
+        {
+          "issue": 221,
+          "value": "5段",
+          "source_url": "https://xia04.cosds.ahsccn.com/upload/script/08/15236d3d05876ba8.js",
+          "document_type": "script",
+          "block_id": "https://xia04.cosds.ahsccn.com/upload/script/08/15236d3d05876ba8.js",
+          "anchor": "花间辞令",
+          "raw_block": "221期:绝杀一段[五段]开:08中"
+        }
+      ],
+      "conflicts": {}
+    },
+    {
+      "name": "交浅言深",
+      "url": "https://tjetrfr.jocy8-cy4wk-fmpeer.xyz:16677/topic/221371.html",
+      "pick": "bottom",
+      "target_issue": 215,
+      "status": "failed",
+      "document_count": 132,
+      "fetch_errors": [],
+      "evidence_documents": [
+        {
+          "index": 7,
+          "has_anchor": true,
+          "has_target": true,
+          "source_key": [
+            "https://xia03.cosds.ahsccn.com/upload/script/08/a18ff19ef452e0c5.js",
+            "script",
+            "None",
+            "https://xia03.cosds.ahsccn.com/upload/script/08/a18ff19ef452e0c5.js"
+          ],
+          "snippet": "高手贴215期[绝杀一段]已公开 作者:交浅言深 144期:[绝杀一段]→杀7段←开:蛇25准 145期:[绝杀一段]→杀1段←开:牛17准 146期:[绝杀一段]→杀5段←开:龙14准 147期:[绝杀一段]→杀2段←开:狗32准 148期:[绝杀一段]→杀6段←开:龙02准 149期:[绝杀一段]→杀4段←开:牛41准 150期:[绝杀一段]→杀2段←开:虎40准 151期:[绝杀一段]→杀1段←开:龙38准 152期:[绝杀一段]→杀4段←开:猴10准 153期:[绝杀一段]→杀3段←开:猪43准 154期:[绝杀一段]→杀2段←开:龙26准 155期:[绝杀一段]→杀6段←开:鸡45准 156期:[绝杀一段]→杀3段←开:鼠18错 157期:[绝杀一段]→杀7段←开:羊23准 158期:[绝杀一段]→杀2段←开:牛05准 159期:[绝杀一段]→杀4段←开:猪31准 160期:[绝杀一段]→杀1段←开:羊11准 161期:[绝"
+        },
+        {
+          "index": 8,
+          "has_anchor": false,
+          "has_target": true,
+          "source_key": [
+            "https://xia03.cosds.ahsccn.com/upload/script/08/a18ff19ef452e0c5.js",
+            "script",
+            "None",
+            "https://xia03.cosds.ahsccn.com/upload/script/08/a18ff19ef452e0c5.js"
+          ],
+          "snippet": "212期:[绝杀一段]→杀1段←开:鼠18准 213期:[绝杀一段]→杀4段←开:羊11准 214期:[绝杀一段]→杀6段←开:兔15准 215期:[绝杀一段]→杀2段←开:鸡21准 216期:[绝杀一段]→杀5段←开:羊23准 217期:[绝杀一段]→杀1段←开:猴46准 218期:[绝杀一段]→杀3段←开:羊23准 219期:[绝杀一段]→杀7段←开:鸡09准 220期:[绝杀一段]→杀5段←开:狗08准 221期:[绝杀一段]→杀3段←开:狗08准"
+        },
+        {
+          "index": 44,
+          "has_anchor": false,
+          "has_target": true,
+          "source_key": [
+            "https://xia03.cosds.ahsccn.com/upload/script/08/a18ff19ef452e0c5.js",
+            "script",
+            "None",
+            "https://xia03.cosds.ahsccn.com/upload/script/08/a18ff19ef452e0c5.js"
+          ],
+          "snippet": "←开:马49准 211期:[绝杀一段]→杀4段←开:马01准 212期:[绝杀一段]→杀7段←开:牛06准 213期:[绝杀一段]→杀6段←开:猴35准 214期:[绝杀一段]→杀1段←开:兔04错 215期:[绝杀一段]→杀2段←开:？00准 1段:01020304050607 2段:08091011121314 3段:15161718192021 4段:22232425262728 5段:29303132333435 6段:36373839404142 7段:43444546474849"
+        }
+      ],
+      "formal_matches": [],
+      "anchored_script_blocks": [
+        [
+          "https://xia03.cosds.ahsccn.com/upload/script/08/a18ff19ef452e0c5.js",
+          "script",
+          "None",
+          "https://xia03.cosds.ahsccn.com/upload/script/08/a18ff19ef452e0c5.js"
+        ]
+      ],
+      "target_matches": [],
+      "all_target_candidates": [
+        {
+          "issue": 215,
+          "value": "2段",
+          "source_url": "https://xia03.cosds.ahsccn.com/upload/script/08/a18ff19ef452e0c5.js",
+          "document_type": "script",
+          "block_id": "https://xia03.cosds.ahsccn.com/upload/script/08/a18ff19ef452e0c5.js",
+          "anchor": "交浅言深",
+          "raw_block": "215期:[绝杀一段]→杀2段←开:鸡21准"
+        }
+      ],
+      "adjacent_matches": [],
+      "nonexistent_matches": [],
+      "direction_window": [
+        {
+          "issue": 219,
+          "value": "7段",
+          "source_url": "https://xia03.cosds.ahsccn.com/upload/script/08/a18ff19ef452e0c5.js",
+          "document_type": "script",
+          "block_id": "https://xia03.cosds.ahsccn.com/upload/script/08/a18ff19ef452e0c5.js",
+          "anchor": "交浅言深",
+          "raw_block": "219期:[绝杀一段]→杀7段←开:鸡09准"
+        },
+        {
+          "issue": 220,
+          "value": "5段",
+          "source_url": "https://xia03.cosds.ahsccn.com/upload/script/08/a18ff19ef452e0c5.js",
+          "document_type": "script",
+          "block_id": "https://xia03.cosds.ahsccn.com/upload/script/08/a18ff19ef452e0c5.js",
+          "anchor": "交浅言深",
+          "raw_block": "220期:[绝杀一段]→杀5段←开:狗08准"
+        },
+        {
+          "issue": 221,
+          "value": "3段",
+          "source_url": "https://xia03.cosds.ahsccn.com/upload/script/08/a18ff19ef452e0c5.js",
+          "document_type": "script",
+          "block_id": "https://xia03.cosds.ahsccn.com/upload/script/08/a18ff19ef452e0c5.js",
+          "anchor": "交浅言深",
+          "raw_block": "221期:[绝杀一段]→杀3段←开:狗08准"
+        }
+      ],
+      "conflicts": {}
+    },
+    {
+      "name": "一言不发",
+      "url": "https://ykeejph.z9koz-18xjn-pvglgy.xyz:16677/topic/682116.html",
+      "pick": "bottom",
+      "target_issue": 215,
+      "status": "failed",
+      "document_count": 146,
+      "fetch_errors": [],
+      "evidence_documents": [
+        {
+          "index": 30,
+          "has_anchor": false,
+          "has_target": true,
+          "source_key": [
+            "https://xia04.cosds.ahsccn.com/upload/script/08/3e221e90893cef3b.js",
+            "script",
+            "None",
+            "https://xia04.cosds.ahsccn.com/upload/script/08/3e221e90893cef3b.js"
+          ],
+          "snippet": "tem.forum-body.container.buttom.content{ width:100%; white-space:normal; word-wrap:break-word; } 绝杀贴215期[绝杀一段]已更新"
+        },
+        {
+          "index": 31,
+          "has_anchor": true,
+          "has_target": false,
+          "source_key": [
+            "https://xia04.cosds.ahsccn.com/upload/script/08/3e221e90893cef3b.js",
+            "script",
+            "None",
+            "https://xia04.cosds.ahsccn.com/upload/script/08/3e221e90893cef3b.js"
+          ],
+          "snippet": "一言不发发表于04月29日21:24:46"
+        },
+        {
+          "index": 48,
+          "has_anchor": false,
+          "has_target": true,
+          "source_key": [
+            "https://xia04.cosds.ahsccn.com/upload/script/08/3e221e90893cef3b.js",
+            "script",
+            "None",
+            "https://xia04.cosds.ahsccn.com/upload/script/08/3e221e90893cef3b.js"
+          ],
+          "snippet": "214期:[绝杀一段](5段)开兔15准 215期:[绝杀一段](6段)开鸡21准 216期:[绝杀一段](7段)开羊23准 217期:[绝杀一段](4段)开猴46准 218期:[绝杀一段](5段)开羊23准 219期:[绝杀一段](6段)开鸡09准 220期:[绝杀一段](5段)开狗08准 221期:[绝杀一段](2段)开狗08错 222期:[绝杀一段](4段)开猪43准 223期:[绝杀一段](5段)开蛇25准"
+        },
+        {
+          "index": 84,
+          "has_anchor": false,
+          "has_target": true,
+          "source_key": [
+            "https://xia04.cosds.ahsccn.com/upload/script/08/3e221e90893cef3b.js",
+            "script",
+            "None",
+            "https://xia04.cosds.ahsccn.com/upload/script/08/3e221e90893cef3b.js"
+          ],
+          "snippet": "[绝杀一段](5段)开马49准 211期:[绝杀一段](4段)开马01准 212期:[绝杀一段](2段)开牛06准 213期:[绝杀一段](3段)开猴35准 214期:[绝杀一段](4段)开兔04准 215期:[绝杀一段](5段)开0000准 1段--01.02.03.04.05.06.075段--29.30.31.32.33.34.35 2段--08.09.10.11.12.13.146段--36.37.38.39.40.41.42 3段--15.16.17.18.19.20.217段--43.44.45.46.47.48.49 4段--22.23.24.25.26.27.28"
+        }
+      ],
+      "formal_matches": [],
+      "anchored_script_blocks": [
+        [
+          "https://xia04.cosds.ahsccn.com/upload/script/08/3e221e90893cef3b.js",
+          "script",
+          "None",
+          "https://xia04.cosds.ahsccn.com/upload/script/08/3e221e90893cef3b.js"
+        ]
+      ],
+      "target_matches": [],
+      "all_target_candidates": [
+        {
+          "issue": 215,
+          "value": "6段",
+          "source_url": "https://xia04.cosds.ahsccn.com/upload/script/08/3e221e90893cef3b.js",
+          "document_type": "script",
+          "block_id": "https://xia04.cosds.ahsccn.com/upload/script/08/3e221e90893cef3b.js",
+          "anchor": "一言不发",
+          "raw_block": "215期:[绝杀一段](6段)开鸡21准"
+        }
+      ],
+      "adjacent_matches": [],
+      "nonexistent_matches": [],
+      "direction_window": [
+        {
+          "issue": 221,
+          "value": "2段",
+          "source_url": "https://xia04.cosds.ahsccn.com/upload/script/08/3e221e90893cef3b.js",
+          "document_type": "script",
+          "block_id": "https://xia04.cosds.ahsccn.com/upload/script/08/3e221e90893cef3b.js",
+          "anchor": "一言不发",
+          "raw_block": "221期:[绝杀一段](2段)开狗08错"
+        },
+        {
+          "issue": 222,
+          "value": "4段",
+          "source_url": "https://xia04.cosds.ahsccn.com/upload/script/08/3e221e90893cef3b.js",
+          "document_type": "script",
+          "block_id": "https://xia04.cosds.ahsccn.com/upload/script/08/3e221e90893cef3b.js",
+          "anchor": "一言不发",
+          "raw_block": "222期:[绝杀一段](4段)开猪43准"
+        },
+        {
+          "issue": 223,
+          "value": "5段",
+          "source_url": "https://xia04.cosds.ahsccn.com/upload/script/08/3e221e90893cef3b.js",
+          "document_type": "script",
+          "block_id": "https://xia04.cosds.ahsccn.com/upload/script/08/3e221e90893cef3b.js",
+          "anchor": "一言不发",
+          "raw_block": "223期:[绝杀一段](5段)开蛇25准"
+        }
+      ],
+      "conflicts": {}
+    },
+    {
+      "name": "杨进心水",
+      "url": "https://aa.62782b.com:1888/bbs/10744",
+      "pick": "top",
+      "target_issue": 215,
+      "status": "failed",
+      "document_count": 1,
+      "fetch_errors": [],
+      "evidence_documents": [
+        {
+          "index": 0,
+          "has_anchor": true,
+          "has_target": true,
+          "source_key": [
+            "https://aa.62782b.com:1888/bbs/10744",
+            "page",
+            "None",
+            "page"
+          ],
+          "snippet": "处何时何地手机投注更方便！资金安全论坛全程担保！提款更安全！ 记住网址(49js.com)点击注册！已向本站押付1000万，请大家放心投注！ 点击进入官网投注 [绝杀一段]62827a.com 作者:杨进心水 站长宣言:本网站绝不带一丝参假！如遇改料，假料，马后炮资料，一经查实，直接封号封IP。大神无处不在，真金不怕火炼，实力万人见证！ 216期:[绝杀一段][杀02段]开??准 214期:[绝杀一段][杀04段]开04准 213期:[绝杀一段][杀01段]开35准 212期:[绝杀一段][杀07段]开06准 211期:[绝杀一段][杀07段]开01准 210期:[绝杀一段][杀01段]开49准 208期:[绝杀一段][杀07段]开19准 207期:[绝杀一段][杀07段]开31准 206期:[绝杀一段][杀05段]开47准 205期:[绝杀一段][杀02段]开03准 204期:[绝杀一段][杀03段]开05准 203期:[绝杀一段][杀06段]开25准 201期:[绝杀一段][杀02段]开32准 200期:[绝杀一段][杀01段]开39准 199期:[绝杀一段][杀01段]开36准 197期:[绝杀一段][杀07段]开08"
+        }
+      ],
+      "formal_matches": [],
+      "anchored_script_blocks": [],
+      "target_matches": [],
+      "all_target_candidates": [],
+      "adjacent_matches": [
+        {
+          "issue": 214,
+          "value": "4段",
+          "source_url": "https://aa.62782b.com:1888/bbs/10744",
+          "document_type": "page",
+          "block_id": "page",
+          "anchor": "杨进心水",
+          "raw_block": "214期:[绝杀一段][杀04段]开04准"
+        }
+      ],
+      "nonexistent_matches": [],
+      "direction_window": [
+        {
+          "issue": 216,
+          "value": "2段",
+          "source_url": "https://aa.62782b.com:1888/bbs/10744",
+          "document_type": "page",
+          "block_id": "page",
+          "anchor": "杨进心水",
+          "raw_block": "216期:[绝杀一段][杀02段]开??准"
+        },
+        {
+          "issue": 214,
+          "value": "4段",
+          "source_url": "https://aa.62782b.com:1888/bbs/10744",
+          "document_type": "page",
+          "block_id": "page",
+          "anchor": "杨进心水",
+          "raw_block": "214期:[绝杀一段][杀04段]开04准"
+        },
+        {
+          "issue": 213,
+          "value": "1段",
+          "source_url": "https://aa.62782b.com:1888/bbs/10744",
+          "document_type": "page",
+          "block_id": "page",
+          "anchor": "杨进心水",
+          "raw_block": "213期:[绝杀一段][杀01段]开35准"
+        }
+      ],
+      "conflicts": {}
+    },
+    {
+      "name": "恭喜发财",
+      "url": "https://qdufkx.sjb5z-pi4k6-jlhnig.xyz:16677/topic/798386.html",
+      "pick": "bottom",
+      "target_issue": 215,
+      "status": "failed",
+      "document_count": 41,
+      "fetch_errors": [],
+      "evidence_documents": [
+        {
+          "index": 6,
+          "has_anchor": true,
+          "has_target": true,
+          "source_key": [
+            "https://xia05.cosds.ahsccn.com/upload/script/08/e9e8d13675477b32.js",
+            "script",
+            "None",
+            "https://xia05.cosds.ahsccn.com/upload/script/08/e9e8d13675477b32.js"
+          ],
+          "snippet": "215期:49黑旋风[绝杀一段]恭喜发财 作者:恭喜发财 为提高网页浏览速度，以往记录已封存归档！ 162期:[绝杀一段][7段]开:猪32准 163期:[绝杀一段][1段]开:马37准 164期:[绝杀一段][2段]开:狗21准"
+        },
+        {
+          "index": 12,
+          "has_anchor": false,
+          "has_target": true,
+          "source_key": [
+            "https://xia05.cosds.ahsccn.com/upload/script/08/e9e8d13675477b32.js",
+            "script",
+            "None",
+            "https://xia05.cosds.ahsccn.com/upload/script/08/e9e8d13675477b32.js"
+          ],
+          "snippet": "215期:[绝杀一段][1段]开:0000准"
+        }
+      ],
+      "formal_matches": [
+        {
+          "issue": 215,
+          "value": "1段",
+          "source_url": "https://xia05.cosds.ahsccn.com/upload/script/08/e9e8d13675477b32.js",
+          "document_type": "script",
+          "block_id": "https://xia05.cosds.ahsccn.com/upload/script/08/e9e8d13675477b32.js",
+          "anchor": "恭喜发财",
+          "raw_block": "215期:[绝杀一段][1段]开:0000准"
+        }
+      ],
+      "anchored_script_blocks": [
+        [
+          "https://xia05.cosds.ahsccn.com/upload/script/08/e9e8d13675477b32.js",
+          "script",
+          "None",
+          "https://xia05.cosds.ahsccn.com/upload/script/08/e9e8d13675477b32.js"
+        ]
+      ],
+      "target_matches": [],
+      "all_target_candidates": [],
+      "adjacent_matches": [
+        {
+          "issue": 214,
+          "value": "3段",
+          "source_url": "https://xia05.cosds.ahsccn.com/upload/script/08/e9e8d13675477b32.js",
+          "document_type": "script",
+          "block_id": "https://xia05.cosds.ahsccn.com/upload/script/08/e9e8d13675477b32.js",
+          "anchor": "恭喜发财",
+          "raw_block": "214期:[绝杀一段][3段]开:兔04准"
+        }
+      ],
+      "nonexistent_matches": [],
+      "direction_window": [
+        {
+          "issue": 212,
+          "value": "3段",
+          "source_url": "https://xia05.cosds.ahsccn.com/upload/script/08/e9e8d13675477b32.js",
+          "document_type": "script",
+          "block_id": "https://xia05.cosds.ahsccn.com/upload/script/08/e9e8d13675477b32.js",
+          "anchor": "恭喜发财",
+          "raw_block": "212期:[绝杀一段][3段]开:牛06准"
+        },
+        {
+          "issue": 213,
+          "value": "7段",
+          "source_url": "https://xia05.cosds.ahsccn.com/upload/script/08/e9e8d13675477b32.js",
+          "document_type": "script",
+          "block_id": "https://xia05.cosds.ahsccn.com/upload/script/08/e9e8d13675477b32.js",
+          "anchor": "恭喜发财",
+          "raw_block": "213期:[绝杀一段][7段]开:猴35准"
+        },
+        {
+          "issue": 214,
+          "value": "3段",
+          "source_url": "https://xia05.cosds.ahsccn.com/upload/script/08/e9e8d13675477b32.js",
+          "document_type": "script",
+          "block_id": "https://xia05.cosds.ahsccn.com/upload/script/08/e9e8d13675477b32.js",
+          "anchor": "恭喜发财",
+          "raw_block": "214期:[绝杀一段][3段]开:兔04准"
+        }
+      ],
+      "conflicts": {}
+    }
+  ]
+}
