@@ -306,7 +306,7 @@ def format_progress_line(
 def safe_write_text(path: Path, text: str) -> Path:
     temp_path = path.with_name(path.name + f".writing-{time.time_ns()}.tmp")
     try:
-        temp_path.write_text(text, encoding="utf-8-sig")
+        temp_path.write_text(text, encoding="utf-8-sig", newline="")
         temp_path.replace(path)
         return path
     except PermissionError:

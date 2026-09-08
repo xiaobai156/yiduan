@@ -179,6 +179,9 @@ def retry(fail_path, success_path, sites, *, timeout=20, verify_ssl=True,
                 raise ValueError(f"缓存站点身份重复：{identity[0]}；停止写入")
             if matches:
                 matches[0]["fingerprint"][str(period)] = value
+                matches[0]["status"] = "ok"
+                matches[0].pop("error", None)
+                matches[0]["notes"] = ["定向重抓恢复"]
         if updated != cache:
             updates[cache_path] = json.dumps(updated, ensure_ascii=False, indent=2) + "\n"
     updates[fail_path] = merge_failures(text, records, recovered)
