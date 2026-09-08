@@ -203,12 +203,6 @@ def write_default_sites_config(path: Path) -> None:
     )
 
 def load_sites_config(path: Path) -> list[Site]:
-    if not path.exists():
-        raise ValueError(f"站点配置不存在，禁止自动重建：{path}")
-    if not path.exists():
-        write_default_sites_config(path)
-        return DEFAULT_SITES
-
     try:
         raw_items = json.loads(path.read_text(encoding="utf-8-sig"))
     except Exception as exc:

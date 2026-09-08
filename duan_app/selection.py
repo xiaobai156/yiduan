@@ -114,8 +114,10 @@ def candidate_conflict_issue_reasons(candidates: list[Candidate], wanted_issues:
     return reasons
 
 def find_matches_from_candidates(candidates: list[Candidate], wanted_issues: set[int], site: Site) -> list[Candidate]:
-    candidates, reason = scoped_candidates(candidates, wanted_issues, site.pick)
+    # Parsers supply the authoritative candidates. Never discard conflict evidence
+    # through the direction window; ambiguous sources also fail closed.
     conflict_reasons = candidate_conflict_issue_reasons(candidates, wanted_issues)
+    candidates, reason = scoped_candidates(candidates, wanted_issues, site.pick)
     if reason or not candidates:
         return []
 

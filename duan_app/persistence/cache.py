@@ -46,7 +46,15 @@ def _cache_file_lock(cache_path: Path, timeout: float = 60.0):
 
         import fcntl
 
-        fcntl.flock(handle.fileno(), fcntl.LOCK_EX)
+        deadline = time.monotonic() + timeout
+        while True:
+            try:
+                fcntl.flock(handle.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+                break
+            except BlockingIOError as exc:
+                if time.monotonic() >= deadline:
+                    raise TimeoutError(f"文件锁等待超时：{cache_path}") from exc
+                time.sleep(0.1)
         try:
             yield
         finally:

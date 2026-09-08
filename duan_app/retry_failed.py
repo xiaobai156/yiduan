@@ -4,14 +4,14 @@ import json
 import re
 import sys
 import argparse
-from contextlib import ExitStack
+import hashlib
 from pathlib import Path
 
 from duan_app.config import default_result_dir, load_sites_config
 from duan_app.crawl_service import process_site
 from duan_app.parsing.profiles import apply_site_profiles, load_site_profiles
-from duan_app.persistence.cache import _cache_file_lock
 from duan_app.persistence.outputs import build_failure_stats_lines, build_ranking_lines, safe_write_text
+from duan_app.persistence.transaction import capture, commit_updates
 
 
 FAILURE = re.compile(
@@ -42,6 +42,8 @@ def merge_success(text, values):
     boundary = next((i for i, line in enumerate(lines)
                      if re.fullmatch(r"内容\s+次数\s+排名|排行", line.strip())), len(lines))
     body = lines[:boundary]
+    # Keep valid records accidentally placed after a ranking header.
+    body.extend(line for line in lines[boundary + 1:] if SUCCESS.fullmatch(line.strip()))
     newline = "\r\n" if "\r\n" in text else "\n"
     existing = {}
     for line in body:
@@ -78,39 +80,10 @@ def merge_failures(text, records, recovered):
     lines = text.splitlines(keepends=True)
     boundary = next((i for i, line in enumerate(lines) if line.strip() == "失败分类统计"), len(lines))
     body = [line for i, line in enumerate(lines[:boundary]) if i not in removed]
+    body.extend(line for line in lines[boundary + 1:] if line.strip().startswith("失败 "))
     remaining = [line.strip() for line in body if line.strip().startswith("失败 ")]
     newline = "\r\n" if "\r\n" in text else "\n"
     return "".join(body).rstrip("\r\n") + newline.join(build_failure_stats_lines(remaining)) + newline
-
-
-def snapshot(path):
-    return path.read_bytes() if path.exists() else None
-
-
-def commit_updates(before, updates):
-    """Check concurrent changes, write success/cache first and failure removal last."""
-    with ExitStack() as stack:
-        for path in sorted(before, key=str):
-            stack.enter_context(_cache_file_lock(path, timeout=5))
-        if any(snapshot(path) != data for path, data in before.items()):
-            raise ValueError("运行期间结果或缓存被其他程序修改，停止写入，请重试")
-        written = []
-        try:
-            for path, text in updates.items():
-                path.parent.mkdir(parents=True, exist_ok=True)
-                safe_write_text(path, text)
-                written.append(path)
-        except Exception:
-            # Failure records are removed last; rollback earlier writes on IO failure.
-            for path in reversed(written):
-                data = before[path]
-                if data is None:
-                    path.unlink(missing_ok=True)
-                else:
-                    temp = path.with_name(path.name + ".retry-rollback.tmp")
-                    temp.write_bytes(data)
-                    temp.replace(path)
-            raise
 
 
 def retry(fail_path, success_path, sites, *, timeout=20, verify_ssl=True,
@@ -118,8 +91,9 @@ def retry(fail_path, success_path, sites, *, timeout=20, verify_ssl=True,
     processor = processor or process_site
     if fail_path.resolve() == success_path.resolve():
         raise ValueError("成功和失败 TXT 不能是同一个文件")
-    before = {fail_path: fail_path.read_bytes(), success_path: snapshot(success_path)}
-    text = before[fail_path].decode("utf-8-sig")
+    paths = [fail_path, success_path] + ([cache_path] if cache_path is not None else [])
+    before = capture(paths)
+    text = before[fail_path.resolve()].decode("utf-8-sig")
     records = parse_failures(text)
     if not records:
         return 0, 0
@@ -135,10 +109,17 @@ def retry(fail_path, success_path, sites, *, timeout=20, verify_ssl=True,
     if cache_path is not None and cache_path.exists():
         if cache_path.resolve() in {fail_path.resolve(), success_path.resolve()}:
             raise ValueError("缓存与 TXT 路径不能相同")
-        before[cache_path] = cache_path.read_bytes()
-        cache = json.loads(before[cache_path].decode("utf-8-sig"))
+        cache = json.loads(before[cache_path.resolve()].decode("utf-8-sig"))
         if not isinstance(cache, dict) or not isinstance(cache.get("sites"), list):
             raise ValueError("缓存格式错误，停止重抓")
+        meta = cache.get("_meta")
+        if not isinstance(meta, dict) or meta.get("format") not in {"duan_recent_10_cache.v1", "duan_recent_10_cache.v2"}:
+            raise ValueError("缓存版本不受支持，停止重抓")
+        if Path(str(meta.get("source_sites", ""))).resolve() != sites_path.resolve():
+            raise ValueError("缓存来源路径与 sites.json 不一致，停止重抓")
+        expected_hash = hashlib.sha256(sites_path.read_bytes()).hexdigest()
+        if str(meta.get("source_sites_hash", "")).lower() != expected_hash.lower():
+            raise ValueError("缓存配置哈希不一致，停止重抓")
         if any(not isinstance(item, dict) or not isinstance(item.get("fingerprint"), dict)
                for item in cache["sites"]):
             raise ValueError("缓存不是 fingerprint 格式，停止重抓")
@@ -162,7 +143,7 @@ def retry(fail_path, success_path, sites, *, timeout=20, verify_ssl=True,
             print(f"[{position}/{len(targets)}] 校验成功 {name} {matches[0].value}")
         except Exception as exc:
             print(f"[{position}/{len(targets)}] 保留失败 {name}：{type(exc).__name__}: {exc}")
-    success_text = (before[success_path] or b"").decode("utf-8-sig")
+    success_text = (before[success_path.resolve()] or b"").decode("utf-8-sig")
     merged_success, accepted = merge_success(success_text, values)
     recovered = {identity: value for identity, value in successful.items() if identity[0] in accepted}
     if not recovered:
@@ -182,6 +163,8 @@ def retry(fail_path, success_path, sites, *, timeout=20, verify_ssl=True,
                 matches[0]["status"] = "ok"
                 matches[0].pop("error", None)
                 matches[0]["notes"] = ["定向重抓恢复"]
+            else:
+                raise ValueError(f"缓存缺少目标站点：{identity[0]}；停止删除失败记录")
         if updated != cache:
             updates[cache_path] = json.dumps(updated, ensure_ascii=False, indent=2) + "\n"
     updates[fail_path] = merge_failures(text, records, recovered)

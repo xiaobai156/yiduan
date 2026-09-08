@@ -9,10 +9,10 @@ from pathlib import Path
 from duan_app.config import default_failure_result_dir, default_result_dir, load_sites_config, resolve_failure_path
 from duan_app.crawl_service import process_site, should_recheck_result
 from duan_app.domain import Site, SiteResult
-from duan_app.persistence.cache import write_recent_cache_file
-from duan_app.persistence.cache import _cache_file_lock
+from duan_app.persistence.cache import _write_recent_cache_file_unlocked
 from duan_app.persistence.outputs import build_failure_stats, build_output_lines, count_output_lines, format_progress_line, is_slow_site, load_slow_site_memory, parse_issue_range, update_slow_site_memory, write_result_files
 from duan_app.parsing.profiles import apply_site_profiles, load_site_profiles
+from duan_app.persistence.transaction import file_locks
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -190,9 +190,7 @@ def main(argv: list[str] | None = None) -> int:
             print_ok_details(result)
 
     success_lines, fail_lines, all_ranking_counts = build_output_lines(results, wanted_issues, issue_width)
-    with ExitStack() as output_locks:
-        output_locks.enter_context(_cache_file_lock(success_path))
-        output_locks.enter_context(_cache_file_lock(fail_path))
+    with file_locks([success_path, fail_path, recent_cache_path]):
         write_result_files(success_path, fail_path, success_lines, fail_lines, all_ranking_counts)
     update_slow_site_memory(slow_sites_path, results)
     failure_stats = build_failure_stats(fail_lines)
@@ -200,7 +198,7 @@ def main(argv: list[str] | None = None) -> int:
     cache_summary = None
     if not args.no_recent_cache:
         try:
-            cache_summary = write_recent_cache_file(
+            cache_summary = _write_recent_cache_file_unlocked(
                 recent_cache_path,
                 sites_path,
                 results,
