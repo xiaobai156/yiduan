@@ -18,7 +18,7 @@ FAILURE = re.compile(
     r"^失败\s+(.+?)\s+(https?://\S+)\s+方向:\s*(top|bottom)\s+"
     r"期数:\s*([1-9]\d*)期?\s+阶段:\s*.+?\s+原因:\s*.+$"
 )
-SUCCESS = re.compile(r"^([1-7]段)\s+(.+?)\s*$")
+SUCCESS = re.compile(r"^([1-7]段)\s+([^\d\s][^\r\n]*?)\s*$")
 
 
 def parse_failures(text):
@@ -39,11 +39,7 @@ def parse_failures(text):
 def merge_success(text, values):
     """Keep existing data lines verbatim; insert recovered sites above ranking."""
     lines = text.splitlines(keepends=True)
-    boundary = next((i for i, line in enumerate(lines)
-                     if re.fullmatch(r"内容\s+次数\s+排名|排行", line.strip())), len(lines))
-    body = lines[:boundary]
-    # Keep valid records accidentally placed after a ranking header.
-    body.extend(line for line in lines[boundary + 1:] if SUCCESS.fullmatch(line.strip()))
+    body = [line for line in lines if not re.fullmatch(r"(?:内容\s+次数\s+排名|排行|\d+段\s+\d+\s+\d+|合计\s+\d+条)", line.strip())]
     newline = "\r\n" if "\r\n" in text else "\n"
     existing = {}
     for line in body:
@@ -78,16 +74,20 @@ def merge_failures(text, records, recovered):
     if not removed:
         return text
     lines = text.splitlines(keepends=True)
-    boundary = next((i for i, line in enumerate(lines) if line.strip() == "失败分类统计"), len(lines))
-    body = [line for i, line in enumerate(lines[:boundary]) if i not in removed]
-    body.extend(line for line in lines[boundary + 1:] if line.strip().startswith("失败 "))
+    body = []
+    for number, line in enumerate(lines):
+        if number in removed:
+            continue
+        if line.strip() in {"失败分类统计", "无失败"} or re.fullmatch(r".+ \d+条", line.strip()):
+            continue
+        body.append(line)
     remaining = [line.strip() for line in body if line.strip().startswith("失败 ")]
     newline = "\r\n" if "\r\n" in text else "\n"
     return "".join(body).rstrip("\r\n") + newline.join(build_failure_stats_lines(remaining)) + newline
 
 
 def retry(fail_path, success_path, sites, *, timeout=20, verify_ssl=True,
-          cache_path=None, processor=None):
+          cache_path=None, sites_path=None, processor=None):
     processor = processor or process_site
     if fail_path.resolve() == success_path.resolve():
         raise ValueError("成功和失败 TXT 不能是同一个文件")
@@ -106,6 +106,8 @@ def retry(fail_path, success_path, sites, *, timeout=20, verify_ssl=True,
     configured = {(site.name, site.url, site.pick): (i, site) for i, site in enumerate(sites, 1)}
     targets = list(dict.fromkeys(identity for _, identity, _ in records))
     cache = None
+    if cache_path is not None and not cache_path.exists():
+        raise FileNotFoundError(f"近10期缓存不存在，停止删除失败记录：{cache_path}")
     if cache_path is not None and cache_path.exists():
         if cache_path.resolve() in {fail_path.resolve(), success_path.resolve()}:
             raise ValueError("缓存与 TXT 路径不能相同")
@@ -115,6 +117,8 @@ def retry(fail_path, success_path, sites, *, timeout=20, verify_ssl=True,
         meta = cache.get("_meta")
         if not isinstance(meta, dict) or meta.get("format") not in {"duan_recent_10_cache.v1", "duan_recent_10_cache.v2"}:
             raise ValueError("缓存版本不受支持，停止重抓")
+        if sites_path is None:
+            raise ValueError("缺少 sites.json 路径，停止缓存更新")
         if Path(str(meta.get("source_sites", ""))).resolve() != sites_path.resolve():
             raise ValueError("缓存来源路径与 sites.json 不一致，停止重抓")
         expected_hash = hashlib.sha256(sites_path.read_bytes()).hexdigest()
@@ -123,6 +127,11 @@ def retry(fail_path, success_path, sites, *, timeout=20, verify_ssl=True,
         if any(not isinstance(item, dict) or not isinstance(item.get("fingerprint"), dict)
                for item in cache["sites"]):
             raise ValueError("缓存不是 fingerprint 格式，停止重抓")
+        if int(cache.get("periods", 0)) != 10:
+            raise ValueError("缓存窗口不是10期，停止重抓")
+        meta_summary = meta.get("summary")
+        if not isinstance(meta_summary, dict) or int(meta_summary.get("site_count", -1)) != len(cache["sites"]):
+            raise ValueError("缓存摘要站点数不一致，停止重抓")
     values, successful = {}, {}
     for position, identity in enumerate(targets, 1):
         name, url, pick = identity
@@ -162,9 +171,15 @@ def retry(fail_path, success_path, sites, *, timeout=20, verify_ssl=True,
                 matches[0]["fingerprint"][str(period)] = value
                 matches[0]["status"] = "ok"
                 matches[0].pop("error", None)
-                matches[0]["notes"] = ["定向重抓恢复"]
+                notes = [str(note) for note in matches[0].get("notes", []) if str(note)]
+                matches[0]["notes"] = [note for note in notes if "本次实时判定失败" not in note] or ["定向重抓恢复"]
             else:
                 raise ValueError(f"缓存缺少目标站点：{identity[0]}；停止删除失败记录")
+        updated["updated_at"] = __import__("datetime").datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        summary = updated["_meta"]["summary"]
+        summary["site_count"] = len(updated["sites"])
+        for status in ("ok", "audit", "error", "no_candidates"):
+            summary[f"{status}_count"] = sum(1 for item in updated["sites"] if item.get("status") == status)
         if updated != cache:
             updates[cache_path] = json.dumps(updated, ensure_ascii=False, indent=2) + "\n"
     updates[fail_path] = merge_failures(text, records, recovered)
@@ -192,7 +207,7 @@ def run(args):
         cache_path = Path(args.recent_cache)
         if not cache_path.is_absolute():
             cache_path = root / cache_path
-        ok, failed = retry(fail_path, success_path, sites, timeout=args.timeout,
+        ok, failed = retry(fail_path, success_path, sites, sites_path=sites_path, timeout=args.timeout,
                            verify_ssl=not args.allow_insecure or args.verify_ssl,
                            cache_path=None if args.no_recent_cache else cache_path)
         print(f"失败 TXT 重抓完成：恢复 {ok} 站，保留失败 {failed} 站")

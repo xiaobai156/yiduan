@@ -192,21 +192,17 @@ def main(argv: list[str] | None = None) -> int:
     success_lines, fail_lines, all_ranking_counts = build_output_lines(results, wanted_issues, issue_width)
     with file_locks([success_path, fail_path, recent_cache_path]):
         write_result_files(success_path, fail_path, success_lines, fail_lines, all_ranking_counts)
+        cache_summary = None
+        if not args.no_recent_cache:
+            try:
+                cache_summary = _write_recent_cache_file_unlocked(
+                    recent_cache_path, sites_path, results, base_period=max(wanted_issues)
+                )
+            except Exception as exc:
+                print(f"缓存更新未完成：{exc}", file=sys.stderr)
+                return 1
     update_slow_site_memory(slow_sites_path, results)
     failure_stats = build_failure_stats(fail_lines)
-
-    cache_summary = None
-    if not args.no_recent_cache:
-        try:
-            cache_summary = _write_recent_cache_file_unlocked(
-                recent_cache_path,
-                sites_path,
-                results,
-                base_period=max(wanted_issues),
-            )
-        except Exception as exc:
-            print(f"缓存更新未完成：{exc}", file=sys.stderr)
-            return 1
 
     print(f"\n完成：成功 {len(success_lines)} 条，失败 {len(fail_lines)} 条")
     if failure_stats:
