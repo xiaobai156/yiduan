@@ -193,7 +193,7 @@ def article_admin_api_url(url: str) -> str | None:
 
 def article_manager_api_url(url: str) -> str | None:
     parsed = urlparse(url)
-    match = re.search(r"/article/manager/([^/?#]+)", parsed.path)
+    match = re.search(r"/article/(?:manager|lottery)/([^/?#]+)", parsed.path)
     if not match:
         return None
     return urljoin(url, f"/api/proxy/manager-articles/{match.group(1)}")
@@ -209,7 +209,7 @@ def is_article_admin_url(url: str) -> bool:
     return re.search(r"/article/admin/[^/?#]+", urlparse(url).path) is not None
 
 def is_article_manager_url(url: str) -> bool:
-    return re.search(r"/article/manager/[^/?#]+", urlparse(url).path) is not None
+    return re.search(r"/article/(?:manager|lottery)/[^/?#]+", urlparse(url).path) is not None
 
 ARTICLE_ID_FIELDS = ("id", "articleId", "article_id")
 
@@ -217,7 +217,7 @@ ARTICLE_RECORD_FIELDS = {"authorNickname", "title", "html"}
 
 def article_record_id_from_url(url: str) -> str | None:
     parsed = urlparse(url)
-    match = re.search(r"/article/(?:admin|manager)/([^/?#]+)", parsed.path)
+    match = re.search(r"/article/(?:admin|manager|lottery)/([^/?#]+)", parsed.path)
     return match.group(1).strip() if match else None
 
 def article_record_identifiers(record: dict[str, object]) -> set[str]:

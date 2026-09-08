@@ -11,6 +11,11 @@ class Site:
     cache_bust: bool = False
     confirm: bool = False
     api_url: str | None = None
+    name_anchors: tuple[str, ...] = field(default_factory=tuple)
+    section_keywords: tuple[str, ...] = field(default_factory=tuple)
+    document_sources: tuple[str, ...] = field(default_factory=tuple)
+    custom_parser: str | None = None
+    section_scope: bool = False
 
 class ArticleRecordError(ValueError):
     pass

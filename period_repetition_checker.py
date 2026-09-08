@@ -106,16 +106,36 @@ class SiteAnalysis:
     audit_note: str | None = None
 
 
-def cache_record_to_analysis(record: dict[str, object], base_period: int, window: int) -> SiteAnalysis:
-    index = int(cast(str | int | float | None, record.get("index")) or 0)
+def cache_record_to_analysis(
+    record: dict[str, object], base_period: int, window: int, fallback_index: int = 0
+) -> SiteAnalysis:
+    raw_index = record.get("index")
+    if raw_index is None:
+        id_match = __import__("re").match(r"s(\d+)_", str(record.get("id") or ""))
+        raw_index = id_match.group(1) if id_match else fallback_index
+    index = int(cast(str | int | float | None, raw_index) or fallback_index)
     site = Site(
         str(record.get("name") or "").strip(),
         str(record.get("url") or "").strip(),
         str(record.get("pick") or "top").strip() or "top",
     )
-    raw_sequence = record.get("sequence")
     parsed_sequence: list[tuple[int, tuple[str, ...]]] = []
-    if isinstance(raw_sequence, list):
+    fingerprint = record.get("fingerprint")
+    if isinstance(fingerprint, dict):
+        for raw_period, raw_value in fingerprint.items():
+            try:
+                period = int(raw_period)
+            except (TypeError, ValueError):
+                continue
+            values = (
+                tuple(str(value) for value in raw_value if str(value).strip())
+                if isinstance(raw_value, list)
+                else (str(raw_value),) if str(raw_value).strip() else ()
+            )
+            if values:
+                parsed_sequence.append((period, values))
+    raw_sequence = record.get("sequence")
+    if not parsed_sequence and isinstance(raw_sequence, list):
         for item in raw_sequence:
             if not isinstance(item, dict):
                 continue
@@ -182,8 +202,10 @@ def normalize_path_text(path_text: object, base_dir: Path) -> str:
 
 
 def get_cache_site_count(payload: dict[str, object]) -> int:
-    summary = payload.get("summary")
-    raw_site_count = summary.get("site_count") if isinstance(summary, dict) else payload.get("site_count")
+    metadata = payload.get("_meta")
+    summary = metadata.get("summary") if isinstance(metadata, dict) else payload.get("summary")
+    raw_sites = payload.get("sites")
+    raw_site_count = summary.get("site_count") if isinstance(summary, dict) else len(raw_sites) if isinstance(raw_sites, list) else None
     try:
         return int(cast(str | int | float, raw_site_count))
     except (TypeError, ValueError):
@@ -198,28 +220,32 @@ def validate_cache_integrity(
     requested_window: int,
     requested_max_search: int,
 ) -> None:
-    if payload.get("schema") != "duan_recent_10_cache.v1":
+    metadata = payload.get("_meta")
+    cache_format = metadata.get("format") if isinstance(metadata, dict) else payload.get("schema")
+    if cache_format not in {"duan_recent_10_cache.v1", "duan_recent_10_cache.v2"}:
         raise ValueError("拒绝使用近10期缓存：schema 不匹配")
 
     try:
-        cache_window = int(cast(str | int | float, payload.get("window")))
+        cache_window = int(cast(str | int | float, payload.get("periods", payload.get("window"))))
     except (TypeError, ValueError):
         raise ValueError("拒绝使用近10期缓存：window 缺失或无效") from None
     if cache_window < requested_window:
         raise ValueError("拒绝使用近10期缓存：window 小于本次检测窗口")
 
     try:
-        cache_max_search = int(cast(str | int | float, payload.get("max_search")))
+        raw_max_search = metadata.get("max_search") if isinstance(metadata, dict) else payload.get("max_search")
+        cache_max_search = int(cast(str | int | float, raw_max_search))
     except (TypeError, ValueError):
         raise ValueError("拒绝使用近10期缓存：max_search 缺失或无效") from None
     if cache_max_search != requested_max_search:
         raise ValueError("拒绝使用近10期缓存：max_search 与本次参数不一致")
 
     expected_source = str(sites_path.resolve()).casefold()
-    cache_source = normalize_path_text(payload.get("source_sites"), cache_path.parent)
+    raw_source = metadata.get("source_sites") if isinstance(metadata, dict) else payload.get("source_sites")
+    cache_source = normalize_path_text(raw_source, cache_path.parent)
     if cache_source != expected_source:
         raise ValueError("拒绝使用近10期缓存：source_sites 与本次 sites.json 不一致")
-    cached_hash = payload.get("source_sites_hash")
+    cached_hash = metadata.get("source_sites_hash") if isinstance(metadata, dict) else payload.get("source_sites_hash")
     if not isinstance(cached_hash, str) or not cached_hash.strip():
         raise ValueError("拒绝使用近10期缓存：缺少 source_sites_hash，必须重新生成缓存")
     try:
@@ -256,8 +282,8 @@ def load_cache_analyses(
     validate_cache_integrity(payload, raw_sites, cache_path, sites_path, window, max_search)
 
     analyses = [
-        cache_record_to_analysis(record, base_period, window)
-        for record in raw_sites
+        cache_record_to_analysis(record, base_period, window, index)
+        for index, record in enumerate(raw_sites, start=1)
         if isinstance(record, dict)
     ]
     return analyses, payload

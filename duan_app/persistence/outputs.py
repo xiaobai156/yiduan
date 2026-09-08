@@ -162,10 +162,11 @@ def duan_sort_value(value: str) -> int:
     return int(match.group(1)) if match else 999
 
 def build_ranking_lines(counts: dict[str, int], title: str = "排行") -> list[str]:
+    del title  # 兼容旧调用；新格式使用固定三列表头。
     if not counts:
-        return ["", title, "合计 0条"]
+        return ["", "内容\t次数\t排名"]
 
-    lines = ["", title, f"合计 {sum(counts.values())}条"]
+    lines = ["", "内容\t次数\t排名"]
     ordered = sorted(counts.items(), key=lambda item: (-item[1], duan_sort_value(item[0]), item[0]))
     rank = 0
     last_count: int | None = None
@@ -173,7 +174,7 @@ def build_ranking_lines(counts: dict[str, int], title: str = "排行") -> list[s
         if count != last_count:
             rank += 1
             last_count = count
-        lines.append(f"第{rank}名 {value} {count}条")
+        lines.append(f"{value}\t{count}\t{rank}")
     return lines
 
 def classify_open_error(exc: BaseException) -> str:
@@ -395,7 +396,7 @@ def build_output_lines(
                     )
                     continue
 
-                success_lines.append(f"{match.value} {match.title or result.site.name}")
+                success_lines.append(f"{match.value} {result.site.name}")
                 ranking_counts[match.value] = ranking_counts.get(match.value, 0) + 1
         elif result.fail_line:
             fail_lines.append(ensure_failure_line_format(result, wanted_issues))

@@ -7,15 +7,15 @@ from duan_app.text_utils import format_duan, html_to_text, is_valid_duan_value, 
 
 def iter_search_texts(document: str):
     cleaned = strip_hidden_html_blocks(document)
-    if looks_like_html(cleaned):
-        text = html_to_text(cleaned)
+    decoded = normalize_text(cleaned)
+    if looks_like_html(decoded):
+        text = html_to_text(decoded)
         if text:
             yield text
         return
 
-    raw_text = normalize_text(cleaned)
-    if raw_text:
-        yield raw_text
+    if decoded:
+        yield decoded
 
 def has_invalid_duan_value(
     segment: str,

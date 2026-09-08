@@ -211,4 +211,7 @@ BLOCK_TAGS = {
 
 HIDDEN_HTML_TAGS = {"script", "style", "noscript", "template"}
 
-TRUSTED_EXTERNAL_SCRIPT_HOST_SUFFIXES = (".cosds.ahsccn.com",)
+TRUSTED_EXTERNAL_SCRIPT_HOST_SUFFIXES = (
+    ".cosds.ahsccn.com",
+    ".cosds.aohjifv.com",
+)

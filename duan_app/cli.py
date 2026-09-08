@@ -10,7 +10,7 @@ from duan_app.crawl_service import process_site, should_recheck_result
 from duan_app.domain import Site, SiteResult
 from duan_app.persistence.cache import write_recent_cache_file
 from duan_app.persistence.outputs import build_failure_stats, build_output_lines, count_output_lines, format_progress_line, is_slow_site, load_slow_site_memory, parse_issue_range, update_slow_site_memory, write_result_files
-from duan_app.parsing.profiles import load_site_profiles
+from duan_app.parsing.profiles import apply_site_profiles, load_site_profiles
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -63,7 +63,9 @@ def main(argv: list[str] | None = None) -> int:
 
     try:
         sites = load_sites_config(sites_path)
-        load_site_profiles(output_dir / "site_profiles.json", sites)
+        profiles = load_site_profiles(output_dir / "site_profiles.json", sites)
+        if profiles is not None:
+            sites = apply_site_profiles(sites, profiles)
     except Exception as exc:
         print(f"输入错误：{exc}", file=sys.stderr)
         return 2
@@ -197,6 +199,7 @@ def main(argv: list[str] | None = None) -> int:
                 recent_cache_path,
                 sites_path,
                 results,
+                base_period=max(wanted_issues),
             )
         except Exception as exc:
             print(f"缓存更新未完成：{exc}", file=sys.stderr)

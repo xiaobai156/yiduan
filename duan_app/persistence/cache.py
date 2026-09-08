@@ -2,6 +2,7 @@
 import hashlib
 import json
 import os
+import re
 import time
 from contextlib import contextmanager
 from datetime import datetime
@@ -87,20 +88,6 @@ def build_recent_cache_record(
     if not groups:
         return base_record
 
-    values_by_issue: dict[int, set[str]] = {}
-    for candidate in groups:
-        values_by_issue.setdefault(candidate.issue, set()).add(candidate.value)
-    for issue, values in sorted(values_by_issue.items()):
-        if len(values) > 1:
-            values_text = "、".join(sorted(values))
-            return {
-                **base_record,
-                "latest_period": max(values_by_issue),
-                "status": "error",
-                "notes": [f"同期高可信候选冲突[{values_text}]"],
-                "error": f"{issue}期同期高可信候选冲突[{values_text}]",
-            }
-
     latest_candidate = (
         min(groups, key=lambda item: (item.position, item.order))
         if site.pick == "top"
@@ -109,6 +96,21 @@ def build_recent_cache_record(
     latest_period = latest_candidate.issue
     sequence: list[dict[str, object]] = []
     min_period = max(1, latest_period - max_search)
+    values_by_issue: dict[int, set[str]] = {}
+    for candidate in groups:
+        if min_period <= candidate.issue <= latest_period:
+            values_by_issue.setdefault(candidate.issue, set()).add(candidate.value)
+    for issue, values in sorted(values_by_issue.items()):
+        if len(values) > 1:
+            values_text = "、".join(sorted(values))
+            return {
+                **base_record,
+                "latest_period": latest_period,
+                "status": "error",
+                "notes": [f"同期高可信候选冲突[{values_text}]"],
+                "error": f"{issue}期同期高可信候选冲突[{values_text}]",
+            }
+
     period = latest_period
     while period >= min_period and len(sequence) < window:
         values = values_for_cache_issue(groups, period, site.pick)
@@ -178,6 +180,23 @@ def cache_record_key(record: dict[str, object]) -> tuple[str, str]:
     return str(record.get("name", "")), str(record.get("url", ""))
 
 def cache_sequence_map(record: dict[str, object]) -> dict[int, list[str]]:
+    fingerprint = record.get("fingerprint")
+    if isinstance(fingerprint, dict):
+        result: dict[int, list[str]] = {}
+        for raw_period, raw_value in fingerprint.items():
+            try:
+                period = int(raw_period)
+            except (TypeError, ValueError):
+                continue
+            if isinstance(raw_value, list):
+                values = [str(value) for value in raw_value if str(value).strip()]
+            else:
+                value = str(raw_value).strip()
+                values = [value] if value else []
+            if values:
+                result[period] = values
+        return result
+
     sequence = record.get("sequence")
     if not isinstance(sequence, list):
         return {}
@@ -193,6 +212,89 @@ def cache_sequence_map(record: dict[str, object]) -> dict[int, list[str]]:
         if isinstance(values, list):
             result[period] = [str(value) for value in values]
     return result
+
+def cache_site_id(index: int, url: str) -> str:
+    patterns = (
+        (r"/topic/(\d+)\.html", "topic"),
+        (r"/article/(?:admin|manager|lottery)/([0-9a-fA-F]+)", "article"),
+        (r"[?&]tid=(\d+)", "tid"),
+        (r"[?&]id=(\d+)", "id"),
+        (r"/(?:bbs|art_[^/]+)/(\d+)", "page"),
+    )
+    for pattern, kind in patterns:
+        match = re.search(pattern, url, re.IGNORECASE)
+        if match:
+            return f"s{index:03d}_{kind}_{match.group(1)}"
+    digest = hashlib.sha256(url.encode("utf-8")).hexdigest()[:12]
+    return f"s{index:03d}_url_{digest}"
+
+def cache_record_for_storage(record: dict[str, object]) -> dict[str, object]:
+    index = int(cast(int | str, record.get("index") or 0))
+    url = str(record.get("url") or "")
+    fingerprint: dict[str, str] = {}
+    for period, values in sorted(cache_sequence_map(record).items(), reverse=True):
+        if len(values) != 1:
+            raise ValueError(f"近10期缓存存在非单值结果：{record.get('name', '')} {period}期")
+        fingerprint[str(period)] = values[0]
+
+    stored: dict[str, object] = {
+        "id": cache_site_id(index, url),
+        "name": str(record.get("name") or ""),
+        "url": url,
+        "pick": str(record.get("pick") or "top"),
+        "fingerprint": fingerprint,
+        "status": str(record.get("status") or "error"),
+    }
+    notes = record.get("notes")
+    if isinstance(notes, list) and notes:
+        stored["notes"] = [str(note) for note in notes]
+    error = record.get("error")
+    if error:
+        stored["error"] = str(error)
+    script_error_count = int(cast(int | str, record.get("script_error_count") or 0))
+    if script_error_count:
+        stored["script_error_count"] = script_error_count
+    article_records = record.get("article_records")
+    if isinstance(article_records, list) and article_records:
+        stored["article_records"] = article_records
+    return stored
+
+def build_cache_payload(
+    records: list[dict[str, object]],
+    sites_path: Path,
+    *,
+    base_period: int,
+    window: int = 10,
+    max_search: int = 30,
+) -> tuple[dict[str, object], dict[str, object]]:
+    resolved_sites_path = sites_path.resolve()
+    try:
+        source_sites_hash = hashlib.sha256(resolved_sites_path.read_bytes()).hexdigest()
+    except OSError as exc:
+        raise ValueError(f"站点配置读取失败，禁止写入近10期缓存：{exc}") from exc
+
+    summary: dict[str, object] = {
+        "site_count": len(records),
+        "ok_count": sum(1 for record in records if record.get("status") == "ok"),
+        "audit_count": sum(1 for record in records if record.get("status") == "audit"),
+        "error_count": sum(1 for record in records if record.get("status") == "error"),
+        "no_candidates_count": sum(1 for record in records if record.get("status") == "no_candidates"),
+        "full_10_count": sum(1 for record in records if len(cache_sequence_map(record)) == window),
+    }
+    payload = {
+        "base_period": base_period,
+        "periods": window,
+        "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "sites": [cache_record_for_storage(record) for record in records],
+        "_meta": {
+            "format": "duan_recent_10_cache.v2",
+            "source_sites": str(resolved_sites_path),
+            "source_sites_hash": source_sites_hash,
+            "max_search": max_search,
+            "summary": summary,
+        },
+    }
+    return payload, summary
 
 def cache_article_id(record: dict[str, object]) -> str | None:
     article_records = record.get("article_records")
@@ -257,6 +359,7 @@ def _write_recent_cache_file_unlocked(
     sites_path: Path,
     results: list[SiteResult | None],
     *,
+    base_period: int | None = None,
     dry_run: bool = False,
     preserve_conflicting_records: bool = False,
 ) -> dict[str, object]:
@@ -278,38 +381,15 @@ def _write_recent_cache_file_unlocked(
         for result in results
         if result is not None and result.cache_record is not None
     ]
-    summary: dict[str, object] = {
-        "site_count": len(records),
-        "ok_count": sum(1 for record in records if record.get("status") == "ok"),
-        "audit_count": sum(1 for record in records if record.get("status") == "audit"),
-        "error_count": sum(1 for record in records if record.get("status") == "error"),
-        "no_candidates_count": sum(1 for record in records if record.get("status") == "no_candidates"),
-        "full_10_count": sum(1 for record in records if record.get("period_count") == 10),
-    }
     if cache_path.exists():
         try:
             json.loads(cache_path.read_text(encoding="utf-8-sig"))
         except Exception as exc:
             raise ValueError(f"近10期缓存读取失败，禁止覆盖：{exc}") from exc
-    resolved_sites_path = sites_path.resolve()
-    try:
-        source_sites_hash = hashlib.sha256(resolved_sites_path.read_bytes()).hexdigest()
-    except OSError as exc:
-        raise ValueError(f"站点配置读取失败，禁止写入近10期缓存：{exc}") from exc
-    payload = {
-        "schema": "duan_recent_10_cache.v1",
-        "generated_at": datetime.now().isoformat(timespec="seconds"),
-        "source_sites": str(resolved_sites_path),
-        "source_sites_hash": source_sites_hash,
-        "window": 10,
-        "max_search": 30,
-        "latest_rule": {
-            "top": "页面靠前位置的候选为最新期",
-            "bottom": "页面靠后位置的候选为最新期",
-        },
-        "summary": summary,
-        "sites": records,
-    }
+    if base_period is None:
+        periods = [period for record in records for period in cache_sequence_map(record)]
+        base_period = max(periods, default=0)
+    payload, summary = build_cache_payload(records, sites_path, base_period=base_period)
     if not dry_run:
         safe_write_text(cache_path, json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
     return summary
@@ -320,6 +400,7 @@ def write_recent_cache_file(
     sites_path: Path,
     results: list[SiteResult | None],
     *,
+    base_period: int | None = None,
     dry_run: bool = False,
     preserve_conflicting_records: bool = False,
 ) -> dict[str, object]:
@@ -328,6 +409,7 @@ def write_recent_cache_file(
             cache_path,
             sites_path,
             results,
+            base_period=base_period,
             dry_run=dry_run,
             preserve_conflicting_records=preserve_conflicting_records,
         )

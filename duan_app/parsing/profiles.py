@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import json
 import hashlib
+import re
+from dataclasses import replace
 from pathlib import Path
 
 from duan_app.config import topic_key_from_url
@@ -134,6 +136,16 @@ SITE_SECTION_ANCHOR_ALIASES = {
 SITE_TITLE_ISSUE_AUTHORITY_NAMES = {"寒来暑往", "澳门招财猫", "力钧势敌"}
 
 
+def _is_url_like_anchor(value: object) -> bool:
+    text = str(value).strip()
+    if not text:
+        return False
+    return bool(
+        re.search(r"(?:https?://|www\.)", text, re.I)
+        or re.search(r"(?<![\w-])[\w-]+\.(?:com|net|org|cc|cn|xyz|work|site)(?![\w-])", text, re.I)
+    )
+
+
 def stable_site_id(site: Site) -> str:
     source = f"{site.name}|{topic_key_from_url(site.url) or site.url}"
     return hashlib.sha256(source.encode("utf-8")).hexdigest()[:16]
@@ -183,7 +195,51 @@ def load_site_profiles(path: Path, sites: list[Site]) -> dict[str, dict[str, obj
             raise ValueError(f"站点专属解析档案候选窗口无效：{name}")
         if int(candidate_window) != CANDIDATE_WINDOW_LIMIT:
             raise ValueError(f"站点专属解析档案候选窗口不一致：{name}")
-        dynamic = "/article/admin/" in site.url.lower() or "/article/manager/" in site.url.lower()
+        dynamic = any(
+            marker in site.url.lower()
+            for marker in ("/article/admin/", "/article/manager/", "/article/lottery/")
+        )
         if bool(profile.get("record_id_required")) != dynamic:
             raise ValueError(f"站点专属解析档案文章 ID 边界不一致：{name}")
     return profiles
+
+
+def apply_site_profiles(
+    sites: list[Site], profiles: dict[str, dict[str, object]]
+) -> list[Site]:
+    """Attach validated semantic profile data without letting URL text become an anchor."""
+    configured: list[Site] = []
+    for site in sites:
+        profile = profiles.get(site.name)
+        if profile is None:
+            raise ValueError(f"缺少站点专属解析档案：{site.name}")
+
+        raw_name_anchors = profile.get("name_anchors", [])
+        name_anchors = tuple(
+            str(anchor).strip()
+            for anchor in raw_name_anchors
+            if str(anchor).strip() and not _is_url_like_anchor(anchor)
+        )
+        section_keywords = tuple(
+            str(keyword).strip()
+            for keyword in profile.get("section_keywords", [])
+            if str(keyword).strip()
+        )
+        document_sources = tuple(
+            str(source).strip()
+            for source in profile.get("document_sources", [])
+            if str(source).strip()
+        )
+        custom_parser = str(profile.get("custom_parser", "")).strip() or None
+        section_scope = bool(profile.get("section_scope", False))
+        configured.append(
+            replace(
+                site,
+                name_anchors=name_anchors,
+                section_keywords=section_keywords,
+                document_sources=document_sources,
+                custom_parser=custom_parser,
+                section_scope=section_scope,
+            )
+        )
+    return configured

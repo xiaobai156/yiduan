@@ -1,0 +1,555 @@
+﻿{
+  "schema": "duan_archived_sites.v1",
+  "sites": [
+    {
+      "archived_at": "2026-08-12T21:27:59+08:00",
+      "reason": "接口404不存在，用户要求封存并停止抓取",
+      "last_failure": {
+        "period": 224,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "接口404不存在"
+      },
+      "site": {
+        "name": "看彩达人",
+        "url": "https://cahgjib.5blx9-z8506-ekiwxc.work:29488/article/admin/6a144b2c597e16d57eacb685?url=lqz",
+        "pick": "bottom",
+        "api_url": "https://cahgjib.5blx9-z8506-ekiwxc.work:29488/api/proxy/manager-articles/6a144b2c597e16d57eacb685"
+      },
+      "profile": {
+        "site_id": "215a9603fb6418f1",
+        "name": "看彩达人",
+        "url": "https://cahgjib.5blx9-z8506-ekiwxc.work:29488/article/admin/6a144b2c597e16d57eacb685?url=lqz",
+        "pick": "bottom",
+        "name_anchors": [
+          "看彩达人"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "api",
+          "page",
+          "browser"
+        ],
+        "record_id_required": true,
+        "custom_parser": null
+      },
+      "cache": {
+        "index": 71,
+        "name": "看彩达人",
+        "url": "https://cahgjib.5blx9-z8506-ekiwxc.work:29488/article/admin/6a144b2c597e16d57eacb685?url=lqz",
+        "pick": "bottom",
+        "latest_period": null,
+        "sequence": [],
+        "period_count": 0,
+        "is_consecutive": false,
+        "status": "error",
+        "notes": [
+          "无候选数据",
+          "本次实时判定失败：接口404不存在"
+        ],
+        "error": "接口404不存在",
+        "script_error_count": 2,
+        "article_records": []
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "接口404不存在",
+        "name": "看彩达人",
+        "pick": "bottom"
+      }
+    },
+    {
+      "archived_at": "2026-08-23T22:22:10+08:00",
+      "reason": "235期抓取内容中未发现指定期数，用户要求封存并停止抓取",
+      "last_failure": {
+        "period": 235,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "抓取内容中未发现指定期数"
+      },
+      "site": {
+        "name": "暗香疏影",
+        "url": "https://hl.90216a.com/read.php?tid=603",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "ecd8caf0184c6ba3",
+        "name": "暗香疏影",
+        "url": "https://hl.90216a.com/read.php?tid=603",
+        "pick": "bottom",
+        "name_anchors": [
+          "暗香疏影"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s138_tid_603",
+        "name": "暗香疏影",
+        "url": "https://hl.90216a.com/read.php?tid=603",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "无候选数据",
+          "本次实时判定失败：无期数"
+        ],
+        "error": "无期数"
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "指定期数缺失",
+        "name": "暗香疏影",
+        "pick": "bottom"
+      }
+    },
+    {
+      "archived_at": "2026-08-28T21:05:50+08:00",
+      "reason": "240期接口404不存在，用户要求封存并停止抓取",
+      "last_failure": {
+        "period": 240,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "接口404不存在"
+      },
+      "site": {
+        "name": "翩翩少年",
+        "url": "https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/article/admin/6a02d82c8bad0a3579e9f76f?url=home",
+        "pick": "bottom",
+        "api_url": "https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/api/proxy/manager-articles/6a02d82c8bad0a3579e9f76f"
+      },
+      "profile": {
+        "site_id": "553b6a3ebc83c7a7",
+        "name": "翩翩少年",
+        "url": "https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/article/admin/6a02d82c8bad0a3579e9f76f?url=home",
+        "pick": "bottom",
+        "name_anchors": [
+          "翩翩少年"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "api",
+          "page",
+          "browser"
+        ],
+        "record_id_required": true,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s114_article_6a02d82c8bad0a3579e9f76f",
+        "name": "翩翩少年",
+        "url": "https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/article/admin/6a02d82c8bad0a3579e9f76f?url=home",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "无候选数据",
+          "本次实时判定失败：接口404不存在"
+        ],
+        "error": "接口404不存在",
+        "script_error_count": 2
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "接口404不存在",
+        "name": "翩翩少年",
+        "pick": "bottom"
+      }
+    },
+    {
+      "archived_at": "2026-09-01T21:02:18+08:00",
+      "reason": "244期抓取内容中未发现指定期数，用户要求封存并停止抓取",
+      "last_failure": {
+        "period": 244,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "抓取内容中未发现指定期数"
+      },
+      "site": {
+        "name": "彩王神龙",
+        "url": "https://12388990827.794555.xyz/bbs/topic.php?id=21848",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "194c873a9bab8a3b",
+        "name": "彩王神龙",
+        "url": "https://12388990827.794555.xyz/bbs/topic.php?id=21848",
+        "pick": "bottom",
+        "name_anchors": [
+          "彩王神龙"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s181_id_21848",
+        "name": "彩王神龙",
+        "url": "https://12388990827.794555.xyz/bbs/topic.php?id=21848",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "无候选数据",
+          "本次实时判定失败：无期数"
+        ],
+        "error": "无期数"
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "指定期数缺失",
+        "name": "彩王神龙",
+        "pick": "bottom"
+      }
+    },
+    {
+      "archived_at": "2026-09-01T21:02:18+08:00",
+      "reason": "244期抓取内容中未发现指定期数，用户要求封存并停止抓取",
+      "last_failure": {
+        "period": 244,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "抓取内容中未发现指定期数"
+      },
+      "site": {
+        "name": "神话传彩",
+        "url": "https://0130190827.767566.xyz/bbs/topic.php?id=30508",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "2396f80ddd9d2898",
+        "name": "神话传彩",
+        "url": "https://0130190827.767566.xyz/bbs/topic.php?id=30508",
+        "pick": "bottom",
+        "name_anchors": [
+          "神话传彩"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s187_id_30508",
+        "name": "神话传彩",
+        "url": "https://0130190827.767566.xyz/bbs/topic.php?id=30508",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "无候选数据",
+          "本次实时判定失败：无期数"
+        ],
+        "error": "无期数"
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "指定期数缺失",
+        "name": "神话传彩",
+        "pick": "bottom"
+      }
+    },
+    {
+      "archived_at": "2026-09-05T19:19:45+08:00",
+      "reason": "248期抓取内容中未发现指定期数，用户要求封存并停止抓取",
+      "last_failure": {
+        "period": 248,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "抓取内容中未发现指定期数"
+      },
+      "site": {
+        "name": "大吉大利",
+        "url": "https://tzaxdpzf.fwblv-hty1k-xajvao.xyz/view.php?id=10",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "6655729e2f656710",
+        "name": "大吉大利",
+        "url": "https://tzaxdpzf.fwblv-hty1k-xajvao.xyz/view.php?id=10",
+        "pick": "bottom",
+        "name_anchors": [
+          "大吉大利"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s043_id_10",
+        "name": "大吉大利",
+        "url": "https://tzaxdpzf.fwblv-hty1k-xajvao.xyz/view.php?id=10",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "无候选数据",
+          "本次实时判定失败：无期数"
+        ],
+        "error": "无期数"
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "指定期数缺失",
+        "name": "大吉大利",
+        "pick": "bottom"
+      }
+    },
+    {
+      "archived_at": "2026-09-05T19:19:45+08:00",
+      "reason": "248期抓取内容中未发现指定期数，用户要求封存并停止抓取",
+      "last_failure": {
+        "period": 248,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "抓取内容中未发现指定期数"
+      },
+      "site": {
+        "name": "神童彩经",
+        "url": "https://66778800827.909776.xyz/bbs/topic.php?id=18564",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "0dc002a7e2c82523",
+        "name": "神童彩经",
+        "url": "https://66778800827.909776.xyz/bbs/topic.php?id=18564",
+        "pick": "bottom",
+        "name_anchors": [
+          "神童彩经"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s196_id_18564",
+        "name": "神童彩经",
+        "url": "https://66778800827.909776.xyz/bbs/topic.php?id=18564",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "无候选数据",
+          "本次实时判定失败：无期数"
+        ],
+        "error": "无期数"
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "指定期数缺失",
+        "name": "神童彩经",
+        "pick": "bottom"
+      }
+    },
+    {
+      "archived_at": "2026-09-06T22:39:16+08:00",
+      "reason": "249期接口404不存在，用户要求封存并停止抓取",
+      "last_failure": {
+        "period": 249,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "接口404不存在"
+      },
+      "site": {
+        "name": "内幕玄机",
+        "url": "https://szfzml.mfuw8-bnsfa-gdaxhk.xyz/article/admin/6a96d6fb1d10beea56c80f36",
+        "pick": "bottom",
+        "api_url": "https://szfzml.mfuw8-bnsfa-gdaxhk.xyz/api/proxy/manager-articles/6a96d6fb1d10beea56c80f36"
+      },
+      "profile": {
+        "site_id": "576175b6ec2b4c96",
+        "name": "内幕玄机",
+        "url": "https://szfzml.mfuw8-bnsfa-gdaxhk.xyz/article/admin/6a96d6fb1d10beea56c80f36",
+        "pick": "bottom",
+        "name_anchors": [
+          "内幕玄机"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "api",
+          "page",
+          "browser"
+        ],
+        "record_id_required": true,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s147_article_6a96d6fb1d10beea56c80f36",
+        "name": "内幕玄机",
+        "url": "https://szfzml.mfuw8-bnsfa-gdaxhk.xyz/article/admin/6a96d6fb1d10beea56c80f36",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "无候选数据",
+          "本次实时判定失败：接口404不存在"
+        ],
+        "error": "接口404不存在",
+        "script_error_count": 2
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "接口404不存在",
+        "name": "内幕玄机",
+        "pick": "bottom"
+      }
+    },
+    {
+      "archived_at": "2026-09-06T22:39:16+08:00",
+      "reason": "249期抓取内容中未发现指定期数，用户要求封存并停止抓取",
+      "last_failure": {
+        "period": 249,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "抓取内容中未发现指定期数"
+      },
+      "site": {
+        "name": "娇美无双",
+        "url": "https://12388990827.794555.xyz/bbs/topic.php?id=21940",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "61dd9117f15621a4",
+        "name": "娇美无双",
+        "url": "https://12388990827.794555.xyz/bbs/topic.php?id=21940",
+        "pick": "bottom",
+        "name_anchors": [
+          "娇美无双"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s179_id_21940",
+        "name": "娇美无双",
+        "url": "https://12388990827.794555.xyz/bbs/topic.php?id=21940",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "无候选数据",
+          "本次实时判定失败：无期数"
+        ],
+        "error": "无期数"
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "指定期数缺失",
+        "name": "娇美无双",
+        "pick": "bottom"
+      }
+    }
+  ]
+}

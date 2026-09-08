@@ -1,4 +1,4 @@
-{
+﻿{
   "schema": "duan_site_profiles.v1",
   "sites": [
     {
@@ -424,8 +424,8 @@
       "pick": "top",
       "name_anchors": [
         "雷锋",
-        "26064c.com",
-        "26064d.com"
+        "杀号榜",
+        "杀料榜"
       ],
       "section_keywords": [
         "绝杀一段",
@@ -833,7 +833,8 @@
         "iframe"
       ],
       "record_id_required": false,
-      "custom_parser": null
+      "custom_parser": "topic_semantic_cycle",
+      "section_scope": true
     },
     {
       "site_id": "2fca987fdcf157e4",
@@ -1041,13 +1042,14 @@
         "iframe"
       ],
       "record_id_required": false,
-      "custom_parser": null
+      "custom_parser": "topic_semantic_cycle",
+      "section_scope": true
     },
     {
       "site_id": "db0388f3c39eba97",
       "name": "力钧势敌",
       "url": "https://zpyaxwke.rp89b-fwko2-buexgv.xyz:16677/topic/245368.html",
-      "pick": "bottom",
+      "pick": "top",
       "name_anchors": [
         "力钧势敌"
       ],
@@ -1093,33 +1095,8 @@
         "iframe"
       ],
       "record_id_required": false,
-      "custom_parser": null
-    },
-    {
-      "site_id": "6655729e2f656710",
-      "name": "大吉大利",
-      "url": "https://tzaxdpzf.fwblv-hty1k-xajvao.xyz/view.php?id=10",
-      "pick": "bottom",
-      "name_anchors": [
-        "大吉大利"
-      ],
-      "section_keywords": [
-        "绝杀一段",
-        "绝杀1段",
-        "杀一段",
-        "杀1段"
-      ],
-      "value_keyword": "段",
-      "candidate_window": 3,
-      "value_min": 1,
-      "value_max": 7,
-      "document_sources": [
-        "page",
-        "script",
-        "iframe"
-      ],
-      "record_id_required": false,
-      "custom_parser": null
+      "custom_parser": "topic_semantic_cycle",
+      "section_scope": true
     },
     {
       "site_id": "2c3e7ab055419be0",
@@ -1307,7 +1284,7 @@
       "site_id": "9249d5e7bd3292ee",
       "name": "澳门招财猫",
       "url": "https://cthvktrb.am9a6-vk0h6-lwbxab.xyz:16677/topic/324761.html",
-      "pick": "bottom",
+      "pick": "top",
       "name_anchors": [
         "澳门招财猫"
       ],
@@ -1335,9 +1312,7 @@
       "url": "https://ugtzszfp.ldpiz-8xhrd-wpkjkn.xyz:16677/topic/573666.html",
       "pick": "bottom",
       "name_anchors": [
-        "赛马会第一版",
-        "877730c.com",
-        "877730d.com"
+        "绝杀一段"
       ],
       "section_keywords": [
         "绝杀一段",
@@ -1355,7 +1330,8 @@
         "iframe"
       ],
       "record_id_required": false,
-      "custom_parser": null
+      "custom_parser": "topic_arrow",
+      "section_scope": true
     },
     {
       "site_id": "e90d7c4f0db2c27c",
@@ -1363,9 +1339,7 @@
       "url": "https://ugtzszfp.ldpiz-8xhrd-wpkjkn.xyz:16677/topic/639337.html",
       "pick": "bottom",
       "name_anchors": [
-        "赛马会第二版",
-        "877730c.com",
-        "877730d.com"
+        "绝杀一段"
       ],
       "section_keywords": [
         "绝杀一段",
@@ -1383,7 +1357,8 @@
         "iframe"
       ],
       "record_id_required": false,
-      "custom_parser": null
+      "custom_parser": "topic_ordinal",
+      "section_scope": true
     },
     {
       "site_id": "c6819f54342437c2",
@@ -1409,7 +1384,8 @@
         "iframe"
       ],
       "record_id_required": false,
-      "custom_parser": null
+      "custom_parser": "topic_semantic",
+      "section_scope": true
     },
     {
       "site_id": "b80ed4829a9e6cea",
@@ -1669,7 +1645,8 @@
         "iframe"
       ],
       "record_id_required": false,
-      "custom_parser": null
+      "custom_parser": "topic_semantic_cycle",
+      "section_scope": true
     },
     {
       "site_id": "7cfeee2a28418547",
@@ -1799,7 +1776,8 @@
         "iframe"
       ],
       "record_id_required": false,
-      "custom_parser": null
+      "custom_parser": "topic_semantic",
+      "section_scope": true
     },
     {
       "site_id": "49b5b8a1d7d38fd9",
@@ -1808,32 +1786,6 @@
       "pick": "bottom",
       "name_anchors": [
         "著作等身"
-      ],
-      "section_keywords": [
-        "绝杀一段",
-        "绝杀1段",
-        "杀一段",
-        "杀1段"
-      ],
-      "value_keyword": "段",
-      "candidate_window": 3,
-      "value_min": 1,
-      "value_max": 7,
-      "document_sources": [
-        "api",
-        "page",
-        "browser"
-      ],
-      "record_id_required": true,
-      "custom_parser": null
-    },
-    {
-      "site_id": "215a9603fb6418f1",
-      "name": "看彩达人",
-      "url": "https://cahgjib.5blx9-z8506-ekiwxc.work:29488/article/admin/6a144b2c597e16d57eacb685?url=lqz",
-      "pick": "bottom",
-      "name_anchors": [
-        "看彩达人"
       ],
       "section_keywords": [
         "绝杀一段",
@@ -1929,7 +1881,8 @@
         "iframe"
       ],
       "record_id_required": false,
-      "custom_parser": null
+      "custom_parser": "topic_semantic_cycle",
+      "section_scope": true
     },
     {
       "site_id": "77bef546732a50e6",
@@ -1981,7 +1934,8 @@
         "iframe"
       ],
       "record_id_required": false,
-      "custom_parser": null
+      "custom_parser": "topic_semantic_cycle",
+      "section_scope": true
     },
     {
       "site_id": "098f21d807e65b51",
@@ -1989,9 +1943,7 @@
       "url": "https://mkhomxq.gqmpb-vuxji-pfnheu.work:16677/topic/510823.html",
       "pick": "top",
       "name_anchors": [
-        "白虎",
-        "73448b.com",
-        "73448c.com"
+        "白虎"
       ],
       "section_keywords": [
         "绝杀一段",
@@ -2009,7 +1961,8 @@
         "iframe"
       ],
       "record_id_required": false,
-      "custom_parser": null
+      "custom_parser": "topic_semantic_cycle",
+      "section_scope": true
     },
     {
       "site_id": "f3c1bb942cad3d20",
@@ -2035,7 +1988,8 @@
         "iframe"
       ],
       "record_id_required": false,
-      "custom_parser": null
+      "custom_parser": "topic_semantic_cycle",
+      "section_scope": true
     },
     {
       "site_id": "162a44407c97535a",
@@ -2976,32 +2930,6 @@
       "custom_parser": null
     },
     {
-      "site_id": "553b6a3ebc83c7a7",
-      "name": "翩翩少年",
-      "url": "https://oofsukyp.7u9l0-zq8hd-obpxwe.work:29455/article/admin/6a02d82c8bad0a3579e9f76f?url=home",
-      "pick": "bottom",
-      "name_anchors": [
-        "翩翩少年"
-      ],
-      "section_keywords": [
-        "绝杀一段",
-        "绝杀1段",
-        "杀一段",
-        "杀1段"
-      ],
-      "value_keyword": "段",
-      "candidate_window": 3,
-      "value_min": 1,
-      "value_max": 7,
-      "document_sources": [
-        "api",
-        "page",
-        "browser"
-      ],
-      "record_id_required": true,
-      "custom_parser": null
-    },
-    {
       "site_id": "b8f6bfb4a8f62184",
       "name": "夏意正浓",
       "url": "https://yzpbdkow.6m1ba-7p7u4-ppolcy.work:29433/article/admin/6a02cfa28bad0a3579e9f741?url=tdg",
@@ -3106,9 +3034,9 @@
       "custom_parser": null
     },
     {
-      "site_id": "f0581b46cfe4fb49",
+      "site_id": "b89f43cfc416ee49",
       "name": "蓝田生玉",
-      "url": "https://szfzml.mfuw8-bnsfa-gdaxhk.xyz/view.php?id=460",
+      "url": "https://szfzml.mfuw8-bnsfa-gdaxhk.xyz/article/admin/6a96d21b1d10beea56c80ccf",
       "pick": "bottom",
       "name_anchors": [
         "蓝田生玉"
@@ -3124,11 +3052,11 @@
       "value_min": 1,
       "value_max": 7,
       "document_sources": [
+        "api",
         "page",
-        "script",
-        "iframe"
+        "browser"
       ],
-      "record_id_required": false,
+      "record_id_required": true,
       "custom_parser": null
     },
     {
@@ -3441,7 +3369,8 @@
         "iframe"
       ],
       "record_id_required": false,
-      "custom_parser": null
+      "custom_parser": "topic_semantic",
+      "section_scope": true
     },
     {
       "site_id": "d97fd124d81c776e",
@@ -3597,32 +3526,6 @@
       ],
       "record_id_required": false,
       "custom_parser": "逍遥浪子"
-    },
-    {
-      "site_id": "ecd8caf0184c6ba3",
-      "name": "暗香疏影",
-      "url": "https://hl.90216a.com/read.php?tid=603",
-      "pick": "bottom",
-      "name_anchors": [
-        "暗香疏影"
-      ],
-      "section_keywords": [
-        "绝杀一段",
-        "绝杀1段",
-        "杀一段",
-        "杀1段"
-      ],
-      "value_keyword": "段",
-      "candidate_window": 3,
-      "value_min": 1,
-      "value_max": 7,
-      "document_sources": [
-        "page",
-        "script",
-        "iframe"
-      ],
-      "record_id_required": false,
-      "custom_parser": null
     },
     {
       "site_id": "851de8073e690833",
@@ -3909,6 +3812,1243 @@
       ],
       "record_id_required": true,
       "custom_parser": null
+    },
+    {
+      "site_id": "055313308d5d8662",
+      "name": "诗情画意",
+      "url": "https://zqrtppa.9swju-6haxn-dlkint.work:29455/article/lottery/6a33a197dfa16552b923cae5?url=yjs",
+      "pick": "bottom",
+      "name_anchors": [
+        "诗情画意"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "6bc3f0d54ac5f21e",
+      "name": "天天向上",
+      "url": "https://knrpona.3b0v8-i91jw-dlnvfg.work:29433/article/lottery/6a64784cb3f65fed7d62506a?url=dfh",
+      "pick": "bottom",
+      "name_anchors": [
+        "天天向上"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "bb89db7ea9ecc06e",
+      "name": "天马行空",
+      "url": "https://8818.www19753a.com/read.php?tid=507",
+      "pick": "bottom",
+      "name_anchors": [
+        "天马行空"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "12872c8b046dc325",
+      "name": "树大根深",
+      "url": "https://hquomm.20t3f-0yztv-jiozun.xyz:29444/article/lottery/6a3285508b1df821e006cce6?url=dgd",
+      "pick": "bottom",
+      "name_anchors": [
+        "树大根深"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "2c35f024a53d568b",
+      "name": "吐故纳新",
+      "url": "https://5ipaulfv56.1081085bbs1.shop/bbs/topic.php?id=2483",
+      "pick": "bottom",
+      "name_anchors": [
+        "吐故纳新"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "6674af19956509ec",
+      "name": "喜气洋洋",
+      "url": "https://fansiggg.jc2q8-whfmg-vajjui.xyz:29433/article/lottery/6a096a8a291caff3edcb8b86?url=dyj",
+      "pick": "bottom",
+      "name_anchors": [
+        "喜气洋洋"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "4776445077bc65fb",
+      "name": "插疏篱却",
+      "url": "https://fansiggg.jc2q8-whfmg-vajjui.xyz:29433/article/lottery/6a5fadbb1c5fe6eb8304fed3?url=dyj",
+      "pick": "bottom",
+      "name_anchors": [
+        "插疏篱却"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "b6e79fd12db852fe",
+      "name": "穷源溯流",
+      "url": "https://fansiggg.jc2q8-whfmg-vajjui.xyz:29433/article/lottery/6a096b6b291caff3edcb8ba3?url=dyj",
+      "pick": "bottom",
+      "name_anchors": [
+        "穷源溯流"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "d1ba3625f39e8d6b",
+      "name": "快乐之家",
+      "url": "https://nwrkkmv.rx287-rkrai-jsjccc.xyz:29499/article/lottery/6a55d6e6f447e21b02daa636?url=ggz",
+      "pick": "bottom",
+      "name_anchors": [
+        "快乐之家"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "dd3ddce8649a845e",
+      "name": "天降祥瑞",
+      "url": "https://nwrkkmv.rx287-rkrai-jsjccc.xyz:29499/article/lottery/6a55fd91f447e21b02daa8e4?url=ggz",
+      "pick": "bottom",
+      "name_anchors": [
+        "天降祥瑞"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "94dd2cb07f901129",
+      "name": "得意洋洋",
+      "url": "https://nwrkkmv.rx287-rkrai-jsjccc.xyz:29499/article/lottery/6a55da4af447e21b02daa64b?url=ggz",
+      "pick": "bottom",
+      "name_anchors": [
+        "得意洋洋"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "da1c5a1d605813ad",
+      "name": "鲜花绿叶",
+      "url": "https://hcsuuoy.nimo7-9bgj4-fmspxt.xyz:29466/article/lottery/6a6488c2b3f65fed7d625131?url=cww",
+      "pick": "bottom",
+      "name_anchors": [
+        "鲜花绿叶"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "97ae90b69d7bf01b",
+      "name": "美丽动人",
+      "url": "https://djimkyw.n7ht1-wp4vm-ljitjr.xyz:29488/article/lottery/6a329ef2b8abbf5af1a54eab?url=cmzj",
+      "pick": "bottom",
+      "name_anchors": [
+        "美丽动人"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "1d066fd34b1cb5b8",
+      "name": "思念无涯",
+      "url": "https://buzsxio.821n4-hgj04-edkrft.xyz:29455/article/lottery/6a5132475e6c7637a3f4ff2b?url=bxj",
+      "pick": "bottom",
+      "name_anchors": [
+        "思念无涯"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "7336fff4cbf7287d",
+      "name": "头头是道",
+      "url": "https://buzsxio.821n4-hgj04-edkrft.xyz:29455/article/lottery/6a1303df741e3e91a04e5348?url=bxj",
+      "pick": "bottom",
+      "name_anchors": [
+        "头头是道"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "532e02af26b43e86",
+      "name": "澳彩经理",
+      "url": "https://buzsxio.821n4-hgj04-edkrft.xyz:29455/article/lottery/6a7ee601ee4739fbe9ea2716?url=bxj",
+      "pick": "bottom",
+      "name_anchors": [
+        "澳彩经理"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "8b4ba224fba01655",
+      "name": "天龙传彩",
+      "url": "https://buzsxio.821n4-hgj04-edkrft.xyz:29455/article/lottery/6a5eef84f447e21b02dd548c?url=bxj",
+      "pick": "bottom",
+      "name_anchors": [
+        "天龙传彩"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "baf4b178e827f1fa",
+      "name": "日月星辰",
+      "url": "https://wigrzse.3acpt-tc9xa-kzxasm.xyz:29444/article/lottery/6a82d3daee4739fbe9eb4c33?url=pg",
+      "pick": "bottom",
+      "name_anchors": [
+        "日月星辰"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "23897306ed8ca165",
+      "name": "寒风凌厉",
+      "url": "https://wigrzse.3acpt-tc9xa-kzxasm.xyz:29444/article/lottery/6a809824ee4739fbe9eab5bf?url=pg",
+      "pick": "bottom",
+      "name_anchors": [
+        "寒风凌厉",
+        "寒冰晨帝"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "c429f32d8775e2a4",
+      "name": "王者归来",
+      "url": "https://wigrzse.3acpt-tc9xa-kzxasm.xyz:29444/article/lottery/6a446d7c57dc857ae1be3a7d?url=pg",
+      "pick": "bottom",
+      "name_anchors": [
+        "王者归来"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "6d3f1da732dd20ea",
+      "name": "完美资料",
+      "url": "https://wigrzse.3acpt-tc9xa-kzxasm.xyz:29444/article/lottery/6a155bf08be59b17287c6d80?url=pg",
+      "pick": "bottom",
+      "name_anchors": [
+        "完美资料"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "b693421c773cdde8",
+      "name": "扫庄致富",
+      "url": "https://xjsjbkv.b3e4x-wxhjo-lbdbjg.xyz:29477/article/lottery/6a324e079064062ca99f2332?url=jbx",
+      "pick": "bottom",
+      "name_anchors": [
+        "扫庄致富"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "02c25ff97dc31184",
+      "name": "亦可相拥",
+      "url": "https://xjsjbkv.b3e4x-wxhjo-lbdbjg.xyz:29477/article/lottery/6a32731755781f6efb14896f?url=jbx",
+      "pick": "bottom",
+      "name_anchors": [
+        "亦可相拥"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "96cdef861863f256",
+      "name": "人小鬼大",
+      "url": "https://xjsjbkv.b3e4x-wxhjo-lbdbjg.xyz:29477/article/lottery/6a326f8f55781f6efb14895b?url=jbx",
+      "pick": "bottom",
+      "name_anchors": [
+        "人小鬼大"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "e9430e46785f7897",
+      "name": "神算规律",
+      "url": "https://rwraojf.l54vq-9httr-cmdnip.work:29477/article/lottery/6a623ffdb3f65fed7d61b5d0?url=xdr",
+      "pick": "bottom",
+      "name_anchors": [
+        "神算规律"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "ed47b271e2875936",
+      "name": "财神大亨",
+      "url": "https://cahgjib.5blx9-z8506-ekiwxc.work:29488/article/lottery/6a80a68dee4739fbe9eabe63?url=lqz",
+      "pick": "bottom",
+      "name_anchors": [
+        "财神大亨"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "ab93050b8288b58c",
+      "name": "八仙过海",
+      "url": "https://pgyzulb.iwnn7-gyyip-pnpfqv.work:29477/article/lottery/6a5a4645f447e21b02dbee93?url=bflc",
+      "pick": "bottom",
+      "name_anchors": [
+        "八仙过海"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "707fb25d5b4c5323",
+      "name": "烟雾弥漫",
+      "url": "https://yzpbdkow.6m1ba-7p7u4-ppolcy.work:29433/article/lottery/6a84fdfeee4739fbe9ebfa3f?url=tdg",
+      "pick": "bottom",
+      "name_anchors": [
+        "烟雾弥漫"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "e85f0c8df4964a13",
+      "name": "禾尽风起",
+      "url": "https://herymche.x6l2j-h6kfu-qdresg.work:29466/article/lottery/6a47ecaa57dc857ae1bf570e?url=txbb",
+      "pick": "bottom",
+      "name_anchors": [
+        "禾尽风起"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "api"
+      ],
+      "record_id_required": true,
+      "custom_parser": null
+    },
+    {
+      "site_id": "6dfff868c33f679c",
+      "name": "特政送礼",
+      "url": "https://6609960827.115646.xyz/bbs/topic.php?id=19777",
+      "pick": "bottom",
+      "name_anchors": [
+        "特政送礼"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "fec78f74030ee064",
+      "name": "原原本本",
+      "url": "https://0130190827.673454.xyz/bbs/topic.php?id=20143",
+      "pick": "bottom",
+      "name_anchors": [
+        "原原本本"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "f3ac47f3b062626c",
+      "name": "新光彩红",
+      "url": "https://0085680827.326455.xyz/bbs/topic.php?id=18780",
+      "pick": "bottom",
+      "name_anchors": [
+        "新光彩红"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "a77651311e8f1028",
+      "name": "娇生惯养",
+      "url": "https://12388990827.688756.xyz/bbs/topic.php?id=19934",
+      "pick": "bottom",
+      "name_anchors": [
+        "娇生惯养"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "7ce3e881ebc333c1",
+      "name": "高枕无忧",
+      "url": "https://11889900827.435458.xyz/bbs/topic.php?id=18702",
+      "pick": "bottom",
+      "name_anchors": [
+        "高枕无忧"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "3913c71e1a05ece6",
+      "name": "城北徐公",
+      "url": "https://11008880827.876657.xyz/bbs/topic.php?id=22555",
+      "pick": "bottom",
+      "name_anchors": [
+        "城北徐公"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "fc6772cb3f388a93",
+      "name": "绝杀一合",
+      "url": "https://11008880827.456732.xyz/bbs/topic.php?id=20591",
+      "pick": "bottom",
+      "name_anchors": [
+        "绝杀一合"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "36170d2cd086f89b",
+      "name": "诚意满满",
+      "url": "https://0130190827.987860.xyz/bbs/topic.php?id=18541",
+      "pick": "bottom",
+      "name_anchors": [
+        "诚意满满"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "4d7bf0cb1396940d",
+      "name": "高才絶学",
+      "url": "https://67806780827.325346.xyz/bbs/topic.php?id=18494",
+      "pick": "bottom",
+      "name_anchors": [
+        "高才絶学"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "2841d3ff8f9e425d",
+      "name": "鼓一言九",
+      "url": "https://67806780827.234535.xyz/bbs/topic.php?id=22169",
+      "pick": "bottom",
+      "name_anchors": [
+        "鼓一言九"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "8ce3fbfd67bb1c09",
+      "name": "硝烟弥漫",
+      "url": "https://67806780827.234535.xyz/bbs/topic.php?id=19610",
+      "pick": "bottom",
+      "name_anchors": [
+        "硝烟弥漫"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "49a5326046eb69ca",
+      "name": "黄金好料",
+      "url": "https://67806780827.978754.xyz/bbs/topic.php?id=19747",
+      "pick": "bottom",
+      "name_anchors": [
+        "黄金好料"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "e018bb96765cb783",
+      "name": "杀庄聯盟",
+      "url": "https://88888020827.983654.xyz/bbs/topic.php?id=20756",
+      "pick": "bottom",
+      "name_anchors": [
+        "杀庄聯盟"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "a791b6daa5fdcb87",
+      "name": "居庄战神",
+      "url": "https://88888020827.833567.xyz/bbs/topic.php?id=21786",
+      "pick": "bottom",
+      "name_anchors": [
+        "居庄战神"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "43d296a71fdec3bd",
+      "name": "精品赐码",
+      "url": "https://88888020827.897657.xyz/bbs/topic.php?id=20213",
+      "pick": "bottom",
+      "name_anchors": [
+        "精品赐码"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "5a1e6fffdcc18c6f",
+      "name": "才望高雅",
+      "url": "https://88888020827.885536.xyz/bbs/topic.php?id=18732",
+      "pick": "bottom",
+      "name_anchors": [
+        "才望高雅"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "b5b754879ccc9227",
+      "name": "快乐宝贝",
+      "url": "https://88888020827.997595.xyz/bbs/topic.php?id=18525",
+      "pick": "bottom",
+      "name_anchors": [
+        "快乐宝贝"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "696184f8b4ce8a5d",
+      "name": "人声鼎沸",
+      "url": "https://66778800827.909776.xyz/bbs/topic.php?id=18539",
+      "pick": "bottom",
+      "name_anchors": [
+        "人声鼎沸"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "0e478dfa9410264c",
+      "name": "枫火铸辞",
+      "url": "https://jtrmhar.cwdc3-r5vqn-qzqasa.work:17455/topic/741212.html",
+      "pick": "bottom",
+      "name_anchors": [
+        "枫火铸辞"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": "topic_semantic_cycle",
+      "section_scope": true,
+      "special_authorization": {
+        "authorized_at": "2026-08-29",
+        "directive": "用户明确：特例可以用于一切",
+        "issue": 241,
+        "scopes": [
+          "历史不足10期",
+          "排除同期冲突期",
+          "连续3至5期疑似重复"
+        ],
+        "valid_periods": [
+          241,
+          240,
+          239,
+          238,
+          237,
+          236,
+          235,
+          234,
+          233
+        ],
+        "missing_periods": [
+          232
+        ],
+        "conflicts": {
+          "231": [
+            "1段",
+            "6段"
+          ]
+        },
+        "suspected_duplicate": {
+          "site": "高温凯子",
+          "periods": [
+            237,
+            236,
+            235,
+            234,
+            233
+          ],
+          "length": 5
+        }
+      }
     }
   ]
 }
