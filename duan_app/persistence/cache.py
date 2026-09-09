@@ -104,11 +104,8 @@ def build_recent_cache_record(
     latest_period = latest_candidate.issue
     sequence: list[dict[str, object]] = []
     min_period = max(1, latest_period - max_search)
-    values_by_issue: dict[int, set[str]] = {}
-    for candidate in groups:
-        if min_period <= candidate.issue <= latest_period:
-            values_by_issue.setdefault(candidate.issue, set()).add(candidate.value)
-    for issue, values in sorted(values_by_issue.items()):
+    for issue in sorted({candidate.issue for candidate in groups if min_period <= candidate.issue <= latest_period}):
+        values = set(values_for_cache_issue(groups, issue, site.pick))
         if len(values) > 1:
             values_text = "、".join(sorted(values))
             return {

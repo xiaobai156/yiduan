@@ -5,6 +5,7 @@ import re
 import sys
 import argparse
 import hashlib
+from datetime import datetime
 from pathlib import Path
 
 from duan_app.config import default_result_dir, load_sites_config
@@ -19,6 +20,24 @@ FAILURE = re.compile(
     r"期数:\s*([1-9]\d*)期?\s+阶段:\s*.+?\s+原因:\s*.+$"
 )
 SUCCESS = re.compile(r"^([1-7]段)\s+([^\d\s][^\r\n]*?)\s*$")
+
+
+def refresh_cache_record(record):
+    fingerprint = record.get("fingerprint")
+    periods = sorted(int(period) for period, value in fingerprint.items() if str(value).strip())
+    consecutive = all(periods[index] == periods[index - 1] + 1 for index in range(1, len(periods)))
+    removable = ("同期高可信候选冲突", "本次实时判定失败", "定向重抓恢复", "仅抓到", "期数不连续", "脚本/接口错误")
+    notes = [str(note) for note in record.get("notes", []) if str(note) and not str(note).startswith(removable)]
+    if len(periods) < 10:
+        notes.append(f"仅抓到{len(periods)}期")
+    if not consecutive:
+        notes.append("期数不连续")
+    script_errors = int(record.get("script_error_count") or 0)
+    if script_errors:
+        notes.append(f"脚本/接口错误{script_errors}个")
+    record["notes"] = list(dict.fromkeys(notes))
+    record["status"] = "ok" if not record["notes"] else "audit"
+    record.pop("error", None)
 
 
 def parse_failures(text):
@@ -175,11 +194,18 @@ def retry(fail_path, success_path, sites, *, timeout=20, verify_ssl=True,
                 matches[0]["notes"] = [note for note in notes if "本次实时判定失败" not in note] or ["定向重抓恢复"]
             else:
                 raise ValueError(f"缓存缺少目标站点：{identity[0]}；停止删除失败记录")
-        updated["updated_at"] = __import__("datetime").datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        for item in updated["sites"]:
+            if isinstance(item, dict):
+                refresh_cache_record(item)
+        updated["updated_at"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         summary = updated["_meta"]["summary"]
         summary["site_count"] = len(updated["sites"])
         for status in ("ok", "audit", "error", "no_candidates"):
             summary[f"{status}_count"] = sum(1 for item in updated["sites"] if item.get("status") == status)
+        summary["full_10_count"] = sum(
+            1 for item in updated["sites"]
+            if len(item.get("fingerprint", {})) == 10
+        )
         if updated != cache:
             updates[cache_path] = json.dumps(updated, ensure_ascii=False, indent=2) + "\n"
     updates[fail_path] = merge_failures(text, records, recovered)

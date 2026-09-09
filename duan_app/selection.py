@@ -98,12 +98,24 @@ def candidate_window_issue_reasons(
         if issue not in window_issues
     }
 
-def candidate_conflict_issue_reasons(candidates: list[Candidate], wanted_issues: set[int]) -> dict[int, str]:
+def candidate_conflict_issue_reasons(
+    candidates: list[Candidate], wanted_issues: set[int], pick: str | None = None
+) -> dict[int, str]:
     values_by_issue: dict[int, set[str]] = {}
-    for candidate in candidates:
-        if candidate.issue not in wanted_issues:
+    for issue in wanted_issues:
+        issue_candidates = [candidate for candidate in candidates if candidate.issue == issue]
+        if pick in {"top", "bottom"} and issue_candidates:
+            anchor_position = (
+                min(candidate.position for candidate in issue_candidates)
+                if pick == "top"
+                else max(candidate.position for candidate in issue_candidates)
+            )
+            issue_candidates = [
+                candidate for candidate in issue_candidates if candidate.position == anchor_position
+            ]
+        if not issue_candidates:
             continue
-        values_by_issue.setdefault(candidate.issue, set()).add(candidate.value)
+        values_by_issue[issue] = {candidate.value for candidate in issue_candidates}
 
     reasons: dict[int, str] = {}
     for issue, values in values_by_issue.items():
@@ -114,10 +126,9 @@ def candidate_conflict_issue_reasons(candidates: list[Candidate], wanted_issues:
     return reasons
 
 def find_matches_from_candidates(candidates: list[Candidate], wanted_issues: set[int], site: Site) -> list[Candidate]:
-    # Parsers supply the authoritative candidates. Never discard conflict evidence
-    # through the direction window; ambiguous sources also fail closed.
-    conflict_reasons = candidate_conflict_issue_reasons(candidates, wanted_issues)
+    # Apply the configured top/bottom boundary before judging same-period conflict.
     candidates, reason = scoped_candidates(candidates, wanted_issues, site.pick)
+    conflict_reasons = candidate_conflict_issue_reasons(candidates, wanted_issues, site.pick)
     if reason or not candidates:
         return []
 

@@ -109,7 +109,7 @@ def diagnose_issue_reasons(
         if has_requested_issue and anchor_terms and not has_anchor:
             return {issue: "未找到专属锚点" for issue in wanted_issues}
     scoped, scope_reason = scoped_candidates(candidates, wanted_issues, site.pick)
-    conflict_reasons = candidate_conflict_issue_reasons(candidates, wanted_issues)
+    conflict_reasons = candidate_conflict_issue_reasons(candidates, wanted_issues, site.pick)
     window_reasons = candidate_window_issue_reasons(candidates, wanted_issues, site.pick)
 
     for document in documents:
