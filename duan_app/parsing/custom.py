@@ -930,6 +930,8 @@ def collect_candidates(
             document_search_texts.extend(
                 huifeidezhu_html_row_texts(strip_hidden_html_blocks(document), document_position)
             )
+            if not document_search_texts:
+                continue
         for text_index, text in enumerate(document_texts):
             text_position = document_position + text_index * 1_000_000
             normalized_text = normalize_text(normalize_result_title_variants(text))

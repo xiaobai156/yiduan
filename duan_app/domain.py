@@ -16,6 +16,7 @@ class Site:
     document_sources: tuple[str, ...] = field(default_factory=tuple)
     custom_parser: str | None = None
     section_scope: bool = False
+    allow_insecure: bool = False
 
 class ArticleRecordError(ValueError):
     pass

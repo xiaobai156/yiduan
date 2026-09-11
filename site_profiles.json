@@ -2719,7 +2719,8 @@
         "iframe"
       ],
       "record_id_required": false,
-      "custom_parser": "会飞的猪"
+      "custom_parser": "会飞的猪",
+      "allow_insecure": true
     },
     {
       "site_id": "be1c8c6c00e6c5c5",
@@ -4879,9 +4880,9 @@
       "custom_parser": null
     },
     {
-      "site_id": "43d296a71fdec3bd",
+      "site_id": "2f6231343cd8b644",
       "name": "精品赐码",
-      "url": "https://88888020827.897657.xyz/bbs/topic.php?id=20213",
+      "url": "https://88888020827.897657.xyz/bbs/topic.php?id=20965",
       "pick": "bottom",
       "name_anchors": [
         "精品赐码"

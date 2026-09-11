@@ -201,6 +201,8 @@ def load_site_profiles(path: Path, sites: list[Site]) -> dict[str, dict[str, obj
         )
         if bool(profile.get("record_id_required")) != dynamic:
             raise ValueError(f"站点专属解析档案文章 ID 边界不一致：{name}")
+        if not isinstance(profile.get("allow_insecure", False), bool):
+            raise ValueError(f"站点专属解析档案 allow_insecure 必须是布尔值：{name}")
     return profiles
 
 
@@ -232,6 +234,7 @@ def apply_site_profiles(
         )
         custom_parser = str(profile.get("custom_parser", "")).strip() or None
         section_scope = bool(profile.get("section_scope", False))
+        allow_insecure = bool(profile.get("allow_insecure", False))
         configured.append(
             replace(
                 site,
@@ -240,6 +243,7 @@ def apply_site_profiles(
                 document_sources=document_sources,
                 custom_parser=custom_parser,
                 section_scope=section_scope,
+                allow_insecure=allow_insecure,
             )
         )
     return configured

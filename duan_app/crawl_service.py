@@ -68,12 +68,13 @@ def process_site(
         reason = ""
         retry_count = site.retry
         page_attempts = max(6, site.retry + 4)
+        site_verify_ssl = verify_ssl and not site.allow_insecure
 
         for attempt in range(retry_count + 1):
             documents, script_errors = collect_documents(
                 site.url,
                 timeout,
-                verify_ssl,
+                site_verify_ssl,
                 page_attempts=page_attempts,
                 cache_bust_first=site.cache_bust or attempt > 0,
                 issue_filter=search_issues,
@@ -128,7 +129,7 @@ def process_site(
                 confirm_documents, _ = collect_documents(
                     site.url,
                     timeout,
-                    verify_ssl,
+                    site_verify_ssl,
                     page_attempts=page_attempts,
                     cache_bust_first=True,
                     issue_filter=search_issues,
