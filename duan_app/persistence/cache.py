@@ -19,7 +19,8 @@ from duan_app.selection import ordered_candidate_groups, values_for_cache_issue
 def _cache_file_lock(cache_path: Path, timeout: float = 60.0):
     lock_path = cache_path.with_name(cache_path.name + ".lock")
     lock_path.parent.mkdir(parents=True, exist_ok=True)
-    with lock_path.open("a+b") as handle:
+    handle = lock_path.open("a+b")
+    try:
         if os.name == "nt":
             import msvcrt
 
@@ -42,23 +43,29 @@ def _cache_file_lock(cache_path: Path, timeout: float = 60.0):
             finally:
                 handle.seek(0)
                 msvcrt.locking(handle.fileno(), msvcrt.LK_UNLCK, 1)
-            return
+        else:
+            import fcntl
 
-        import fcntl
-
-        deadline = time.monotonic() + timeout
-        while True:
+            deadline = time.monotonic() + timeout
+            while True:
+                try:
+                    fcntl.flock(handle.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+                    break
+                except BlockingIOError as exc:
+                    if time.monotonic() >= deadline:
+                        raise TimeoutError(f"文件锁等待超时：{cache_path}") from exc
+                    time.sleep(0.1)
             try:
-                fcntl.flock(handle.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
-                break
-            except BlockingIOError as exc:
-                if time.monotonic() >= deadline:
-                    raise TimeoutError(f"文件锁等待超时：{cache_path}") from exc
-                time.sleep(0.1)
-        try:
-            yield
-        finally:
-            fcntl.flock(handle.fileno(), fcntl.LOCK_UN)
+                yield
+            finally:
+                fcntl.flock(handle.fileno(), fcntl.LOCK_UN)
+    finally:
+        handle.close()
+        if os.name == "nt":
+            try:
+                lock_path.unlink(missing_ok=True)
+            except OSError:
+                pass
 
 
 def build_recent_cache_record(
