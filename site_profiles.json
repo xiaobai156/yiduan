@@ -2462,32 +2462,6 @@
       "custom_parser": null
     },
     {
-      "site_id": "f108cc8b9a03af4a",
-      "name": "寄予深思",
-      "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a041a4f4ea5c20141013dc2?url=lbw",
-      "pick": "bottom",
-      "name_anchors": [
-        "寄予深思"
-      ],
-      "section_keywords": [
-        "绝杀一段",
-        "绝杀1段",
-        "杀一段",
-        "杀1段"
-      ],
-      "value_keyword": "段",
-      "candidate_window": 3,
-      "value_min": 1,
-      "value_max": 7,
-      "document_sources": [
-        "api",
-        "page",
-        "browser"
-      ],
-      "record_id_required": true,
-      "custom_parser": null
-    },
-    {
       "site_id": "9f7b677036b135a7",
       "name": "风止意平",
       "url": "https://fbgbfg.www27521c.com:8443/gsb/am13.html",
@@ -4782,32 +4756,6 @@
       "pick": "bottom",
       "name_anchors": [
         "硝烟弥漫"
-      ],
-      "section_keywords": [
-        "绝杀一段",
-        "绝杀1段",
-        "杀一段",
-        "杀1段"
-      ],
-      "value_keyword": "段",
-      "candidate_window": 3,
-      "value_min": 1,
-      "value_max": 7,
-      "document_sources": [
-        "page",
-        "script",
-        "iframe"
-      ],
-      "record_id_required": false,
-      "custom_parser": null
-    },
-    {
-      "site_id": "49a5326046eb69ca",
-      "name": "黄金好料",
-      "url": "https://67806780827.978754.xyz/bbs/topic.php?id=19747",
-      "pick": "bottom",
-      "name_anchors": [
-        "黄金好料"
       ],
       "section_keywords": [
         "绝杀一段",

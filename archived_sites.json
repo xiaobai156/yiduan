@@ -550,6 +550,126 @@
         "name": "娇美无双",
         "pick": "bottom"
       }
+    },
+    {
+      "archived_at": "2026-09-11T19:23:47+08:00",
+      "reason": "帖子已下架且全论坛未找到同作者新帖，用户要求封存并停止抓取",
+      "last_failure": {
+        "period": 254,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "抓取内容中未发现指定期数"
+      },
+      "site": {
+        "name": "黄金好料",
+        "url": "https://67806780827.978754.xyz/bbs/topic.php?id=19747",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "49a5326046eb69ca",
+        "name": "黄金好料",
+        "url": "https://67806780827.978754.xyz/bbs/topic.php?id=19747",
+        "pick": "bottom",
+        "name_anchors": [
+          "黄金好料"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s187_id_19747",
+        "name": "黄金好料",
+        "url": "https://67806780827.978754.xyz/bbs/topic.php?id=19747",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "无候选数据",
+          "本次实时判定失败：无期数"
+        ],
+        "error": "无期数"
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "指定期数缺失",
+        "name": "黄金好料",
+        "pick": "bottom"
+      }
+    },
+    {
+      "archived_at": "2026-09-11T19:23:47+08:00",
+      "reason": "绑定文章为7肖中特数据且作者与站名不符，用户要求封存并停止抓取",
+      "last_failure": {
+        "period": 254,
+        "direction": "bottom",
+        "stage": "解析",
+        "reason": "解析失败：ArticleRecordError: 作者校验失败['葡京赌王']"
+      },
+      "site": {
+        "name": "寄予深思",
+        "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a041a4f4ea5c20141013dc2?url=lbw",
+        "pick": "bottom",
+        "api_url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/api/proxy/manager-articles/6a041a4f4ea5c20141013dc2"
+      },
+      "profile": {
+        "site_id": "f108cc8b9a03af4a",
+        "name": "寄予深思",
+        "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a041a4f4ea5c20141013dc2?url=lbw",
+        "pick": "bottom",
+        "name_anchors": [
+          "寄予深思"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "api",
+          "page",
+          "browser"
+        ],
+        "record_id_required": true,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s095_article_6a041a4f4ea5c20141013dc2",
+        "name": "寄予深思",
+        "url": "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a041a4f4ea5c20141013dc2?url=lbw",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "抓取或解析异常"
+        ],
+        "error": "ArticleRecordError: 作者校验失败['葡京赌王']"
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "解析失败",
+        "name": "寄予深思",
+        "pick": "bottom"
+      }
     }
   ]
 }
