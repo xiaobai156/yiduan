@@ -4724,32 +4724,6 @@
       "custom_parser": null
     },
     {
-      "site_id": "2841d3ff8f9e425d",
-      "name": "鼓一言九",
-      "url": "https://67806780827.234535.xyz/bbs/topic.php?id=22169",
-      "pick": "bottom",
-      "name_anchors": [
-        "鼓一言九"
-      ],
-      "section_keywords": [
-        "绝杀一段",
-        "绝杀1段",
-        "杀一段",
-        "杀1段"
-      ],
-      "value_keyword": "段",
-      "candidate_window": 3,
-      "value_min": 1,
-      "value_max": 7,
-      "document_sources": [
-        "page",
-        "script",
-        "iframe"
-      ],
-      "record_id_required": false,
-      "custom_parser": null
-    },
-    {
       "site_id": "8ce3fbfd67bb1c09",
       "name": "硝烟弥漫",
       "url": "https://67806780827.234535.xyz/bbs/topic.php?id=19610",
