@@ -29,12 +29,6 @@
     "name": "绝杀一合",
     "pick": "bottom"
   },
-  "https://11008880827.876657.xyz/bbs/topic.php?id=22555": {
-    "fail_streak": 0,
-    "last_status": "OK",
-    "name": "城北徐公",
-    "pick": "bottom"
-  },
   "https://111.246004.com:9066/Article.Aspx?ListId=247&id=53508": {
     "fail_streak": 0,
     "last_status": "OK",
@@ -89,15 +83,9 @@
     "name": "人声鼎沸",
     "pick": "bottom"
   },
-  "https://67806780827.234535.xyz/bbs/topic.php?id=19610": {
-    "fail_streak": 0,
-    "last_status": "OK",
-    "name": "硝烟弥漫",
-    "pick": "bottom"
-  },
   "https://67806780827.234535.xyz/bbs/topic.php?id=22169": {
     "fail_streak": 0,
-    "last_status": "OK",
+    "last_status": "指定期数缺失",
     "name": "鼓一言九",
     "pick": "bottom"
   },
@@ -105,12 +93,6 @@
     "fail_streak": 0,
     "last_status": "OK",
     "name": "高才絶学",
-    "pick": "bottom"
-  },
-  "https://67806780827.978754.xyz/bbs/topic.php?id=19747": {
-    "fail_streak": 0,
-    "last_status": "OK",
-    "name": "黄金好料",
     "pick": "bottom"
   },
   "https://8818.www19753a.com/read.php?tid=507": {
@@ -132,6 +114,12 @@
     "pick": "bottom"
   },
   "https://88888020827.897657.xyz/bbs/topic.php?id=20213": {
+    "fail_streak": 0,
+    "last_status": "指定期数缺失",
+    "name": "精品赐码",
+    "pick": "bottom"
+  },
+  "https://88888020827.897657.xyz/bbs/topic.php?id=20965": {
     "fail_streak": 0,
     "last_status": "OK",
     "name": "精品赐码",
@@ -201,12 +189,6 @@
     "fail_streak": 0,
     "last_status": "OK",
     "name": "及第成名",
-    "pick": "bottom"
-  },
-  "https://bbs02.836280.cyou/bbs/topic.php?id=17971": {
-    "fail_streak": 0,
-    "last_status": "OK",
-    "name": "魔幻炫彩",
     "pick": "bottom"
   },
   "https://bbuueerm.pxcma-jyfok-mvduyw.xyz:16633/topic/455096.html": {
@@ -299,12 +281,6 @@
     "name": "女神绝杀",
     "pick": "top"
   },
-  "https://dfgrufao.tz0ex-y6o7v-lazxsq.work:29400/article/admin/6a041a4f4ea5c20141013dc2?url=lbw": {
-    "fail_streak": 0,
-    "last_status": "解析失败",
-    "name": "寄予深思",
-    "pick": "bottom"
-  },
   "https://dhqjbz.uxec9-jxs3h-fomubo.work:16677/topic/462301.html": {
     "fail_streak": 0,
     "last_status": "OK",
@@ -373,7 +349,7 @@
   },
   "https://eebysckd.2go6k-y0pfv-fqbdsm.xyz:16677/topic/626102.html": {
     "fail_streak": 0,
-    "last_status": "方向范围外",
+    "last_status": "OK",
     "name": "昙花一现",
     "pick": "top"
   },

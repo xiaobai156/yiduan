@@ -670,6 +670,185 @@
         "name": "寄予深思",
         "pick": "bottom"
       }
+    },
+    {
+      "archived_at": "2026-09-15T22:21:49+08:00",
+      "reason": "258期抓取内容中未发现指定期数，用户要求封存并停止抓取",
+      "last_failure": {
+        "period": 258,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "抓取内容中未发现指定期数"
+      },
+      "site": {
+        "name": "硝烟弥漫",
+        "url": "https://67806780827.234535.xyz/bbs/topic.php?id=19610",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "8ce3fbfd67bb1c09",
+        "name": "硝烟弥漫",
+        "url": "https://67806780827.234535.xyz/bbs/topic.php?id=19610",
+        "pick": "bottom",
+        "name_anchors": [
+          "硝烟弥漫"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s184_id_19610",
+        "name": "硝烟弥漫",
+        "url": "https://67806780827.234535.xyz/bbs/topic.php?id=19610",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "无候选数据",
+          "本次实时判定失败：无期数"
+        ],
+        "error": "无期数"
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "指定期数缺失",
+        "name": "硝烟弥漫",
+        "pick": "bottom"
+      }
+    },
+    {
+      "archived_at": "2026-09-16T18:44:13+08:00",
+      "reason": "259期证书主机名不匹配（SEC_E_WRONG_PRINCIPAL）且绕过验签后HTTP 404，用户要求封存并停止抓取",
+      "last_failure": {
+        "period": 259,
+        "direction": "bottom",
+        "stage": "抓取",
+        "reason": "打开失败[SSL握手失败]：curl exit 60 schannel SNI or certificate check failed: SEC_E_WRONG_PRINCIPAL；绕过验签后HTTP 404 Not Found"
+      },
+      "site": {
+        "name": "魔幻炫彩",
+        "url": "https://bbs02.836280.cyou/bbs/topic.php?id=17971",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "e433ed7371cbc5ea",
+        "name": "魔幻炫彩",
+        "url": "https://bbs02.836280.cyou/bbs/topic.php?id=17971",
+        "pick": "bottom",
+        "name_anchors": [
+          "魔幻炫彩"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s090_id_17971",
+        "name": "魔幻炫彩",
+        "url": "https://bbs02.836280.cyou/bbs/topic.php?id=17971",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "抓取或解析异常"
+        ],
+        "error": "CurlFetchError: curl exit 60: curl: (60) schannel: SNI or certificate check failed: SEC_E_WRONG_PRINCIPAL (0x80090322) - ĿҪƲȷ\r\nMore details here: https://curl.se/docs/sslcerts.html\r\n\r\ncurl failed to verify the legitimacy of the server and therefore could not\r\nestablish a secure connection to it. To learn more about this situation and\r\nhow to fix it, please visit the webpage mentioned above.\r\ncurl: (60) schannel: SNI or certificate check failed: SEC_E_WRONG_PRINCIPAL (0x80090322) - ĿҪƲȷ\r\nMore details here: https://curl.se/docs/sslcerts.html\r\n\r\ncurl failed to verify the legitimacy of the server and therefore could not\r\nestablish a secure connection to it. To learn more about this situation and\r\nhow to fix it, please visit the webpage mentioned above.\r\ncurl: (60) schannel: SNI or certificate check failed: SEC_E_WRONG_PRINCIPAL (0x80090322) - ĿҪƲȷ\r\nMore details here: https://curl.se/docs/sslcerts.html\r\n\r\ncurl failed to verify the legitimacy of the server and therefore could not\r\nestablish a secure connection to it. To learn more about this situation and\r\nhow to fix it, please visit the webpage mentioned above."
+      },
+      "slow_site": {
+        "fail_streak": 1,
+        "last_status": "SSL握手失败",
+        "name": "魔幻炫彩",
+        "pick": "bottom"
+      }
+    },
+    {
+      "archived_at": "2026-09-16T18:44:13+08:00",
+      "reason": "259期帖子ID 22555已下架（正文提示此帖子ID已被下架），用户要求封存并停止抓取",
+      "last_failure": {
+        "period": 259,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "抓取内容中未发现指定期数（页面提示此帖子ID已被下架，无候选数据）"
+      },
+      "site": {
+        "name": "城北徐公",
+        "url": "https://11008880827.876657.xyz/bbs/topic.php?id=22555",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "3913c71e1a05ece6",
+        "name": "城北徐公",
+        "url": "https://11008880827.876657.xyz/bbs/topic.php?id=22555",
+        "pick": "bottom",
+        "name_anchors": [
+          "城北徐公"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s180_id_22555",
+        "name": "城北徐公",
+        "url": "https://11008880827.876657.xyz/bbs/topic.php?id=22555",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "无候选数据",
+          "本次实时判定失败：无期数"
+        ],
+        "error": "无期数"
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "指定期数缺失",
+        "name": "城北徐公",
+        "pick": "bottom"
+      }
     }
   ]
 }
