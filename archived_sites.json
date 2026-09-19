@@ -849,6 +849,66 @@
         "name": "城北徐公",
         "pick": "bottom"
       }
+    },
+    {
+      "archived_at": "2026-09-19T18:42:02+08:00",
+      "reason": "262期记录接口404、同域名其他记录正常，文章已被删除且无可用列表接口，用户要求封存并停止抓取",
+      "last_failure": {
+        "period": 262,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "接口404不存在（/api/proxy/manager-articles/6a55fd91f447e21b02daa8e4）"
+      },
+      "site": {
+        "name": "天降祥瑞",
+        "url": "https://nwrkkmv.rx287-rkrai-jsjccc.xyz:29499/article/lottery/6a55fd91f447e21b02daa8e4?url=ggz",
+        "pick": "bottom",
+        "api_url": "https://nwrkkmv.rx287-rkrai-jsjccc.xyz:29499/api/proxy/manager-articles/6a55fd91f447e21b02daa8e4"
+      },
+      "profile": {
+        "site_id": "dd3ddce8649a845e",
+        "name": "天降祥瑞",
+        "url": "https://nwrkkmv.rx287-rkrai-jsjccc.xyz:29499/article/lottery/6a55fd91f447e21b02daa8e4?url=ggz",
+        "pick": "bottom",
+        "name_anchors": [
+          "天降祥瑞"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "api"
+        ],
+        "record_id_required": true,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s154_article_6a55fd91f447e21b02daa8e4",
+        "name": "天降祥瑞",
+        "url": "https://nwrkkmv.rx287-rkrai-jsjccc.xyz:29499/article/lottery/6a55fd91f447e21b02daa8e4?url=ggz",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "无候选数据",
+          "本次实时判定失败：接口404不存在"
+        ],
+        "error": "接口404不存在",
+        "script_error_count": 2
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "接口404不存在",
+        "name": "天降祥瑞",
+        "pick": "bottom"
+      }
     }
   ]
 }
