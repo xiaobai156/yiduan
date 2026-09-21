@@ -909,6 +909,66 @@
         "name": "天降祥瑞",
         "pick": "bottom"
       }
+    },
+    {
+      "archived_at": "2026-09-21T18:12:40+08:00",
+      "reason": "264期原始HTML与浏览器渲染均无任何期数、正文618字且无站名（整帖无数据），用户要求封存并停止抓取",
+      "last_failure": {
+        "period": 264,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "抓取内容中未发现指定期数（原始HTML 34869字符与浏览器渲染34678字符文本中均无期数、无站名，候选0条）"
+      },
+      "site": {
+        "name": "人声鼎沸",
+        "url": "https://66778800827.909776.xyz/bbs/topic.php?id=18539",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "696184f8b4ce8a5d",
+        "name": "人声鼎沸",
+        "url": "https://66778800827.909776.xyz/bbs/topic.php?id=18539",
+        "pick": "bottom",
+        "name_anchors": [
+          "人声鼎沸"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s186_id_18539",
+        "name": "人声鼎沸",
+        "url": "https://66778800827.909776.xyz/bbs/topic.php?id=18539",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "无候选数据",
+          "本次实时判定失败：无期数"
+        ],
+        "error": "无期数"
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "指定期数缺失",
+        "name": "人声鼎沸",
+        "pick": "bottom"
+      }
     }
   ]
 }

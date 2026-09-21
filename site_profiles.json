@@ -3423,7 +3423,8 @@
         "iframe"
       ],
       "record_id_required": false,
-      "custom_parser": null
+      "custom_parser": "topic_semantic_cycle",
+      "section_scope": true
     },
     {
       "site_id": "bc400b684469075e",
@@ -4758,32 +4759,6 @@
       "pick": "bottom",
       "name_anchors": [
         "快乐宝贝"
-      ],
-      "section_keywords": [
-        "绝杀一段",
-        "绝杀1段",
-        "杀一段",
-        "杀1段"
-      ],
-      "value_keyword": "段",
-      "candidate_window": 3,
-      "value_min": 1,
-      "value_max": 7,
-      "document_sources": [
-        "page",
-        "script",
-        "iframe"
-      ],
-      "record_id_required": false,
-      "custom_parser": null
-    },
-    {
-      "site_id": "696184f8b4ce8a5d",
-      "name": "人声鼎沸",
-      "url": "https://66778800827.909776.xyz/bbs/topic.php?id=18539",
-      "pick": "bottom",
-      "name_anchors": [
-        "人声鼎沸"
       ],
       "section_keywords": [
         "绝杀一段",

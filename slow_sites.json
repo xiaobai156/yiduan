@@ -77,12 +77,6 @@
     "name": "特政送礼",
     "pick": "bottom"
   },
-  "https://66778800827.909776.xyz/bbs/topic.php?id=18539": {
-    "fail_streak": 0,
-    "last_status": "OK",
-    "name": "人声鼎沸",
-    "pick": "bottom"
-  },
   "https://67806780827.234535.xyz/bbs/topic.php?id=22169": {
     "fail_streak": 0,
     "last_status": "指定期数缺失",
@@ -133,7 +127,7 @@
   },
   "https://88888020827.997595.xyz/bbs/topic.php?id=18525": {
     "fail_streak": 0,
-    "last_status": "OK",
+    "last_status": "方向范围外",
     "name": "快乐宝贝",
     "pick": "bottom"
   },
@@ -517,7 +511,7 @@
   },
   "https://hfauoob.xu36n-9s7v3-jtrkpg.xyz:16677/topic/448332.html": {
     "fail_streak": 0,
-    "last_status": "方向范围外",
+    "last_status": "OK",
     "name": "烘云托月",
     "pick": "bottom"
   },
