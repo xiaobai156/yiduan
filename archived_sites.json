@@ -969,6 +969,66 @@
         "name": "人声鼎沸",
         "pick": "bottom"
       }
+    },
+    {
+      "archived_at": "2026-09-26T18:51:35+08:00",
+      "reason": "269期源帖已下架：原始HTML与浏览器渲染均只返回「此帖子ID已被下架」（34859/34669字符，全页无任何期数、无站名），同门户族其它站抓取链路正常、5个已知门户看板均无该站新帖可换；用户要求封存并停止抓取",
+      "last_failure": {
+        "period": 269,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "抓取内容中未发现指定期数（原始HTML 34859字符与浏览器渲染34669字符文本中均无期数、无站名，候选0条）"
+      },
+      "site": {
+        "name": "才望高雅",
+        "url": "https://88888020827.885536.xyz/bbs/topic.php?id=18732",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "5a1e6fffdcc18c6f",
+        "name": "才望高雅",
+        "url": "https://88888020827.885536.xyz/bbs/topic.php?id=18732",
+        "pick": "bottom",
+        "name_anchors": [
+          "才望高雅"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s184_id_18732",
+        "name": "才望高雅",
+        "url": "https://88888020827.885536.xyz/bbs/topic.php?id=18732",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "无候选数据",
+          "本次实时判定失败：无期数"
+        ],
+        "error": "无期数"
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "指定期数缺失",
+        "name": "才望高雅",
+        "pick": "bottom"
+      }
     }
   ]
 }

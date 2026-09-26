@@ -4727,32 +4727,6 @@
       "custom_parser": null
     },
     {
-      "site_id": "5a1e6fffdcc18c6f",
-      "name": "才望高雅",
-      "url": "https://88888020827.885536.xyz/bbs/topic.php?id=18732",
-      "pick": "bottom",
-      "name_anchors": [
-        "才望高雅"
-      ],
-      "section_keywords": [
-        "绝杀一段",
-        "绝杀1段",
-        "杀一段",
-        "杀1段"
-      ],
-      "value_keyword": "段",
-      "candidate_window": 3,
-      "value_min": 1,
-      "value_max": 7,
-      "document_sources": [
-        "page",
-        "script",
-        "iframe"
-      ],
-      "record_id_required": false,
-      "custom_parser": null
-    },
-    {
       "site_id": "b5b754879ccc9227",
       "name": "快乐宝贝",
       "url": "https://88888020827.997595.xyz/bbs/topic.php?id=18525",
