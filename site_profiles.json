@@ -3006,7 +3006,8 @@
         "browser"
       ],
       "record_id_required": true,
-      "custom_parser": null
+      "custom_parser": null,
+      "allow_insecure": true
     },
     {
       "site_id": "e5fa17ba77e87fcd",
