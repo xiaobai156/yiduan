@@ -1029,6 +1029,68 @@
         "name": "才望高雅",
         "pick": "bottom"
       }
+    },
+    {
+      "archived_at": "2026-09-30T19:23:19+08:00",
+      "reason": "273期记录接口404（AdminArticle 不存在）、同站其他记录接口正常（管理员/长篇大论等同前缀文章id均200），文章已被删除且当前文章清单（landing-page-data 97条）中该作者0条，用户要求封存并停止抓取",
+      "last_failure": {
+        "period": 273,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "接口404不存在"
+      },
+      "site": {
+        "name": "争战夺宝",
+        "url": "https://qgyhdauu.avht7-lah7b-oavfmr.work:29444/article/admin/6a0193719dbe5d9cedc4eb5d?url=wzw",
+        "pick": "bottom",
+        "api_url": "https://qgyhdauu.avht7-lah7b-oavfmr.work:29444/api/proxy/manager-articles/6a0193719dbe5d9cedc4eb5d"
+      },
+      "profile": {
+        "site_id": "24aa2a7354b42a07",
+        "name": "争战夺宝",
+        "url": "https://qgyhdauu.avht7-lah7b-oavfmr.work:29444/article/admin/6a0193719dbe5d9cedc4eb5d?url=wzw",
+        "pick": "bottom",
+        "name_anchors": [
+          "争战夺宝"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "api",
+          "page",
+          "browser"
+        ],
+        "record_id_required": true,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s108_article_6a0193719dbe5d9cedc4eb5d",
+        "name": "争战夺宝",
+        "url": "https://qgyhdauu.avht7-lah7b-oavfmr.work:29444/article/admin/6a0193719dbe5d9cedc4eb5d?url=wzw",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "无候选数据",
+          "本次实时判定失败：接口404不存在"
+        ],
+        "error": "接口404不存在",
+        "script_error_count": 2
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "接口404不存在",
+        "name": "争战夺宝",
+        "pick": "bottom"
+      }
     }
   ]
 }

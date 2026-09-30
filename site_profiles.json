@@ -2801,32 +2801,6 @@
       "custom_parser": null
     },
     {
-      "site_id": "24aa2a7354b42a07",
-      "name": "争战夺宝",
-      "url": "https://qgyhdauu.avht7-lah7b-oavfmr.work:29444/article/admin/6a0193719dbe5d9cedc4eb5d?url=wzw",
-      "pick": "bottom",
-      "name_anchors": [
-        "争战夺宝"
-      ],
-      "section_keywords": [
-        "绝杀一段",
-        "绝杀1段",
-        "杀一段",
-        "杀1段"
-      ],
-      "value_keyword": "段",
-      "candidate_window": 3,
-      "value_min": 1,
-      "value_max": 7,
-      "document_sources": [
-        "api",
-        "page",
-        "browser"
-      ],
-      "record_id_required": true,
-      "custom_parser": null
-    },
-    {
       "site_id": "ed7eda9583046bf0",
       "name": "福星王子",
       "url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a02a0b2300734f7aa12dfac?url=hj",

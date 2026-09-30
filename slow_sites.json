@@ -121,7 +121,7 @@
   },
   "https://88888020827.997595.xyz/bbs/topic.php?id=18525": {
     "fail_streak": 0,
-    "last_status": "方向范围外",
+    "last_status": "OK",
     "name": "快乐宝贝",
     "pick": "bottom"
   },
@@ -789,12 +789,6 @@
     "fail_streak": 0,
     "last_status": "OK",
     "name": "恭喜发财",
-    "pick": "bottom"
-  },
-  "https://qgyhdauu.avht7-lah7b-oavfmr.work:29444/article/admin/6a0193719dbe5d9cedc4eb5d?url=wzw": {
-    "fail_streak": 0,
-    "last_status": "OK",
-    "name": "争战夺宝",
     "pick": "bottom"
   },
   "https://qwpapph.el7s4-pbxnj-aemcbt.work:16677/topic/702079.html": {
