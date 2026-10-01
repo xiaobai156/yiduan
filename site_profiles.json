@@ -4442,32 +4442,6 @@
       "custom_parser": null
     },
     {
-      "site_id": "fec78f74030ee064",
-      "name": "原原本本",
-      "url": "https://0130190827.673454.xyz/bbs/topic.php?id=20143",
-      "pick": "bottom",
-      "name_anchors": [
-        "原原本本"
-      ],
-      "section_keywords": [
-        "绝杀一段",
-        "绝杀1段",
-        "杀一段",
-        "杀1段"
-      ],
-      "value_keyword": "段",
-      "candidate_window": 3,
-      "value_min": 1,
-      "value_max": 7,
-      "document_sources": [
-        "page",
-        "script",
-        "iframe"
-      ],
-      "record_id_required": false,
-      "custom_parser": null
-    },
-    {
       "site_id": "f3ac47f3b062626c",
       "name": "新光彩红",
       "url": "https://0085680827.326455.xyz/bbs/topic.php?id=18780",

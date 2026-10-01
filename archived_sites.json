@@ -1091,6 +1091,66 @@
         "name": "争战夺宝",
         "pick": "bottom"
       }
+    },
+    {
+      "archived_at": "2026-10-01T19:04:38+08:00",
+      "reason": "274期帖子ID已被下架（原始HTTP 47265字符与浏览器渲染1170字符均只提示「此帖子ID已被下架」，全页无站名、无任何期数）；该站首页195条帖中无本站新帖可换，同族6个轮换域同一id全404，用户要求封存并停止抓取",
+      "last_failure": {
+        "period": 274,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "抓取内容中未发现指定期数"
+      },
+      "site": {
+        "name": "原原本本",
+        "url": "https://0130190827.673454.xyz/bbs/topic.php?id=20143",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "fec78f74030ee064",
+        "name": "原原本本",
+        "url": "https://0130190827.673454.xyz/bbs/topic.php?id=20143",
+        "pick": "bottom",
+        "name_anchors": [
+          "原原本本"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s173_id_20143",
+        "name": "原原本本",
+        "url": "https://0130190827.673454.xyz/bbs/topic.php?id=20143",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "无候选数据",
+          "本次实时判定失败：无期数"
+        ],
+        "error": "无期数"
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "指定期数缺失",
+        "name": "原原本本",
+        "pick": "bottom"
+      }
     }
   ]
 }
