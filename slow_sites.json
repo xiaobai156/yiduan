@@ -551,12 +551,6 @@
     "name": "高温凯子",
     "pick": "bottom"
   },
-  "https://jtrmhar.cwdc3-r5vqn-qzqasa.work:17455/topic/741212.html": {
-    "fail_streak": 0,
-    "last_status": "OK",
-    "name": "枫火铸辞",
-    "pick": "bottom"
-  },
   "https://jusbfyu.mkdwi-xa2ua-rsovan.work:29422/article/admin/6a31485c49afa07fb590ec77?url=hjc": {
     "fail_streak": 0,
     "last_status": "OK",
@@ -757,7 +751,7 @@
   },
   "https://plwyrcj.4ai8j-p62x5-pnsukp.work:29411/article/admin/6a129a4ed5071f9d0b8b451d?url=gjp": {
     "fail_streak": 0,
-    "last_status": "OK",
+    "last_status": "方向范围外",
     "name": "彩民推荐",
     "pick": "bottom"
   },

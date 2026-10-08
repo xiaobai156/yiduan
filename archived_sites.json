@@ -1151,6 +1151,115 @@
         "name": "原原本本",
         "pick": "bottom"
       }
+    },
+    {
+      "archived_at": "2026-10-08T22:51:54+08:00",
+      "reason": "281期核对缓存：与「花间辞令」近10期（272-281）逐期完全一致（272:6段 273:3段 274:5段 275:2段 276:4段 277:1段 278:3段 279:2段 280:6段 281:3段），判为同源重复来源，用户要求封存并停止抓取",
+      "last_failure": {
+        "period": 281,
+        "direction": "bottom",
+        "stage": "重复站封存",
+        "reason": "与花间辞令 272-281 期逐期全等（近10期完全一致），判为同源重复"
+      },
+      "site": {
+        "name": "枫火铸辞",
+        "url": "https://jtrmhar.cwdc3-r5vqn-qzqasa.work:17455/topic/741212.html",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "0e478dfa9410264c",
+        "name": "枫火铸辞",
+        "url": "https://jtrmhar.cwdc3-r5vqn-qzqasa.work:17455/topic/741212.html",
+        "pick": "bottom",
+        "name_anchors": [
+          "枫火铸辞"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": "topic_semantic_cycle",
+        "section_scope": true,
+        "special_authorization": {
+          "authorized_at": "2026-08-29",
+          "directive": "用户明确：特例可以用于一切",
+          "issue": 241,
+          "scopes": [
+            "历史不足10期",
+            "排除同期冲突期",
+            "连续3至5期疑似重复"
+          ],
+          "valid_periods": [
+            241,
+            240,
+            239,
+            238,
+            237,
+            236,
+            235,
+            234,
+            233
+          ],
+          "missing_periods": [
+            232
+          ],
+          "conflicts": {
+            "231": [
+              "1段",
+              "6段"
+            ]
+          },
+          "suspected_duplicate": {
+            "site": "高温凯子",
+            "periods": [
+              237,
+              236,
+              235,
+              234,
+              233
+            ],
+            "length": 5
+          }
+        }
+      },
+      "cache": {
+        "id": "s183_topic_741212",
+        "name": "枫火铸辞",
+        "url": "https://jtrmhar.cwdc3-r5vqn-qzqasa.work:17455/topic/741212.html",
+        "pick": "bottom",
+        "fingerprint": {
+          "281": "3段",
+          "280": "6段",
+          "279": "2段",
+          "278": "3段",
+          "277": "1段",
+          "276": "4段",
+          "275": "2段",
+          "274": "5段",
+          "273": "3段",
+          "272": "6段"
+        },
+        "status": "ok",
+        "notes": []
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "OK",
+        "name": "枫火铸辞",
+        "pick": "bottom"
+      }
     }
   ]
 }
