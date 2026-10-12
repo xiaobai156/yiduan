@@ -2228,32 +2228,6 @@
       "custom_parser": null
     },
     {
-      "site_id": "69be9ba39e861522",
-      "name": "全民必中",
-      "url": "https://lxlwskb.nboxw-3t1ws-uyicfb.work:29444/article/admin/6a1464107b484ee0e0629338?url=scyd",
-      "pick": "bottom",
-      "name_anchors": [
-        "全民必中"
-      ],
-      "section_keywords": [
-        "绝杀一段",
-        "绝杀1段",
-        "杀一段",
-        "杀1段"
-      ],
-      "value_keyword": "段",
-      "candidate_window": 3,
-      "value_min": 1,
-      "value_max": 7,
-      "document_sources": [
-        "api",
-        "page",
-        "browser"
-      ],
-      "record_id_required": true,
-      "custom_parser": null
-    },
-    {
       "site_id": "b9c86e0b537fbe5c",
       "name": "天霸福星",
       "url": "https://ztpqrap.m8sbq-na911-wmojzb.work:29444/article/admin/6a145108597e16d57eacb69f?url=gsw",

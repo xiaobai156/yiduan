@@ -1260,6 +1260,68 @@
         "name": "枫火铸辞",
         "pick": "bottom"
       }
+    },
+    {
+      "archived_at": "2026-10-12T20:07:16+08:00",
+      "reason": "285期失败清单处置取证判为「无数据」：目标文章接口（/api/proxy/manager-articles/6a1464107b484ee0e0629338）带 Referer 间隔12s重试4次全404（AdminArticle 不存在）；浏览器渲染正文仅45字符且同页站点级 API 全200（站点存活）；站内文章清单 2,995,532 字符中站名/绝杀一段/目标id 均 0 处（无同作者新 id 可迁移）；同域 8 个 id 对照 2个200/6个404（接口健康）⇒ 站方已删除该 AdminArticle，用户要求封存并停止抓取",
+      "last_failure": {
+        "period": 285,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "接口404不存在"
+      },
+      "site": {
+        "name": "全民必中",
+        "url": "https://lxlwskb.nboxw-3t1ws-uyicfb.work:29444/article/admin/6a1464107b484ee0e0629338?url=scyd",
+        "pick": "bottom",
+        "api_url": "https://lxlwskb.nboxw-3t1ws-uyicfb.work:29444/api/proxy/manager-articles/6a1464107b484ee0e0629338"
+      },
+      "profile": {
+        "site_id": "69be9ba39e861522",
+        "name": "全民必中",
+        "url": "https://lxlwskb.nboxw-3t1ws-uyicfb.work:29444/article/admin/6a1464107b484ee0e0629338?url=scyd",
+        "pick": "bottom",
+        "name_anchors": [
+          "全民必中"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "api",
+          "page",
+          "browser"
+        ],
+        "record_id_required": true,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s086_article_6a1464107b484ee0e0629338",
+        "name": "全民必中",
+        "url": "https://lxlwskb.nboxw-3t1ws-uyicfb.work:29444/article/admin/6a1464107b484ee0e0629338?url=scyd",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "无候选数据",
+          "本次实时判定失败：接口404不存在"
+        ],
+        "error": "接口404不存在",
+        "script_error_count": 2
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "接口404不存在",
+        "name": "全民必中",
+        "pick": "bottom"
+      }
     }
   ]
 }
