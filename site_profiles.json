@@ -4674,6 +4674,32 @@
       ],
       "record_id_required": false,
       "custom_parser": null
+    },
+    {
+      "site_id": "595fff2a14d2289e",
+      "name": "置之死地",
+      "url": "https://lf29cc.1231978.com/shaxiao/036.htm",
+      "pick": "bottom",
+      "name_anchors": [
+        "置之死地"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
     }
   ]
 }
