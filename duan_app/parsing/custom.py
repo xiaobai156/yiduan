@@ -721,7 +721,11 @@ def _profile_section_documents(
         if not isinstance(metadata, dict):
             continue
         source_type = str(metadata.get("document_type") or "")
-        if site.document_sources and source_type not in site.document_sources:
+        if (
+            site.document_sources
+            and source_type not in site.document_sources
+            and source_type != "browser"
+        ):
             continue
         groups.setdefault(_document_block_key(metadata), []).append(index)
 

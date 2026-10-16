@@ -183,7 +183,7 @@ def fetch_page_text(
 
 def render_page_text(url: str, timeout: int, verify_ssl: bool) -> str:
     try:
-        from playwright.sync_api import sync_playwright
+        from playwright.sync_api import TimeoutError as PlaywrightTimeoutError, sync_playwright
     except ImportError as exc:
         raise RuntimeError("浏览器渲染不可用：缺少 playwright") from exc
 
@@ -192,7 +192,17 @@ def render_page_text(url: str, timeout: int, verify_ssl: bool) -> str:
         try:
             context = browser.new_context(ignore_https_errors=not verify_ssl)
             page = context.new_page()
-            page.goto(url, wait_until="networkidle", timeout=max(timeout, 10) * 1000)
+            try:
+                page.goto(url, wait_until="domcontentloaded", timeout=max(timeout, 10) * 1000)
+            except PlaywrightTimeoutError:
+                pass
+            try:
+                page.wait_for_load_state(
+                    "networkidle",
+                    timeout=min(max(timeout, 10) * 1000, 5000),
+                )
+            except PlaywrightTimeoutError:
+                pass
             return page.content()
         finally:
             browser.close()

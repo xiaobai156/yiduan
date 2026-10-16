@@ -277,6 +277,7 @@ def collect_documents(
 
     script_index = 0
     frame_index = 0
+    browser_fallback_attempted = False
     while True:
         for document in documents:
             for _, src in SCRIPT_SRC_RE.findall(document):
@@ -298,6 +299,29 @@ def collect_documents(
             next_url = frame_urls[frame_index]
             frame_index += 1
         else:
+            if (
+                not browser_fallback_attempted
+                and not (article_mode or manager_mode)
+                and issue_filter
+                and site_name
+                and pick
+                and not documents_have_strict_context(documents, issue_filter, site_name, pick)
+            ):
+                browser_fallback_attempted = True
+                try:
+                    rendered_html = render_page_text_impl(url, timeout, verify_ssl)
+                except Exception as exc:
+                    script_errors.append(f"{url} 浏览器渲染失败：{exc}")
+                else:
+                    add_document_with_decoded(
+                        rendered_html,
+                        documents,
+                        seen_docs,
+                        source_url=url,
+                        document_type="browser",
+                        block_id="browser",
+                    )
+                continue
             break
 
         try:
