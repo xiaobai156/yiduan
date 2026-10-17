@@ -1322,6 +1322,66 @@
         "name": "全民必中",
         "pick": "bottom"
       }
+    },
+    {
+      "archived_at": "2026-10-17T12:05:16+08:00",
+      "reason": "289期失败清单处置：抓取阶段 SSL 握手失败（curl exit 60 schannel SEC_E_WRONG_PRINCIPAL 证书主机名不匹配，项目默认验签反复 exit 35/60，python ssl getpeercert=None，DNS 198.18.0.115）；绕过验签後文章 404、HTTP/80 502、浏览器 net::ERR_CONNECTION_CLOSED；同平台 /topic/NNNNN.html 型 83 站对照 6/6 可达 ⇒ 平台正常、仅该地址失效；用户已用新地址另建「置之死地」(a66d6f3)，本次点名封存并停止抓取",
+      "last_failure": {
+        "period": 289,
+        "direction": "bottom",
+        "stage": "抓取",
+        "reason": "SSL握手失败"
+      },
+      "site": {
+        "name": "秋月春风",
+        "url": "https://mhpayza.30mg9-m9j7l-obwrmb.xyz/topic/766652.html",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "81e596b664762f0e",
+        "name": "秋月春风",
+        "url": "https://mhpayza.30mg9-m9j7l-obwrmb.xyz/topic/766652.html",
+        "pick": "bottom",
+        "name_anchors": [
+          "秋月春风"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": "topic_semantic_cycle",
+        "section_scope": true
+      },
+      "cache": {
+        "id": "s129_topic_766652",
+        "name": "秋月春风",
+        "url": "https://mhpayza.30mg9-m9j7l-obwrmb.xyz/topic/766652.html",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "抓取或解析异常"
+        ],
+        "error": "CurlFetchError: curl exit 60: curl: (60) schannel: SNI or certificate check failed: SEC_E_WRONG_PRINCIPAL (0x80090322) - ĿҪƲȷ\r\nMore details here: https://curl.se/docs/sslcerts.html\r\n\r\ncurl failed to verify the legitimacy of the server and therefore could not\r\nestablish a secure connection to it. To learn more about this situation and\r\nhow to fix it, please visit the webpage mentioned above.\r\ncurl: (60) schannel: SNI or certificate check failed: SEC_E_WRONG_PRINCIPAL (0x80090322) - ĿҪƲȷ\r\nMore details here: https://curl.se/docs/sslcerts.html\r\n\r\ncurl failed to verify the legitimacy of the server and therefore could not\r\nestablish a secure connection to it. To learn more about this situation and\r\nhow to fix it, please visit the webpage mentioned above.\r\ncurl: (60) schannel: SNI or certificate check failed: SEC_E_WRONG_PRINCIPAL (0x80090322) - ĿҪƲȷ\r\nMore details here: https://curl.se/docs/sslcerts.html\r\n\r\ncurl failed to verify the legitimacy of the server and therefore could not\r\nestablish a secure connection to it. To learn more about this situation and\r\nhow to fix it, please visit the webpage mentioned above."
+      },
+      "slow_site": {
+        "fail_streak": 3,
+        "last_status": "SSL握手失败",
+        "name": "秋月春风",
+        "pick": "bottom"
+      }
     }
   ]
 }
