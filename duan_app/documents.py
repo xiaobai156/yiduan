@@ -269,7 +269,7 @@ def collect_documents(
                     dynamic_record_id or "",
                     site_name,
                     pick,
-                    source_url=url,
+                    source_url=getattr(rendered_html, "source_url", url),
                     document_type="browser",
                 )
             except ArticleRecordError as exc:
@@ -279,16 +279,17 @@ def collect_documents(
     frame_index = 0
     browser_fallback_attempted = False
     while True:
-        for document in documents:
+        for document_index, document in enumerate(documents):
+            document_url = str(documents.document_metadata[document_index].get("source_url") or url)
             for _, src in SCRIPT_SRC_RE.findall(document):
-                full_url = urljoin(url, html.unescape(src))
-                if full_url not in seen_scripts and should_fetch_script(full_url, url):
+                full_url = urljoin(document_url, html.unescape(src))
+                if full_url not in seen_scripts and should_fetch_script(full_url, document_url):
                     seen_scripts.add(full_url)
                     script_urls.append(full_url)
 
             for _, src in IFRAME_SRC_RE.findall(document):
-                full_url = urljoin(url, html.unescape(src))
-                if full_url not in seen_frames and should_fetch_frame(full_url, url):
+                full_url = urljoin(document_url, html.unescape(src))
+                if full_url not in seen_frames and should_fetch_frame(full_url, document_url):
                     seen_frames.add(full_url)
                     frame_urls.append(full_url)
 
@@ -317,7 +318,7 @@ def collect_documents(
                         rendered_html,
                         documents,
                         seen_docs,
-                        source_url=url,
+                        source_url=getattr(rendered_html, "source_url", url),
                         document_type="browser",
                         block_id="browser",
                     )

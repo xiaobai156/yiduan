@@ -26,7 +26,7 @@ def refresh_cache_record(record):
     fingerprint = record.get("fingerprint")
     periods = sorted(int(period) for period, value in fingerprint.items() if str(value).strip())
     consecutive = all(periods[index] == periods[index - 1] + 1 for index in range(1, len(periods)))
-    removable = ("同期高可信候选冲突", "本次实时判定失败", "定向重抓恢复", "仅抓到", "期数不连续", "脚本/接口错误")
+    removable = ("本次实时判定失败", "定向重抓恢复", "仅抓到", "期数不连续", "脚本/接口错误", "无候选数据")
     notes = [str(note) for note in record.get("notes", []) if str(note) and not str(note).startswith(removable)]
     if len(periods) < 10:
         notes.append(f"仅抓到{len(periods)}期")
@@ -111,6 +111,8 @@ def retry(fail_path, success_path, sites, *, timeout=20, verify_ssl=True,
     if fail_path.resolve() == success_path.resolve():
         raise ValueError("成功和失败 TXT 不能是同一个文件")
     paths = [fail_path, success_path] + ([cache_path] if cache_path is not None else [])
+    if sites_path is not None:
+        paths.append(sites_path)
     before = capture(paths)
     text = before[fail_path.resolve()].decode("utf-8-sig")
     records = parse_failures(text)
@@ -151,7 +153,9 @@ def retry(fail_path, success_path, sites, *, timeout=20, verify_ssl=True,
         meta_summary = meta.get("summary")
         if not isinstance(meta_summary, dict) or int(meta_summary.get("site_count", -1)) != len(cache["sites"]):
             raise ValueError("缓存摘要站点数不一致，停止重抓")
-    values, successful = {}, {}
+        from period_repetition_checker import validate_cache_integrity
+        validate_cache_integrity(cache, cache["sites"], cache_path, sites_path, 10, 30)
+    values, successful, live_records = {}, {}, {}
     for position, identity in enumerate(targets, 1):
         name, url, pick = identity
         entry = configured.get(identity)
@@ -168,6 +172,7 @@ def retry(fail_path, success_path, sites, *, timeout=20, verify_ssl=True,
                 continue
             values[name] = matches[0].value
             successful[identity] = matches[0].value
+            live_records[identity] = result.cache_record or {}
             print(f"[{position}/{len(targets)}] 校验成功 {name} {matches[0].value}")
         except Exception as exc:
             print(f"[{position}/{len(targets)}] 保留失败 {name}：{type(exc).__name__}: {exc}")
@@ -188,15 +193,10 @@ def retry(fail_path, success_path, sites, *, timeout=20, verify_ssl=True,
                 raise ValueError(f"缓存站点身份重复：{identity[0]}；停止写入")
             if matches:
                 matches[0]["fingerprint"][str(period)] = value
-                matches[0]["status"] = "ok"
-                matches[0].pop("error", None)
-                notes = [str(note) for note in matches[0].get("notes", []) if str(note)]
-                matches[0]["notes"] = [note for note in notes if "本次实时判定失败" not in note] or ["定向重抓恢复"]
+                matches[0]["script_error_count"] = live_records[identity].get("script_error_count", 0)
+                refresh_cache_record(matches[0])
             else:
                 raise ValueError(f"缓存缺少目标站点：{identity[0]}；停止删除失败记录")
-        for item in updated["sites"]:
-            if isinstance(item, dict):
-                refresh_cache_record(item)
         updated["updated_at"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         summary = updated["_meta"]["summary"]
         summary["site_count"] = len(updated["sites"])

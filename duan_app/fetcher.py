@@ -3,6 +3,8 @@ import ssl
 import subprocess
 import time
 import warnings
+import re
+from urllib.parse import urlparse, urlunparse
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
@@ -181,6 +183,52 @@ def fetch_page_text(
         time.sleep(1.0 + attempt * 0.5)
     raise URLError(f"页面返回空壳内容：{compact_line(last_text, 40)}")
 
+class RenderedPage(str):
+    """HTML plus the actual browser source, without changing string callers."""
+    def __new__(cls, html: str, source_url: str):
+        result = super().__new__(cls, html)
+        result.source_url = source_url
+        return result
+
+
+def render_browser_document(page, url, timeout, timeout_error):
+    original = urlparse(url)
+    topic = re.fullmatch(r"/topic/\d+\.html", original.path)
+    visited = {url}
+    for _ in range(4):
+        try:
+            page.goto(url, wait_until="domcontentloaded", timeout=max(timeout, 10) * 1000)
+        except timeout_error:
+            pass  # A loaded document can still be usable after a resource timeout.
+        try:
+            page.wait_for_load_state("networkidle", timeout=5000)
+        except timeout_error:
+            pass
+        try:
+            page.wait_for_function(
+                "() => document.body && !/正在安全检测|正在适配最优线路/.test(document.body.innerText)",
+                timeout=max(timeout, 10) * 1000,
+            )
+        except timeout_error:
+            pass
+        current = urlparse(page.url)
+        if topic and current.path != original.path:
+            # Restore only the same topic on a host reached by real navigation.
+            if (current.scheme not in {"https", "http"} or not current.hostname
+                    or current.netloc == original.netloc or current.path not in {"", "/"}):
+                raise ValueError("浏览器跳转后的帖子身份不一致")
+            url = urlunparse(current._replace(path=original.path, query=original.query, fragment=""))
+            if url in visited:
+                raise ValueError("浏览器线路循环，未取得原帖子")
+            visited.add(url)
+            continue
+        content = page.content()
+        if topic and ("正在安全检测" in content or "正在适配最优线路" in content):
+            raise ValueError("浏览器线路未完成，未取得原帖子")
+        return RenderedPage(content, page.url)
+    raise ValueError("浏览器线路跳转超过限制，未取得原帖子")
+
+
 def render_page_text(url: str, timeout: int, verify_ssl: bool) -> str:
     try:
         from playwright.sync_api import TimeoutError as PlaywrightTimeoutError, sync_playwright
@@ -192,17 +240,6 @@ def render_page_text(url: str, timeout: int, verify_ssl: bool) -> str:
         try:
             context = browser.new_context(ignore_https_errors=not verify_ssl)
             page = context.new_page()
-            try:
-                page.goto(url, wait_until="domcontentloaded", timeout=max(timeout, 10) * 1000)
-            except PlaywrightTimeoutError:
-                pass
-            try:
-                page.wait_for_load_state(
-                    "networkidle",
-                    timeout=min(max(timeout, 10) * 1000, 5000),
-                )
-            except PlaywrightTimeoutError:
-                pass
-            return page.content()
+            return render_browser_document(page, url, timeout, PlaywrightTimeoutError)
         finally:
             browser.close()
