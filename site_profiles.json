@@ -2931,33 +2931,6 @@
       "custom_parser": null
     },
     {
-      "site_id": "b89f43cfc416ee49",
-      "name": "蓝田生玉",
-      "url": "https://szfzml.mfuw8-bnsfa-gdaxhk.xyz/article/admin/6a96d21b1d10beea56c80ccf",
-      "pick": "bottom",
-      "name_anchors": [
-        "蓝田生玉"
-      ],
-      "section_keywords": [
-        "绝杀一段",
-        "绝杀1段",
-        "杀一段",
-        "杀1段"
-      ],
-      "value_keyword": "段",
-      "candidate_window": 3,
-      "value_min": 1,
-      "value_max": 7,
-      "document_sources": [
-        "api",
-        "page",
-        "browser"
-      ],
-      "record_id_required": true,
-      "custom_parser": null,
-      "allow_insecure": true
-    },
-    {
       "site_id": "e5fa17ba77e87fcd",
       "name": "青翠欲滴",
       "url": "https://xozgdo.um2zi-vbge0-emngyq.work:29422/article/admin/6a1414f4bf0a6cb1dd38fa29?url=sgnn",

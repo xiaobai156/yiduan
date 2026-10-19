@@ -1382,6 +1382,91 @@
         "name": "秋月春风",
         "pick": "bottom"
       }
+    },
+    {
+      "archived_at": "2026-10-19T19:47:32+08:00",
+      "reason": "用户点名封存并停止抓取；292期标题为绝杀一段，但291/292期正文属于博码祥龙九肖中特，最近合法段值停在290期",
+      "last_failure": {
+        "period": 292,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "尾部最新3个有效候选期数为[288期、289期、290期]，不含指定292期"
+      },
+      "site": {
+        "name": "蓝田生玉",
+        "url": "https://szfzml.mfuw8-bnsfa-gdaxhk.xyz/article/admin/6a96d21b1d10beea56c80ccf",
+        "pick": "bottom",
+        "api_url": "https://szfzml.mfuw8-bnsfa-gdaxhk.xyz/api/proxy/manager-articles/6a96d21b1d10beea56c80ccf"
+      },
+      "profile": {
+        "site_id": "b89f43cfc416ee49",
+        "name": "蓝田生玉",
+        "url": "https://szfzml.mfuw8-bnsfa-gdaxhk.xyz/article/admin/6a96d21b1d10beea56c80ccf",
+        "pick": "bottom",
+        "name_anchors": [
+          "蓝田生玉"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "api",
+          "page",
+          "browser"
+        ],
+        "record_id_required": true,
+        "custom_parser": null,
+        "allow_insecure": true
+      },
+      "cache": {
+        "id": "s113_article_6a96d21b1d10beea56c80ccf",
+        "name": "蓝田生玉",
+        "url": "https://szfzml.mfuw8-bnsfa-gdaxhk.xyz/article/admin/6a96d21b1d10beea56c80ccf",
+        "pick": "bottom",
+        "fingerprint": {
+          "290": "3段",
+          "289": "4段",
+          "288": "5段",
+          "287": "4段",
+          "286": "4段",
+          "285": "3段",
+          "284": "4段",
+          "283": "2段",
+          "282": "5段",
+          "281": "7段"
+        },
+        "status": "error",
+        "notes": [
+          "本次实时判定失败：尾部最新3个有效候选期数为[288期、289期、290期]，不含指定292期"
+        ],
+        "error": "尾部最新3个有效候选期数为[288期、289期、290期]，不含指定292期",
+        "article_records": [
+          {
+            "record_id": "6a96d21b1d10beea56c80ccf",
+            "record_path": "$",
+            "article_count": 1,
+            "author": "蓝田生玉",
+            "title": "<p><span style=\"font-family: Arial, 微软雅黑, verdana, Tahoma, arial, sans-serif; font-size: 15px; color: rgb(0, 0, 0);\"><strong>292期：【绝杀一段】〓 关注中奖</strong></span></p>",
+            "column": "主条目",
+            "pick": "bottom",
+            "target_field": "html",
+            "source_url": "https://szfzml.mfuw8-bnsfa-gdaxhk.xyz/api/proxy/manager-articles/6a96d21b1d10beea56c80ccf"
+          }
+        ]
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "方向范围外",
+        "name": "蓝田生玉",
+        "pick": "bottom"
+      }
     }
   ]
 }
