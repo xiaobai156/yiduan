@@ -3975,30 +3975,6 @@
       "custom_parser": null
     },
     {
-      "site_id": "7336fff4cbf7287d",
-      "name": "头头是道",
-      "url": "https://buzsxio.821n4-hgj04-edkrft.xyz:29455/article/lottery/6a1303df741e3e91a04e5348?url=bxj",
-      "pick": "bottom",
-      "name_anchors": [
-        "头头是道"
-      ],
-      "section_keywords": [
-        "绝杀一段",
-        "绝杀1段",
-        "杀一段",
-        "杀1段"
-      ],
-      "value_keyword": "段",
-      "candidate_window": 3,
-      "value_min": 1,
-      "value_max": 7,
-      "document_sources": [
-        "api"
-      ],
-      "record_id_required": true,
-      "custom_parser": null
-    },
-    {
       "site_id": "532e02af26b43e86",
       "name": "澳彩经理",
       "url": "https://buzsxio.821n4-hgj04-edkrft.xyz:29455/article/lottery/6a7ee601ee4739fbe9ea2716?url=bxj",
