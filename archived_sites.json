@@ -1527,6 +1527,655 @@
         "name": "头头是道",
         "pick": "bottom"
       }
+    },
+    {
+      "archived_at": "2026-10-21T20:33:11+08:00",
+      "reason": "294期失败清单处置：11 站同属 {站群ID}0827.{分支}.xyz 论坛站群（/bbs/topic.php?id=NNNN），整站群 25 个域名全部 CNAME 到 *.9999138.app，真实 IP 仅 179.253.244.138 与 179.255.116.163；两 IP TCP 端口开放但收到 TLS ClientHello 后返回 0 字节立即断开（UNEXPECTED_EOF_WHILE_READING），HTTP/80 同样失败；对照站「吐故纳新」TLSv1.3 握手成功、HTTP 200 ⇒ 本地网络与代理正常；289 期缓存有完整 10 期指纹（280-289），290 期起连续 5 期失败；连锁搜索书签 367 个入口全量检索同群站名与作者名，仅命中栏目名/作者名，未找到新入口；站方整批下线、本地无可用新地址 ⇒ 用户点名封存并停止抓取",
+      "last_failure": {
+        "period": 294,
+        "direction": "bottom",
+        "stage": "抓取",
+        "reason": "SSL握手失败"
+      },
+      "site": {
+        "name": "特政送礼",
+        "url": "https://6609960827.115646.xyz/bbs/topic.php?id=19777",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "6dfff868c33f679c",
+        "name": "特政送礼",
+        "url": "https://6609960827.115646.xyz/bbs/topic.php?id=19777",
+        "pick": "bottom",
+        "name_anchors": [
+          "特政送礼"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s168_id_19777",
+        "name": "特政送礼",
+        "url": "https://6609960827.115646.xyz/bbs/topic.php?id=19777",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "抓取或解析异常"
+        ],
+        "error": "CurlFetchError: curl exit 35: curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed"
+      },
+      "slow_site": {
+        "fail_streak": 1,
+        "last_status": "SSL握手失败",
+        "name": "特政送礼",
+        "pick": "bottom"
+      }
+    },
+    {
+      "archived_at": "2026-10-21T20:33:11+08:00",
+      "reason": "294期失败清单处置：11 站同属 {站群ID}0827.{分支}.xyz 论坛站群（/bbs/topic.php?id=NNNN），整站群 25 个域名全部 CNAME 到 *.9999138.app，真实 IP 仅 179.253.244.138 与 179.255.116.163；两 IP TCP 端口开放但收到 TLS ClientHello 后返回 0 字节立即断开（UNEXPECTED_EOF_WHILE_READING），HTTP/80 同样失败；对照站「吐故纳新」TLSv1.3 握手成功、HTTP 200 ⇒ 本地网络与代理正常；289 期缓存有完整 10 期指纹（280-289），290 期起连续 5 期失败；连锁搜索书签 367 个入口全量检索同群站名与作者名，仅命中栏目名/作者名，未找到新入口；站方整批下线、本地无可用新地址 ⇒ 用户点名封存并停止抓取",
+      "last_failure": {
+        "period": 294,
+        "direction": "bottom",
+        "stage": "抓取",
+        "reason": "SSL握手失败"
+      },
+      "site": {
+        "name": "新光彩红",
+        "url": "https://0085680827.326455.xyz/bbs/topic.php?id=18780",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "f3ac47f3b062626c",
+        "name": "新光彩红",
+        "url": "https://0085680827.326455.xyz/bbs/topic.php?id=18780",
+        "pick": "bottom",
+        "name_anchors": [
+          "新光彩红"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s169_id_18780",
+        "name": "新光彩红",
+        "url": "https://0085680827.326455.xyz/bbs/topic.php?id=18780",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "抓取或解析异常"
+        ],
+        "error": "CurlFetchError: curl exit 35: curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed"
+      },
+      "slow_site": {
+        "fail_streak": 1,
+        "last_status": "SSL握手失败",
+        "name": "新光彩红",
+        "pick": "bottom"
+      }
+    },
+    {
+      "archived_at": "2026-10-21T20:33:11+08:00",
+      "reason": "294期失败清单处置：11 站同属 {站群ID}0827.{分支}.xyz 论坛站群（/bbs/topic.php?id=NNNN），整站群 25 个域名全部 CNAME 到 *.9999138.app，真实 IP 仅 179.253.244.138 与 179.255.116.163；两 IP TCP 端口开放但收到 TLS ClientHello 后返回 0 字节立即断开（UNEXPECTED_EOF_WHILE_READING），HTTP/80 同样失败；对照站「吐故纳新」TLSv1.3 握手成功、HTTP 200 ⇒ 本地网络与代理正常；289 期缓存有完整 10 期指纹（280-289），290 期起连续 5 期失败；连锁搜索书签 367 个入口全量检索同群站名与作者名，仅命中栏目名/作者名，未找到新入口；站方整批下线、本地无可用新地址 ⇒ 用户点名封存并停止抓取",
+      "last_failure": {
+        "period": 294,
+        "direction": "bottom",
+        "stage": "抓取",
+        "reason": "SSL握手失败"
+      },
+      "site": {
+        "name": "娇生惯养",
+        "url": "https://12388990827.688756.xyz/bbs/topic.php?id=19934",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "a77651311e8f1028",
+        "name": "娇生惯养",
+        "url": "https://12388990827.688756.xyz/bbs/topic.php?id=19934",
+        "pick": "bottom",
+        "name_anchors": [
+          "娇生惯养"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s170_id_19934",
+        "name": "娇生惯养",
+        "url": "https://12388990827.688756.xyz/bbs/topic.php?id=19934",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "抓取或解析异常"
+        ],
+        "error": "CurlFetchError: curl exit 35: curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed"
+      },
+      "slow_site": {
+        "fail_streak": 1,
+        "last_status": "SSL握手失败",
+        "name": "娇生惯养",
+        "pick": "bottom"
+      }
+    },
+    {
+      "archived_at": "2026-10-21T20:33:11+08:00",
+      "reason": "294期失败清单处置：11 站同属 {站群ID}0827.{分支}.xyz 论坛站群（/bbs/topic.php?id=NNNN），整站群 25 个域名全部 CNAME 到 *.9999138.app，真实 IP 仅 179.253.244.138 与 179.255.116.163；两 IP TCP 端口开放但收到 TLS ClientHello 后返回 0 字节立即断开（UNEXPECTED_EOF_WHILE_READING），HTTP/80 同样失败；对照站「吐故纳新」TLSv1.3 握手成功、HTTP 200 ⇒ 本地网络与代理正常；289 期缓存有完整 10 期指纹（280-289），290 期起连续 5 期失败；连锁搜索书签 367 个入口全量检索同群站名与作者名，仅命中栏目名/作者名，未找到新入口；站方整批下线、本地无可用新地址 ⇒ 用户点名封存并停止抓取",
+      "last_failure": {
+        "period": 294,
+        "direction": "bottom",
+        "stage": "抓取",
+        "reason": "SSL握手失败"
+      },
+      "site": {
+        "name": "高枕无忧",
+        "url": "https://11889900827.435458.xyz/bbs/topic.php?id=18702",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "7ce3e881ebc333c1",
+        "name": "高枕无忧",
+        "url": "https://11889900827.435458.xyz/bbs/topic.php?id=18702",
+        "pick": "bottom",
+        "name_anchors": [
+          "高枕无忧"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s171_id_18702",
+        "name": "高枕无忧",
+        "url": "https://11889900827.435458.xyz/bbs/topic.php?id=18702",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "抓取或解析异常"
+        ],
+        "error": "CurlFetchError: curl exit 35: curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed"
+      },
+      "slow_site": {
+        "fail_streak": 1,
+        "last_status": "SSL握手失败",
+        "name": "高枕无忧",
+        "pick": "bottom"
+      }
+    },
+    {
+      "archived_at": "2026-10-21T20:33:11+08:00",
+      "reason": "294期失败清单处置：11 站同属 {站群ID}0827.{分支}.xyz 论坛站群（/bbs/topic.php?id=NNNN），整站群 25 个域名全部 CNAME 到 *.9999138.app，真实 IP 仅 179.253.244.138 与 179.255.116.163；两 IP TCP 端口开放但收到 TLS ClientHello 后返回 0 字节立即断开（UNEXPECTED_EOF_WHILE_READING），HTTP/80 同样失败；对照站「吐故纳新」TLSv1.3 握手成功、HTTP 200 ⇒ 本地网络与代理正常；289 期缓存有完整 10 期指纹（280-289），290 期起连续 5 期失败；连锁搜索书签 367 个入口全量检索同群站名与作者名，仅命中栏目名/作者名，未找到新入口；站方整批下线、本地无可用新地址 ⇒ 用户点名封存并停止抓取",
+      "last_failure": {
+        "period": 294,
+        "direction": "bottom",
+        "stage": "抓取",
+        "reason": "SSL握手失败"
+      },
+      "site": {
+        "name": "绝杀一合",
+        "url": "https://11008880827.456732.xyz/bbs/topic.php?id=20591",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "fc6772cb3f388a93",
+        "name": "绝杀一合",
+        "url": "https://11008880827.456732.xyz/bbs/topic.php?id=20591",
+        "pick": "bottom",
+        "name_anchors": [
+          "绝杀一合"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s172_id_20591",
+        "name": "绝杀一合",
+        "url": "https://11008880827.456732.xyz/bbs/topic.php?id=20591",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "抓取或解析异常"
+        ],
+        "error": "CurlFetchError: curl exit 35: curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed"
+      },
+      "slow_site": {
+        "fail_streak": 1,
+        "last_status": "SSL握手失败",
+        "name": "绝杀一合",
+        "pick": "bottom"
+      }
+    },
+    {
+      "archived_at": "2026-10-21T20:33:11+08:00",
+      "reason": "294期失败清单处置：11 站同属 {站群ID}0827.{分支}.xyz 论坛站群（/bbs/topic.php?id=NNNN），整站群 25 个域名全部 CNAME 到 *.9999138.app，真实 IP 仅 179.253.244.138 与 179.255.116.163；两 IP TCP 端口开放但收到 TLS ClientHello 后返回 0 字节立即断开（UNEXPECTED_EOF_WHILE_READING），HTTP/80 同样失败；对照站「吐故纳新」TLSv1.3 握手成功、HTTP 200 ⇒ 本地网络与代理正常；289 期缓存有完整 10 期指纹（280-289），290 期起连续 5 期失败；连锁搜索书签 367 个入口全量检索同群站名与作者名，仅命中栏目名/作者名，未找到新入口；站方整批下线、本地无可用新地址 ⇒ 用户点名封存并停止抓取",
+      "last_failure": {
+        "period": 294,
+        "direction": "bottom",
+        "stage": "抓取",
+        "reason": "SSL握手失败"
+      },
+      "site": {
+        "name": "诚意满满",
+        "url": "https://0130190827.987860.xyz/bbs/topic.php?id=18541",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "36170d2cd086f89b",
+        "name": "诚意满满",
+        "url": "https://0130190827.987860.xyz/bbs/topic.php?id=18541",
+        "pick": "bottom",
+        "name_anchors": [
+          "诚意满满"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s173_id_18541",
+        "name": "诚意满满",
+        "url": "https://0130190827.987860.xyz/bbs/topic.php?id=18541",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "抓取或解析异常"
+        ],
+        "error": "CurlFetchError: curl exit 35: curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed"
+      },
+      "slow_site": {
+        "fail_streak": 1,
+        "last_status": "SSL握手失败",
+        "name": "诚意满满",
+        "pick": "bottom"
+      }
+    },
+    {
+      "archived_at": "2026-10-21T20:33:11+08:00",
+      "reason": "294期失败清单处置：11 站同属 {站群ID}0827.{分支}.xyz 论坛站群（/bbs/topic.php?id=NNNN），整站群 25 个域名全部 CNAME 到 *.9999138.app，真实 IP 仅 179.253.244.138 与 179.255.116.163；两 IP TCP 端口开放但收到 TLS ClientHello 后返回 0 字节立即断开（UNEXPECTED_EOF_WHILE_READING），HTTP/80 同样失败；对照站「吐故纳新」TLSv1.3 握手成功、HTTP 200 ⇒ 本地网络与代理正常；289 期缓存有完整 10 期指纹（280-289），290 期起连续 5 期失败；连锁搜索书签 367 个入口全量检索同群站名与作者名，仅命中栏目名/作者名，未找到新入口；站方整批下线、本地无可用新地址 ⇒ 用户点名封存并停止抓取",
+      "last_failure": {
+        "period": 294,
+        "direction": "bottom",
+        "stage": "抓取",
+        "reason": "SSL握手失败"
+      },
+      "site": {
+        "name": "高才絶学",
+        "url": "https://67806780827.325346.xyz/bbs/topic.php?id=18494",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "4d7bf0cb1396940d",
+        "name": "高才絶学",
+        "url": "https://67806780827.325346.xyz/bbs/topic.php?id=18494",
+        "pick": "bottom",
+        "name_anchors": [
+          "高才絶学"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s174_id_18494",
+        "name": "高才絶学",
+        "url": "https://67806780827.325346.xyz/bbs/topic.php?id=18494",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "抓取或解析异常"
+        ],
+        "error": "CurlFetchError: curl exit 35: curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed"
+      },
+      "slow_site": {
+        "fail_streak": 1,
+        "last_status": "SSL握手失败",
+        "name": "高才絶学",
+        "pick": "bottom"
+      }
+    },
+    {
+      "archived_at": "2026-10-21T20:33:11+08:00",
+      "reason": "294期失败清单处置：11 站同属 {站群ID}0827.{分支}.xyz 论坛站群（/bbs/topic.php?id=NNNN），整站群 25 个域名全部 CNAME 到 *.9999138.app，真实 IP 仅 179.253.244.138 与 179.255.116.163；两 IP TCP 端口开放但收到 TLS ClientHello 后返回 0 字节立即断开（UNEXPECTED_EOF_WHILE_READING），HTTP/80 同样失败；对照站「吐故纳新」TLSv1.3 握手成功、HTTP 200 ⇒ 本地网络与代理正常；289 期缓存有完整 10 期指纹（280-289），290 期起连续 5 期失败；连锁搜索书签 367 个入口全量检索同群站名与作者名，仅命中栏目名/作者名，未找到新入口；站方整批下线、本地无可用新地址 ⇒ 用户点名封存并停止抓取",
+      "last_failure": {
+        "period": 294,
+        "direction": "bottom",
+        "stage": "抓取",
+        "reason": "SSL握手失败"
+      },
+      "site": {
+        "name": "杀庄聯盟",
+        "url": "https://88888020827.983654.xyz/bbs/topic.php?id=20756",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "e018bb96765cb783",
+        "name": "杀庄聯盟",
+        "url": "https://88888020827.983654.xyz/bbs/topic.php?id=20756",
+        "pick": "bottom",
+        "name_anchors": [
+          "杀庄聯盟"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s175_id_20756",
+        "name": "杀庄聯盟",
+        "url": "https://88888020827.983654.xyz/bbs/topic.php?id=20756",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "抓取或解析异常"
+        ],
+        "error": "CurlFetchError: curl exit 35: curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed"
+      },
+      "slow_site": {
+        "fail_streak": 1,
+        "last_status": "SSL握手失败",
+        "name": "杀庄聯盟",
+        "pick": "bottom"
+      }
+    },
+    {
+      "archived_at": "2026-10-21T20:33:11+08:00",
+      "reason": "294期失败清单处置：11 站同属 {站群ID}0827.{分支}.xyz 论坛站群（/bbs/topic.php?id=NNNN），整站群 25 个域名全部 CNAME 到 *.9999138.app，真实 IP 仅 179.253.244.138 与 179.255.116.163；两 IP TCP 端口开放但收到 TLS ClientHello 后返回 0 字节立即断开（UNEXPECTED_EOF_WHILE_READING），HTTP/80 同样失败；对照站「吐故纳新」TLSv1.3 握手成功、HTTP 200 ⇒ 本地网络与代理正常；289 期缓存有完整 10 期指纹（280-289），290 期起连续 5 期失败；连锁搜索书签 367 个入口全量检索同群站名与作者名，仅命中栏目名/作者名，未找到新入口；站方整批下线、本地无可用新地址 ⇒ 用户点名封存并停止抓取",
+      "last_failure": {
+        "period": 294,
+        "direction": "bottom",
+        "stage": "抓取",
+        "reason": "SSL握手失败"
+      },
+      "site": {
+        "name": "居庄战神",
+        "url": "https://88888020827.833567.xyz/bbs/topic.php?id=21786",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "a791b6daa5fdcb87",
+        "name": "居庄战神",
+        "url": "https://88888020827.833567.xyz/bbs/topic.php?id=21786",
+        "pick": "bottom",
+        "name_anchors": [
+          "居庄战神"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s176_id_21786",
+        "name": "居庄战神",
+        "url": "https://88888020827.833567.xyz/bbs/topic.php?id=21786",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "抓取或解析异常"
+        ],
+        "error": "CurlFetchError: curl exit 35: curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed"
+      },
+      "slow_site": {
+        "fail_streak": 1,
+        "last_status": "SSL握手失败",
+        "name": "居庄战神",
+        "pick": "bottom"
+      }
+    },
+    {
+      "archived_at": "2026-10-21T20:33:11+08:00",
+      "reason": "294期失败清单处置：11 站同属 {站群ID}0827.{分支}.xyz 论坛站群（/bbs/topic.php?id=NNNN），整站群 25 个域名全部 CNAME 到 *.9999138.app，真实 IP 仅 179.253.244.138 与 179.255.116.163；两 IP TCP 端口开放但收到 TLS ClientHello 后返回 0 字节立即断开（UNEXPECTED_EOF_WHILE_READING），HTTP/80 同样失败；对照站「吐故纳新」TLSv1.3 握手成功、HTTP 200 ⇒ 本地网络与代理正常；289 期缓存有完整 10 期指纹（280-289），290 期起连续 5 期失败；连锁搜索书签 367 个入口全量检索同群站名与作者名，仅命中栏目名/作者名，未找到新入口；站方整批下线、本地无可用新地址 ⇒ 用户点名封存并停止抓取",
+      "last_failure": {
+        "period": 294,
+        "direction": "bottom",
+        "stage": "抓取",
+        "reason": "SSL握手失败"
+      },
+      "site": {
+        "name": "精品赐码",
+        "url": "https://88888020827.897657.xyz/bbs/topic.php?id=20965",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "2f6231343cd8b644",
+        "name": "精品赐码",
+        "url": "https://88888020827.897657.xyz/bbs/topic.php?id=20965",
+        "pick": "bottom",
+        "name_anchors": [
+          "精品赐码"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s177_id_20965",
+        "name": "精品赐码",
+        "url": "https://88888020827.897657.xyz/bbs/topic.php?id=20965",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "抓取或解析异常"
+        ],
+        "error": "CurlFetchError: curl exit 35: curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed"
+      },
+      "slow_site": {
+        "fail_streak": 1,
+        "last_status": "SSL握手失败",
+        "name": "精品赐码",
+        "pick": "bottom"
+      }
+    },
+    {
+      "archived_at": "2026-10-21T20:33:11+08:00",
+      "reason": "294期失败清单处置：11 站同属 {站群ID}0827.{分支}.xyz 论坛站群（/bbs/topic.php?id=NNNN），整站群 25 个域名全部 CNAME 到 *.9999138.app，真实 IP 仅 179.253.244.138 与 179.255.116.163；两 IP TCP 端口开放但收到 TLS ClientHello 后返回 0 字节立即断开（UNEXPECTED_EOF_WHILE_READING），HTTP/80 同样失败；对照站「吐故纳新」TLSv1.3 握手成功、HTTP 200 ⇒ 本地网络与代理正常；289 期缓存有完整 10 期指纹（280-289），290 期起连续 5 期失败；连锁搜索书签 367 个入口全量检索同群站名与作者名，仅命中栏目名/作者名，未找到新入口；站方整批下线、本地无可用新地址 ⇒ 用户点名封存并停止抓取",
+      "last_failure": {
+        "period": 294,
+        "direction": "bottom",
+        "stage": "抓取",
+        "reason": "SSL握手失败"
+      },
+      "site": {
+        "name": "快乐宝贝",
+        "url": "https://88888020827.997595.xyz/bbs/topic.php?id=18525",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "b5b754879ccc9227",
+        "name": "快乐宝贝",
+        "url": "https://88888020827.997595.xyz/bbs/topic.php?id=18525",
+        "pick": "bottom",
+        "name_anchors": [
+          "快乐宝贝"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s178_id_18525",
+        "name": "快乐宝贝",
+        "url": "https://88888020827.997595.xyz/bbs/topic.php?id=18525",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "抓取或解析异常"
+        ],
+        "error": "CurlFetchError: curl exit 35: curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\r\ncurl: (35) schannel: failed to receive handshake, SSL/TLS connection failed"
+      },
+      "slow_site": {
+        "fail_streak": 1,
+        "last_status": "SSL握手失败",
+        "name": "快乐宝贝",
+        "pick": "bottom"
+      }
     }
   ]
 }
