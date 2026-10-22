@@ -1,14 +1,68 @@
 ﻿{
+  "https://0085680827.326455.xyz/bbs/topic.php?id=18780": {
+    "fail_streak": 0,
+    "last_status": "OK",
+    "name": "新光彩红",
+    "pick": "bottom"
+  },
+  "https://0130190827.987860.xyz/bbs/topic.php?id=18541": {
+    "fail_streak": 1,
+    "last_status": "SSL握手失败",
+    "name": "诚意满满",
+    "pick": "bottom"
+  },
+  "https://0130190827.987860.xyz/bbs/topic.php?id=19451": {
+    "fail_streak": 0,
+    "last_status": "OK",
+    "name": "诚意满满",
+    "pick": "bottom"
+  },
   "https://0cggq.9o9kf-k9voh-papahr.work/topic/206544.html": {
     "fail_streak": 0,
     "last_status": "OK",
     "name": "破烂流丢",
     "pick": "top"
   },
+  "https://11008880827.456732.xyz/bbs/topic.php?id=19391": {
+    "fail_streak": 0,
+    "last_status": "OK",
+    "name": "绝杀一合",
+    "pick": "bottom"
+  },
+  "https://11008880827.456732.xyz/bbs/topic.php?id=20591": {
+    "fail_streak": 1,
+    "last_status": "SSL握手失败",
+    "name": "绝杀一合",
+    "pick": "bottom"
+  },
   "https://111.246004.com:9066/Article.Aspx?ListId=247&id=53508": {
     "fail_streak": 0,
     "last_status": "OK",
     "name": "猫三狗四",
+    "pick": "bottom"
+  },
+  "https://11889900827.435458.xyz/bbs/topic.php?id=18702": {
+    "fail_streak": 1,
+    "last_status": "SSL握手失败",
+    "name": "高枕无忧",
+    "pick": "bottom"
+  },
+  "https://11889900827.435458.xyz/bbs/topic.php?id=19472": {
+    "fail_streak": 0,
+    "last_status": "OK",
+    "name": "高枕无忧",
+    "pick": "bottom"
+  },
+  "https://12388990827.688756.xyz/bbs/topic.php?id=19186": {
+    "fail_streak": 0,
+    "last_status": "OK",
+    "name": "娇生惯养",
+    "pick": "bottom"
+  },
+  "https://12388990827.688756.xyz/bbs/topic.php?id=19934": {
+    "fail_streak": 1,
+    "last_status": "SSL握手失败",
+    "name": "娇生惯养",
     "pick": "bottom"
   },
   "https://18118.73829.com/read.php?tid=472": {
@@ -35,10 +89,28 @@
     "name": "吐故纳新",
     "pick": "bottom"
   },
+  "https://6609960827.115646.xyz/bbs/topic.php?id=19777": {
+    "fail_streak": 0,
+    "last_status": "OK",
+    "name": "特政送礼",
+    "pick": "bottom"
+  },
   "https://67806780827.234535.xyz/bbs/topic.php?id=22169": {
     "fail_streak": 0,
     "last_status": "指定期数缺失",
     "name": "鼓一言九",
+    "pick": "bottom"
+  },
+  "https://67806780827.325346.xyz/bbs/topic.php?id=18494": {
+    "fail_streak": 1,
+    "last_status": "SSL握手失败",
+    "name": "高才絶学",
+    "pick": "bottom"
+  },
+  "https://67806780827.325346.xyz/bbs/topic.php?id=19578": {
+    "fail_streak": 0,
+    "last_status": "OK",
+    "name": "高才絶学",
     "pick": "bottom"
   },
   "https://8818.www19753a.com/read.php?tid=507": {
@@ -47,10 +119,34 @@
     "name": "天马行空",
     "pick": "bottom"
   },
+  "https://88888020827.897657.xyz/bbs/topic.php?id=19260": {
+    "fail_streak": 0,
+    "last_status": "OK",
+    "name": "精品赐码",
+    "pick": "bottom"
+  },
   "https://88888020827.897657.xyz/bbs/topic.php?id=20213": {
     "fail_streak": 0,
     "last_status": "指定期数缺失",
     "name": "精品赐码",
+    "pick": "bottom"
+  },
+  "https://88888020827.897657.xyz/bbs/topic.php?id=20965": {
+    "fail_streak": 1,
+    "last_status": "SSL握手失败",
+    "name": "精品赐码",
+    "pick": "bottom"
+  },
+  "https://88888020827.997595.xyz/bbs/topic.php?id=18525": {
+    "fail_streak": 1,
+    "last_status": "SSL握手失败",
+    "name": "快乐宝贝",
+    "pick": "bottom"
+  },
+  "https://88888020827.997595.xyz/bbs/topic.php?id=19443": {
+    "fail_streak": 0,
+    "last_status": "OK",
+    "name": "快乐宝贝",
     "pick": "bottom"
   },
   "https://979363.com.9795.in:1888/bbs/7643": {
@@ -1071,72 +1167,6 @@
     "fail_streak": 0,
     "last_status": "OK",
     "name": "蛇口蜂针",
-    "pick": "bottom"
-  },
-  "https://6609960827.115646.xyz/bbs/topic.php?id=19777": {
-    "fail_streak": 1,
-    "last_status": "SSL握手失败",
-    "name": "特政送礼",
-    "pick": "bottom"
-  },
-  "https://0085680827.326455.xyz/bbs/topic.php?id=18780": {
-    "fail_streak": 1,
-    "last_status": "SSL握手失败",
-    "name": "新光彩红",
-    "pick": "bottom"
-  },
-  "https://12388990827.688756.xyz/bbs/topic.php?id=19934": {
-    "fail_streak": 1,
-    "last_status": "SSL握手失败",
-    "name": "娇生惯养",
-    "pick": "bottom"
-  },
-  "https://11889900827.435458.xyz/bbs/topic.php?id=18702": {
-    "fail_streak": 1,
-    "last_status": "SSL握手失败",
-    "name": "高枕无忧",
-    "pick": "bottom"
-  },
-  "https://11008880827.456732.xyz/bbs/topic.php?id=20591": {
-    "fail_streak": 1,
-    "last_status": "SSL握手失败",
-    "name": "绝杀一合",
-    "pick": "bottom"
-  },
-  "https://0130190827.987860.xyz/bbs/topic.php?id=18541": {
-    "fail_streak": 1,
-    "last_status": "SSL握手失败",
-    "name": "诚意满满",
-    "pick": "bottom"
-  },
-  "https://67806780827.325346.xyz/bbs/topic.php?id=18494": {
-    "fail_streak": 1,
-    "last_status": "SSL握手失败",
-    "name": "高才絶学",
-    "pick": "bottom"
-  },
-  "https://88888020827.983654.xyz/bbs/topic.php?id=20756": {
-    "fail_streak": 1,
-    "last_status": "SSL握手失败",
-    "name": "杀庄聯盟",
-    "pick": "bottom"
-  },
-  "https://88888020827.833567.xyz/bbs/topic.php?id=21786": {
-    "fail_streak": 1,
-    "last_status": "SSL握手失败",
-    "name": "居庄战神",
-    "pick": "bottom"
-  },
-  "https://88888020827.897657.xyz/bbs/topic.php?id=20965": {
-    "fail_streak": 1,
-    "last_status": "SSL握手失败",
-    "name": "精品赐码",
-    "pick": "bottom"
-  },
-  "https://88888020827.997595.xyz/bbs/topic.php?id=18525": {
-    "fail_streak": 1,
-    "last_status": "SSL握手失败",
-    "name": "快乐宝贝",
     "pick": "bottom"
   }
 }

@@ -1527,6 +1527,126 @@
         "name": "头头是道",
         "pick": "bottom"
       }
+    },
+    {
+      "archived_at": "2026-10-22T19:04:06+08:00",
+      "reason": "295期失败清单处置：站方已撤掉该作者（无数据、不会自愈）。旧帖返回「此帖子ID已被下架」；论坛列表里找不到本站名的「绝杀一段」帖子（杀庄聯盟 186 条列表中该栏目为 0 条；居庄战神 唯一「绝杀一段」作者为「宛若颜倾」非本站）；站名在各自论坛全站搜索 0 次 ⇒ 站方侧撤作者，非换帖子ID、非本地可修。用户点名封存并停止抓取",
+      "last_failure": {
+        "period": 295,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "抓取内容中未发现指定期数"
+      },
+      "site": {
+        "name": "杀庄聯盟",
+        "url": "https://88888020827.983654.xyz/bbs/topic.php?id=20756",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "e018bb96765cb783",
+        "name": "杀庄聯盟",
+        "url": "https://88888020827.983654.xyz/bbs/topic.php?id=20756",
+        "pick": "bottom",
+        "name_anchors": [
+          "杀庄聯盟"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s175_id_20756",
+        "name": "杀庄聯盟",
+        "url": "https://88888020827.983654.xyz/bbs/topic.php?id=20756",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "无候选数据",
+          "本次实时判定失败：无期数"
+        ],
+        "error": "无期数"
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "指定期数缺失",
+        "name": "杀庄聯盟",
+        "pick": "bottom"
+      }
+    },
+    {
+      "archived_at": "2026-10-22T19:04:06+08:00",
+      "reason": "295期失败清单处置：站方已撤掉该作者（无数据、不会自愈）。旧帖返回「此帖子ID已被下架」；论坛列表里找不到本站名的「绝杀一段」帖子（杀庄聯盟 186 条列表中该栏目为 0 条；居庄战神 唯一「绝杀一段」作者为「宛若颜倾」非本站）；站名在各自论坛全站搜索 0 次 ⇒ 站方侧撤作者，非换帖子ID、非本地可修。用户点名封存并停止抓取",
+      "last_failure": {
+        "period": 295,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "抓取内容中未发现指定期数"
+      },
+      "site": {
+        "name": "居庄战神",
+        "url": "https://88888020827.833567.xyz/bbs/topic.php?id=21786",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "a791b6daa5fdcb87",
+        "name": "居庄战神",
+        "url": "https://88888020827.833567.xyz/bbs/topic.php?id=21786",
+        "pick": "bottom",
+        "name_anchors": [
+          "居庄战神"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s176_id_21786",
+        "name": "居庄战神",
+        "url": "https://88888020827.833567.xyz/bbs/topic.php?id=21786",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "无候选数据",
+          "本次实时判定失败：无期数"
+        ],
+        "error": "无期数"
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "指定期数缺失",
+        "name": "居庄战神",
+        "pick": "bottom"
+      }
     }
   ]
 }

@@ -4364,9 +4364,9 @@
       "custom_parser": null
     },
     {
-      "site_id": "a77651311e8f1028",
+      "site_id": "fc0bd169124a61a2",
       "name": "娇生惯养",
-      "url": "https://12388990827.688756.xyz/bbs/topic.php?id=19934",
+      "url": "https://12388990827.688756.xyz/bbs/topic.php?id=19186",
       "pick": "bottom",
       "name_anchors": [
         "娇生惯养"
@@ -4390,9 +4390,9 @@
       "custom_parser": null
     },
     {
-      "site_id": "7ce3e881ebc333c1",
+      "site_id": "9648635e4e82b335",
       "name": "高枕无忧",
-      "url": "https://11889900827.435458.xyz/bbs/topic.php?id=18702",
+      "url": "https://11889900827.435458.xyz/bbs/topic.php?id=19472",
       "pick": "bottom",
       "name_anchors": [
         "高枕无忧"
@@ -4416,9 +4416,9 @@
       "custom_parser": null
     },
     {
-      "site_id": "fc6772cb3f388a93",
+      "site_id": "d300f5613773f069",
       "name": "绝杀一合",
-      "url": "https://11008880827.456732.xyz/bbs/topic.php?id=20591",
+      "url": "https://11008880827.456732.xyz/bbs/topic.php?id=19391",
       "pick": "bottom",
       "name_anchors": [
         "绝杀一合"
@@ -4442,9 +4442,9 @@
       "custom_parser": null
     },
     {
-      "site_id": "36170d2cd086f89b",
+      "site_id": "64be985f06c5b934",
       "name": "诚意满满",
-      "url": "https://0130190827.987860.xyz/bbs/topic.php?id=18541",
+      "url": "https://0130190827.987860.xyz/bbs/topic.php?id=19451",
       "pick": "bottom",
       "name_anchors": [
         "诚意满满"
@@ -4468,9 +4468,9 @@
       "custom_parser": null
     },
     {
-      "site_id": "4d7bf0cb1396940d",
+      "site_id": "d074ea2098699250",
       "name": "高才絶学",
-      "url": "https://67806780827.325346.xyz/bbs/topic.php?id=18494",
+      "url": "https://67806780827.325346.xyz/bbs/topic.php?id=19578",
       "pick": "bottom",
       "name_anchors": [
         "高才絶学"
@@ -4494,61 +4494,9 @@
       "custom_parser": null
     },
     {
-      "site_id": "e018bb96765cb783",
-      "name": "杀庄聯盟",
-      "url": "https://88888020827.983654.xyz/bbs/topic.php?id=20756",
-      "pick": "bottom",
-      "name_anchors": [
-        "杀庄聯盟"
-      ],
-      "section_keywords": [
-        "绝杀一段",
-        "绝杀1段",
-        "杀一段",
-        "杀1段"
-      ],
-      "value_keyword": "段",
-      "candidate_window": 3,
-      "value_min": 1,
-      "value_max": 7,
-      "document_sources": [
-        "page",
-        "script",
-        "iframe"
-      ],
-      "record_id_required": false,
-      "custom_parser": null
-    },
-    {
-      "site_id": "a791b6daa5fdcb87",
-      "name": "居庄战神",
-      "url": "https://88888020827.833567.xyz/bbs/topic.php?id=21786",
-      "pick": "bottom",
-      "name_anchors": [
-        "居庄战神"
-      ],
-      "section_keywords": [
-        "绝杀一段",
-        "绝杀1段",
-        "杀一段",
-        "杀1段"
-      ],
-      "value_keyword": "段",
-      "candidate_window": 3,
-      "value_min": 1,
-      "value_max": 7,
-      "document_sources": [
-        "page",
-        "script",
-        "iframe"
-      ],
-      "record_id_required": false,
-      "custom_parser": null
-    },
-    {
-      "site_id": "2f6231343cd8b644",
+      "site_id": "e46ac56c522b0aef",
       "name": "精品赐码",
-      "url": "https://88888020827.897657.xyz/bbs/topic.php?id=20965",
+      "url": "https://88888020827.897657.xyz/bbs/topic.php?id=19260",
       "pick": "bottom",
       "name_anchors": [
         "精品赐码"
@@ -4572,9 +4520,9 @@
       "custom_parser": null
     },
     {
-      "site_id": "b5b754879ccc9227",
+      "site_id": "6793170284c8381b",
       "name": "快乐宝贝",
-      "url": "https://88888020827.997595.xyz/bbs/topic.php?id=18525",
+      "url": "https://88888020827.997595.xyz/bbs/topic.php?id=19443",
       "pick": "bottom",
       "name_anchors": [
         "快乐宝贝"
