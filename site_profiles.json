@@ -4312,6 +4312,292 @@
       "custom_parser": null
     },
     {
+      "site_id": "6dfff868c33f679c",
+      "name": "特政送礼",
+      "url": "https://6609960827.115646.xyz/bbs/topic.php?id=19777",
+      "pick": "bottom",
+      "name_anchors": [
+        "特政送礼"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "f3ac47f3b062626c",
+      "name": "新光彩红",
+      "url": "https://0085680827.326455.xyz/bbs/topic.php?id=18780",
+      "pick": "bottom",
+      "name_anchors": [
+        "新光彩红"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "a77651311e8f1028",
+      "name": "娇生惯养",
+      "url": "https://12388990827.688756.xyz/bbs/topic.php?id=19934",
+      "pick": "bottom",
+      "name_anchors": [
+        "娇生惯养"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "7ce3e881ebc333c1",
+      "name": "高枕无忧",
+      "url": "https://11889900827.435458.xyz/bbs/topic.php?id=18702",
+      "pick": "bottom",
+      "name_anchors": [
+        "高枕无忧"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "fc6772cb3f388a93",
+      "name": "绝杀一合",
+      "url": "https://11008880827.456732.xyz/bbs/topic.php?id=20591",
+      "pick": "bottom",
+      "name_anchors": [
+        "绝杀一合"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "36170d2cd086f89b",
+      "name": "诚意满满",
+      "url": "https://0130190827.987860.xyz/bbs/topic.php?id=18541",
+      "pick": "bottom",
+      "name_anchors": [
+        "诚意满满"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "4d7bf0cb1396940d",
+      "name": "高才絶学",
+      "url": "https://67806780827.325346.xyz/bbs/topic.php?id=18494",
+      "pick": "bottom",
+      "name_anchors": [
+        "高才絶学"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "e018bb96765cb783",
+      "name": "杀庄聯盟",
+      "url": "https://88888020827.983654.xyz/bbs/topic.php?id=20756",
+      "pick": "bottom",
+      "name_anchors": [
+        "杀庄聯盟"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "a791b6daa5fdcb87",
+      "name": "居庄战神",
+      "url": "https://88888020827.833567.xyz/bbs/topic.php?id=21786",
+      "pick": "bottom",
+      "name_anchors": [
+        "居庄战神"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "2f6231343cd8b644",
+      "name": "精品赐码",
+      "url": "https://88888020827.897657.xyz/bbs/topic.php?id=20965",
+      "pick": "bottom",
+      "name_anchors": [
+        "精品赐码"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
+      "site_id": "b5b754879ccc9227",
+      "name": "快乐宝贝",
+      "url": "https://88888020827.997595.xyz/bbs/topic.php?id=18525",
+      "pick": "bottom",
+      "name_anchors": [
+        "快乐宝贝"
+      ],
+      "section_keywords": [
+        "绝杀一段",
+        "绝杀1段",
+        "杀一段",
+        "杀1段"
+      ],
+      "value_keyword": "段",
+      "candidate_window": 3,
+      "value_min": 1,
+      "value_max": 7,
+      "document_sources": [
+        "page",
+        "script",
+        "iframe"
+      ],
+      "record_id_required": false,
+      "custom_parser": null
+    },
+    {
       "site_id": "595fff2a14d2289e",
       "name": "置之死地",
       "url": "https://lf29cc.1231978.com/shaxiao/036.htm",
