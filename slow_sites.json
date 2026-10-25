@@ -559,7 +559,7 @@
   },
   "https://ikjaekum.yu2af-orn0b-hqbkee.xyz:16677/topic/796600.html": {
     "fail_streak": 0,
-    "last_status": "OK",
+    "last_status": "段数越界",
     "name": "悬梁刺股",
     "pick": "top"
   },
@@ -766,12 +766,6 @@
     "last_status": "OK",
     "name": "宝马",
     "pick": "top"
-  },
-  "https://plwyrcj.4ai8j-p62x5-pnsukp.work:29411/article/admin/6a129a4ed5071f9d0b8b451d?url=gjp": {
-    "fail_streak": 0,
-    "last_status": "OK",
-    "name": "彩民推荐",
-    "pick": "bottom"
   },
   "https://pvxiftuf.yumkw-u4s81-hpytyz.work:16677/topic/500604.html": {
     "fail_streak": 0,

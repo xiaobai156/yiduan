@@ -2957,32 +2957,6 @@
       "custom_parser": null
     },
     {
-      "site_id": "76e5279036cdab92",
-      "name": "彩民推荐",
-      "url": "https://plwyrcj.4ai8j-p62x5-pnsukp.work:29411/article/admin/6a129a4ed5071f9d0b8b451d?url=gjp",
-      "pick": "bottom",
-      "name_anchors": [
-        "彩民推荐"
-      ],
-      "section_keywords": [
-        "绝杀一段",
-        "绝杀1段",
-        "杀一段",
-        "杀1段"
-      ],
-      "value_keyword": "段",
-      "candidate_window": 3,
-      "value_min": 1,
-      "value_max": 7,
-      "document_sources": [
-        "api",
-        "page",
-        "browser"
-      ],
-      "record_id_required": true,
-      "custom_parser": null
-    },
-    {
       "site_id": "56f9ede8e72fbe10",
       "name": "素雪怜影",
       "url": "https://fymxwnyg.ttmzc-muvns-udlfln.work:29455/article/admin/6a096e98291caff3edcb8c03?url=lhbd",

@@ -1647,6 +1647,68 @@
         "name": "居庄战神",
         "pick": "bottom"
       }
+    },
+    {
+      "archived_at": "2026-10-25T18:50:26+08:00",
+      "reason": "298期失败清单处置：站群文章数据整体清空（无数据、不会自愈）。配置接口 manager-articles/6a129a4e… 返回 HTTP 404；浏览器渲染显示 Failed to fetch，正文只剩搜索/登陆/注册空壳；列表接口 manager-articles?url=gjp 与 lottery-articles?url=gjp 均返回空数组 []；该域名下 86 个站的接口全部返回 []；首页 131512 字节内站名出现 0 次，已无该作者。用户点名封存并停止抓取",
+      "last_failure": {
+        "period": 298,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "接口404不存在"
+      },
+      "site": {
+        "name": "彩民推荐",
+        "url": "https://plwyrcj.4ai8j-p62x5-pnsukp.work:29411/article/admin/6a129a4ed5071f9d0b8b451d?url=gjp",
+        "pick": "bottom",
+        "api_url": "https://plwyrcj.4ai8j-p62x5-pnsukp.work:29411/api/proxy/manager-articles/6a129a4ed5071f9d0b8b451d"
+      },
+      "profile": {
+        "site_id": "76e5279036cdab92",
+        "name": "彩民推荐",
+        "url": "https://plwyrcj.4ai8j-p62x5-pnsukp.work:29411/article/admin/6a129a4ed5071f9d0b8b451d?url=gjp",
+        "pick": "bottom",
+        "name_anchors": [
+          "彩民推荐"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "api",
+          "page",
+          "browser"
+        ],
+        "record_id_required": true,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s114_article_6a129a4ed5071f9d0b8b451d",
+        "name": "彩民推荐",
+        "url": "https://plwyrcj.4ai8j-p62x5-pnsukp.work:29411/article/admin/6a129a4ed5071f9d0b8b451d?url=gjp",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "无候选数据",
+          "本次实时判定失败：接口404不存在"
+        ],
+        "error": "接口404不存在",
+        "script_error_count": 2
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "接口404不存在",
+        "name": "彩民推荐",
+        "pick": "bottom"
+      }
     }
   ]
 }
