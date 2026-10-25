@@ -101,18 +101,16 @@ def candidate_window_issue_reasons(
 def candidate_conflict_issue_reasons(
     candidates: list[Candidate], wanted_issues: set[int], pick: str | None = None
 ) -> dict[int, str]:
+    """同一期出现多个不同段值即判冲突失败。
+
+    不再按 top/bottom 位置收窄后再判：位置收窄会让「其他栏目的行排在前面」
+    这种情况被静默放过（跨栏目借值）。方向窗口仍由 scoped_candidates 负责，
+    这里只负责「同期必须唯一」。
+    """
+    del pick  # 位置不再参与冲突判定，仅由方向窗口决定候选范围
     values_by_issue: dict[int, set[str]] = {}
     for issue in wanted_issues:
         issue_candidates = [candidate for candidate in candidates if candidate.issue == issue]
-        if pick in {"top", "bottom"} and issue_candidates:
-            anchor_position = (
-                min(candidate.position for candidate in issue_candidates)
-                if pick == "top"
-                else max(candidate.position for candidate in issue_candidates)
-            )
-            issue_candidates = [
-                candidate for candidate in issue_candidates if candidate.position == anchor_position
-            ]
         if not issue_candidates:
             continue
         values_by_issue[issue] = {candidate.value for candidate in issue_candidates}
@@ -128,9 +126,9 @@ def candidate_conflict_issue_reasons(
 def find_matches_from_candidates(candidates: list[Candidate], wanted_issues: set[int], site: Site) -> list[Candidate]:
     # Apply the configured top/bottom boundary before judging same-period conflict.
     candidates, reason = scoped_candidates(candidates, wanted_issues, site.pick)
-    conflict_reasons = candidate_conflict_issue_reasons(candidates, wanted_issues, site.pick)
     if reason or not candidates:
         return []
+    conflict_reasons = candidate_conflict_issue_reasons(candidates, wanted_issues, site.pick)
 
     picked: dict[int, Candidate] = {}
     for issue in wanted_issues:
