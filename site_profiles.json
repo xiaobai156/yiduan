@@ -4262,30 +4262,6 @@
       "custom_parser": null
     },
     {
-      "site_id": "e85f0c8df4964a13",
-      "name": "禾尽风起",
-      "url": "https://herymche.x6l2j-h6kfu-qdresg.work:29466/article/lottery/6a47ecaa57dc857ae1bf570e?url=txbb",
-      "pick": "bottom",
-      "name_anchors": [
-        "禾尽风起"
-      ],
-      "section_keywords": [
-        "绝杀一段",
-        "绝杀1段",
-        "杀一段",
-        "杀1段"
-      ],
-      "value_keyword": "段",
-      "candidate_window": 3,
-      "value_min": 1,
-      "value_max": 7,
-      "document_sources": [
-        "api"
-      ],
-      "record_id_required": true,
-      "custom_parser": null
-    },
-    {
       "site_id": "6dfff868c33f679c",
       "name": "特政送礼",
       "url": "https://6609960827.115646.xyz/bbs/topic.php?id=19777",

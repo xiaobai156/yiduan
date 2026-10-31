@@ -1709,6 +1709,88 @@
         "name": "彩民推荐",
         "pick": "bottom"
       }
+    },
+    {
+      "archived_at": "2026-10-31T18:59:55+08:00",
+      "reason": "304期失败清单处置：站方发帖时序缺数据（标题已改为304期，正文期号只到300/301/302/303，304期正文行未发布）。2026-10-31 现场取证：API 209091 字节，title/html base64 解码后正文 143643 字节内 '304' 出现 0 次，尾部顺序 302期→303期→303期(站方重复行)→段位表页脚；页面为 Next.js SPA 空壳无正文。判定为无数据而非解析异常，用户点名封存并停止抓取",
+      "last_failure": {
+        "period": 304,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "尾部最新3个有效候选期数为[302期、303期]，不含指定304期"
+      },
+      "site": {
+        "name": "禾尽风起",
+        "url": "https://herymche.x6l2j-h6kfu-qdresg.work:29466/article/lottery/6a47ecaa57dc857ae1bf570e?url=txbb",
+        "pick": "bottom",
+        "api_url": "https://herymche.x6l2j-h6kfu-qdresg.work:29466/api/proxy/manager-articles/6a47ecaa57dc857ae1bf570e"
+      },
+      "profile": {
+        "site_id": "e85f0c8df4964a13",
+        "name": "禾尽风起",
+        "url": "https://herymche.x6l2j-h6kfu-qdresg.work:29466/article/lottery/6a47ecaa57dc857ae1bf570e?url=txbb",
+        "pick": "bottom",
+        "name_anchors": [
+          "禾尽风起"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "api"
+        ],
+        "record_id_required": true,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s166_article_6a47ecaa57dc857ae1bf570e",
+        "name": "禾尽风起",
+        "url": "https://herymche.x6l2j-h6kfu-qdresg.work:29466/article/lottery/6a47ecaa57dc857ae1bf570e?url=txbb",
+        "pick": "bottom",
+        "fingerprint": {
+          "303": "4段",
+          "302": "2段",
+          "301": "4段",
+          "300": "3段",
+          "299": "1段",
+          "298": "7段",
+          "297": "2段",
+          "296": "1段",
+          "295": "4段",
+          "294": "5段"
+        },
+        "status": "error",
+        "notes": [
+          "本次实时判定失败：尾部最新3个有效候选期数为[302期、303期]，不含指定304期"
+        ],
+        "error": "尾部最新3个有效候选期数为[302期、303期]，不含指定304期",
+        "article_records": [
+          {
+            "record_id": "6a47ecaa57dc857ae1bf570e",
+            "record_path": "$",
+            "article_count": 1,
+            "author": "禾尽风起",
+            "title": "<p><span style=\"color: rgb(156, 39, 176);\"><strong>304期：【绝杀一段】〓超级幸运</strong></span></p>",
+            "column": "123",
+            "pick": "bottom",
+            "target_field": "html",
+            "source_url": "https://herymche.x6l2j-h6kfu-qdresg.work:29466/api/proxy/manager-articles/6a47ecaa57dc857ae1bf570e"
+          }
+        ]
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "方向范围外",
+        "name": "禾尽风起",
+        "pick": "bottom"
+      }
     }
   ]
 }
