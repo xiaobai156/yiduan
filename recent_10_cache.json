@@ -1,7 +1,7 @@
 ﻿{
-  "base_period": 306,
+  "base_period": 307,
   "periods": 10,
-  "updated_at": "2026-11-02 18:47:21",
+  "updated_at": "2026-11-03 18:48:29",
   "sites": [
     {
       "id": "s001_topic_157484",
@@ -9,9 +9,9 @@
       "url": "https://vkrquo.xfbmz-7znxx-miaoej.xyz:16677/topic/157484.html",
       "pick": "top",
       "fingerprint": {
+        "307": "5段",
         "306": "2段",
-        "305": "3段",
-        "304": "6段"
+        "305": "3段"
       },
       "status": "audit",
       "notes": [
@@ -24,6 +24,7 @@
       "url": "https://cykiiyt.4hxms-k65ek-jsvqzm.xyz:16677/topic/481063.html",
       "pick": "top",
       "fingerprint": {
+        "307": "3段",
         "306": "2段",
         "305": "4段",
         "304": "2段",
@@ -32,8 +33,7 @@
         "301": "7段",
         "300": "5段",
         "299": "7段",
-        "298": "2段",
-        "297": "4段"
+        "298": "2段"
       },
       "status": "ok"
     },
@@ -43,8 +43,8 @@
       "url": "https://w4shq9.g9ldx-6077s-zvfqqu.work/topic/460994.html",
       "pick": "top",
       "fingerprint": {
-        "306": "1段",
-        "305": "5段"
+        "307": "6段",
+        "306": "1段"
       },
       "status": "audit",
       "notes": [
@@ -57,7 +57,7 @@
       "url": "https://eqdfqyah.jigmo-9e498-sxucok.xyz:16677/topic/216615.html",
       "pick": "top",
       "fingerprint": {
-        "306": "2段"
+        "307": "4段"
       },
       "status": "audit",
       "notes": [
@@ -70,7 +70,7 @@
       "url": "https://eqdfqyah.jigmo-9e498-sxucok.xyz:16677/topic/216578.html",
       "pick": "top",
       "fingerprint": {
-        "306": "7段"
+        "307": "3段"
       },
       "status": "audit",
       "notes": [
@@ -83,6 +83,7 @@
       "url": "https://vbxl5.wp5pl-3ztz5-cwgbti.xyz/topic/227237.html",
       "pick": "top",
       "fingerprint": {
+        "307": "1段",
         "306": "4段",
         "305": "3段",
         "304": "6段",
@@ -91,8 +92,7 @@
         "301": "2段",
         "300": "6段",
         "299": "2段",
-        "298": "4段",
-        "297": "2段"
+        "298": "4段"
       },
       "status": "ok"
     },
@@ -102,6 +102,7 @@
       "url": "https://sadoleu.rznla-fgwyr-nzqalp.xyz:16677/topic/453517.html",
       "pick": "top",
       "fingerprint": {
+        "307": "6段",
         "306": "2段",
         "305": "1段",
         "304": "6段",
@@ -110,8 +111,7 @@
         "301": "4段",
         "300": "2段",
         "299": "1段",
-        "298": "4段",
-        "297": "2段"
+        "298": "4段"
       },
       "status": "ok"
     },
@@ -121,6 +121,7 @@
       "url": "https://mm.676626m.com:1888/bbs/8033",
       "pick": "top",
       "fingerprint": {
+        "307": "1段",
         "306": "4段",
         "305": "3段",
         "304": "1段",
@@ -129,8 +130,7 @@
         "301": "6段",
         "300": "4段",
         "299": "3段",
-        "298": "4段",
-        "297": "4段"
+        "298": "4段"
       },
       "status": "ok"
     },
@@ -140,6 +140,7 @@
       "url": "https://ykafylrj.aa70q-k7jc0-igfkrd.work:16677/topic/371410.html",
       "pick": "top",
       "fingerprint": {
+        "307": "6段",
         "306": "2段",
         "305": "5段",
         "304": "4段",
@@ -148,8 +149,7 @@
         "301": "5段",
         "300": "2段",
         "299": "4段",
-        "298": "6段",
-        "297": "1段"
+        "298": "6段"
       },
       "status": "ok"
     },
@@ -159,6 +159,7 @@
       "url": "https://fhrtnoy.10cus-ki4mn-mlcyap.xyz:16677/topic/447392.html",
       "pick": "top",
       "fingerprint": {
+        "307": "5段",
         "306": "4段",
         "305": "6段",
         "304": "5段",
@@ -167,8 +168,7 @@
         "301": "2段",
         "300": "5段",
         "299": "6段",
-        "298": "5段",
-        "297": "1段"
+        "298": "5段"
       },
       "status": "ok"
     },
@@ -178,12 +178,12 @@
       "url": "https://narnesm.in79o-is98f-mncjoh.xyz:16677/topic/504958.html",
       "pick": "top",
       "fingerprint": {
+        "307": "5段",
         "306": "4段",
         "305": "3段",
         "304": "2段",
         "303": "5段",
-        "302": "4段",
-        "301": "6段"
+        "302": "4段"
       },
       "status": "audit",
       "notes": [
@@ -196,9 +196,9 @@
       "url": "https://fptnapl.o7l2d-gr6ew-tvgvep.xyz:16677/topic/349634.html",
       "pick": "top",
       "fingerprint": {
+        "307": "1段",
         "306": "4段",
-        "305": "2段",
-        "304": "1段"
+        "305": "2段"
       },
       "status": "audit",
       "notes": [
@@ -211,12 +211,12 @@
       "url": "https://zwhzkjo.fc4fh-otded-nvhceu.xyz:16677/topic/472636.html",
       "pick": "top",
       "fingerprint": {
+        "307": "5段",
         "306": "3段",
         "305": "6段",
         "304": "2段",
         "303": "3段",
-        "302": "6段",
-        "301": "2段"
+        "302": "6段"
       },
       "status": "audit",
       "notes": [
@@ -229,7 +229,7 @@
       "url": "https://zkjjuem.y2teq-2zq5t-rpmaqk.work:16677/topic/796367.html",
       "pick": "top",
       "fingerprint": {
-        "306": "7段"
+        "307": "1段"
       },
       "status": "audit",
       "notes": [
@@ -242,8 +242,8 @@
       "url": "https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/430605.html",
       "pick": "top",
       "fingerprint": {
-        "306": "6段",
-        "305": "7段"
+        "307": "5段",
+        "306": "6段"
       },
       "status": "audit",
       "notes": [
@@ -256,8 +256,8 @@
       "url": "https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/224240.html",
       "pick": "top",
       "fingerprint": {
-        "306": "6段",
-        "305": "7段"
+        "307": "4段",
+        "306": "6段"
       },
       "status": "audit",
       "notes": [
@@ -270,6 +270,7 @@
       "url": "https://dvglkfp.mueyy-uiuci-vtqiod.work:16677/topic/209120.html",
       "pick": "top",
       "fingerprint": {
+        "307": "3段",
         "306": "4段",
         "305": "5段",
         "304": "6段",
@@ -278,8 +279,7 @@
         "301": "7段",
         "300": "4段",
         "299": "3段",
-        "298": "5段",
-        "297": "6段"
+        "298": "5段"
       },
       "status": "ok"
     },
@@ -289,12 +289,12 @@
       "url": "https://kpfhptru.s8hvq-ssvup-eladiw.xyz:16622/topic/230607.html",
       "pick": "top",
       "fingerprint": {
+        "307": "1段",
         "306": "2段",
         "305": "2段",
         "304": "5段",
         "303": "3段",
-        "302": "7段",
-        "301": "5段"
+        "302": "7段"
       },
       "status": "audit",
       "notes": [
@@ -307,13 +307,13 @@
       "url": "https://bucgnuda.sbsrh-yvu62-jrtrcm.xyz:16633/topic/256311.html",
       "pick": "top",
       "fingerprint": {
+        "307": "1段",
         "306": "5段",
         "305": "6段",
         "304": "3段",
         "303": "7段",
         "302": "1段",
-        "301": "6段",
-        "300": "7段"
+        "301": "6段"
       },
       "status": "audit",
       "notes": [
@@ -326,13 +326,13 @@
       "url": "https://bucgnuda.sbsrh-yvu62-jrtrcm.xyz:16633/topic/256812.html",
       "pick": "top",
       "fingerprint": {
+        "307": "4段",
         "306": "5段",
         "305": "1段",
         "304": "3段",
         "303": "2段",
         "302": "7段",
-        "301": "4段",
-        "300": "5段"
+        "301": "4段"
       },
       "status": "audit",
       "notes": [
@@ -345,10 +345,10 @@
       "url": "https://niqyf.niwmj-1z0q3-wpylfo.xyz/topic/207239.html",
       "pick": "top",
       "fingerprint": {
+        "307": "1段",
         "306": "3段",
         "305": "1段",
-        "304": "5段",
-        "303": "6段"
+        "304": "5段"
       },
       "status": "audit",
       "notes": [
@@ -361,7 +361,7 @@
       "url": "https://0cggq.9o9kf-k9voh-papahr.work/topic/206544.html",
       "pick": "top",
       "fingerprint": {
-        "306": "5段"
+        "307": "6段"
       },
       "status": "audit",
       "notes": [
@@ -374,10 +374,10 @@
       "url": "https://ikjaekum.yu2af-orn0b-hqbkee.xyz:16677/topic/796600.html",
       "pick": "top",
       "fingerprint": {
+        "307": "4段",
         "306": "1段",
         "305": "7段",
-        "304": "2段",
-        "303": "6段"
+        "304": "2段"
       },
       "status": "audit",
       "notes": [
@@ -390,7 +390,7 @@
       "url": "https://4m6dz.5qa9g-yt3d1-vfqhud.xyz/topic/216489.html",
       "pick": "top",
       "fingerprint": {
-        "306": "7段"
+        "307": "6段"
       },
       "status": "audit",
       "notes": [
@@ -405,6 +405,7 @@
       "url": "https://dhqjbz.uxec9-jxs3h-fomubo.work:16677/topic/462301.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "5段",
         "306": "3段",
         "305": "4段",
         "304": "2段",
@@ -413,8 +414,7 @@
         "301": "7段",
         "300": "3段",
         "299": "4段",
-        "298": "2段",
-        "297": "5段"
+        "298": "2段"
       },
       "status": "ok"
     },
@@ -424,7 +424,7 @@
       "url": "https://sdzvp.lh8uo-ee9ru-cfpyti.xyz/topic/227458.html",
       "pick": "bottom",
       "fingerprint": {
-        "306": "5段"
+        "307": "2段"
       },
       "status": "audit",
       "notes": [
@@ -439,6 +439,7 @@
       "url": "https://aq14f.2gdkh-2qrjm-hxaxji.xyz/topic/392717.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "2段",
         "306": "4段",
         "305": "5段",
         "304": "1段",
@@ -447,7 +448,7 @@
       },
       "status": "audit",
       "notes": [
-        "仅抓到5期"
+        "仅抓到6期"
       ]
     },
     {
@@ -456,6 +457,7 @@
       "url": "https://111.246004.com:9066/Article.Aspx?ListId=247&id=53508",
       "pick": "bottom",
       "fingerprint": {
+        "307": "1段",
         "306": "4段",
         "305": "5段",
         "304": "1段",
@@ -464,8 +466,7 @@
         "301": "2段",
         "300": "4段",
         "299": "1段",
-        "298": "5段",
-        "297": "4段"
+        "298": "5段"
       },
       "status": "ok"
     },
@@ -475,6 +476,7 @@
       "url": "https://eqyyanu.4rfyf-h2bx5-oxsbom.xyz:16677/topic/453392.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "4段",
         "306": "2段",
         "305": "7段",
         "284": "6段",
@@ -484,7 +486,7 @@
       },
       "status": "audit",
       "notes": [
-        "仅抓到6期",
+        "仅抓到7期",
         "期数不连续"
       ]
     },
@@ -494,6 +496,7 @@
       "url": "https://gxixcfq.4hxms-k65ek-jsvqzm.xyz:16677/topic/314301.html",
       "pick": "top",
       "fingerprint": {
+        "307": "3段",
         "306": "4段",
         "305": "1段",
         "304": "3段",
@@ -502,8 +505,7 @@
         "301": "6段",
         "300": "4段",
         "299": "1段",
-        "298": "2段",
-        "297": "4段"
+        "298": "2段"
       },
       "status": "ok"
     },
@@ -513,6 +515,7 @@
       "url": "https://jogavu.6bl6s-ilo1w-yfnvvl.work:16677/topic/678627.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "6段",
         "306": "2段",
         "305": "4段",
         "304": "3段",
@@ -521,8 +524,7 @@
         "301": "5段",
         "300": "2段",
         "299": "4段",
-        "298": "5段",
-        "297": "3段"
+        "298": "5段"
       },
       "status": "ok"
     },
@@ -532,6 +534,7 @@
       "url": "https://zdwcig.iyo4d-81klf-udwkqg.work:16677/topic/350479.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "6段",
         "306": "2段",
         "305": "6段",
         "304": "4段",
@@ -540,8 +543,7 @@
         "301": "5段",
         "300": "2段",
         "299": "3段",
-        "298": "7段",
-        "297": "1段"
+        "298": "7段"
       },
       "status": "ok"
     },
@@ -551,11 +553,12 @@
       "url": "https://zopeuze.1fjlt-g1hbj-hykofq.xyz:16677/topic/448465.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "1段",
         "306": "2段"
       },
       "status": "audit",
       "notes": [
-        "仅抓到1期"
+        "仅抓到2期"
       ]
     },
     {
@@ -564,13 +567,14 @@
       "url": "https://pcfwjde.22zu6-81144-kdlkyf.xyz:16677/topic/436704.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "2段",
         "306": "6段",
         "305": "3段",
         "304": "1段"
       },
       "status": "audit",
       "notes": [
-        "仅抓到3期"
+        "仅抓到4期"
       ]
     },
     {
@@ -579,11 +583,12 @@
       "url": "https://kjkkzzg.eiu7u-3edk2-gjzmrl.xyz:16677/topic/446853.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "3段",
         "306": "6段"
       },
       "status": "audit",
       "notes": [
-        "仅抓到1期"
+        "仅抓到2期"
       ]
     },
     {
@@ -592,7 +597,7 @@
       "url": "https://hfauoob.xu36n-9s7v3-jtrkpg.xyz:16677/topic/448332.html",
       "pick": "bottom",
       "fingerprint": {
-        "306": "2段"
+        "307": "3段"
       },
       "status": "audit",
       "notes": [
@@ -607,6 +612,7 @@
       "url": "https://pvxiftuf.yumkw-u4s81-hpytyz.work:16677/topic/500604.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "4段",
         "306": "5段",
         "305": "1段",
         "304": "6段",
@@ -615,8 +621,7 @@
         "301": "5段",
         "300": "3段",
         "299": "2段",
-        "298": "4段",
-        "297": "6段"
+        "298": "4段"
       },
       "status": "ok"
     },
@@ -626,6 +631,7 @@
       "url": "https://pvxiftuf.yumkw-u4s81-hpytyz.work:16677/topic/573876.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "6段",
         "306": "6段",
         "304": "1段",
         "303": "7段",
@@ -634,8 +640,7 @@
         "300": "7段",
         "299": "7段",
         "298": "6段",
-        "297": "7段",
-        "296": "5段"
+        "297": "7段"
       },
       "status": "audit",
       "notes": [
@@ -648,11 +653,11 @@
       "url": "https://xxn08n.uf6h9-z8vxq-smsfdt.work/topic/230084.html",
       "pick": "top",
       "fingerprint": {
+        "307": "1段",
         "306": "3段",
         "305": "4段",
         "304": "7段",
-        "303": "5段",
-        "302": "5段"
+        "303": "5段"
       },
       "status": "audit",
       "notes": [
@@ -665,6 +670,7 @@
       "url": "https://gboqrz.d2cda-p5u2y-gwxmnf.work/topic/333165.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "4段",
         "306": "5段",
         "305": "1段",
         "304": "4段",
@@ -673,8 +679,7 @@
         "301": "6段",
         "300": "4段",
         "299": "2段",
-        "298": "1段",
-        "297": "4段"
+        "298": "1段"
       },
       "status": "ok"
     },
@@ -684,8 +689,8 @@
       "url": "https://zpyaxwke.rp89b-fwko2-buexgv.xyz:16677/topic/245368.html",
       "pick": "top",
       "fingerprint": {
-        "306": "1段",
-        "305": "6段"
+        "307": "3段",
+        "306": "1段"
       },
       "status": "audit",
       "notes": [
@@ -698,6 +703,7 @@
       "url": "https://kfsujebc.djiz8-4tqt6-hubani.xyz:16677/topic/280942.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "7段",
         "306": "1段",
         "305": "5段",
         "304": "2段",
@@ -706,8 +712,7 @@
         "301": "1段",
         "300": "2段",
         "299": "3段",
-        "298": "5段",
-        "297": "2段"
+        "298": "5段"
       },
       "status": "ok"
     },
@@ -717,6 +722,7 @@
       "url": "https://979363.com.9795.in:1888/bbs/7643",
       "pick": "top",
       "fingerprint": {
+        "307": "3段",
         "306": "5段",
         "305": "6段",
         "304": "2段",
@@ -727,10 +733,7 @@
         "299": "6段",
         "298": "3段"
       },
-      "status": "audit",
-      "notes": [
-        "仅抓到9期"
-      ]
+      "status": "ok"
     },
     {
       "id": "s044_topic_702079",
@@ -738,6 +741,7 @@
       "url": "https://qwpapph.el7s4-pbxnj-aemcbt.work:16677/topic/702079.html",
       "pick": "top",
       "fingerprint": {
+        "307": "1段",
         "306": "4段",
         "305": "5段",
         "304": "3段",
@@ -746,8 +750,7 @@
         "301": "6段",
         "300": "7段",
         "299": "1段",
-        "298": "3段",
-        "297": "4段"
+        "298": "3段"
       },
       "status": "ok"
     },
@@ -757,8 +760,8 @@
       "url": "https://e7rzi6.q42de-ffhtv-sshfhh.work/topic/497135.html",
       "pick": "top",
       "fingerprint": {
-        "306": "2段",
-        "305": "6段"
+        "307": "4段",
+        "306": "2段"
       },
       "status": "audit",
       "notes": [
@@ -771,11 +774,12 @@
       "url": "https://gboqrz.sm0a0-x9x2c-xyvjdr.work/topic/205219.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "3段",
         "306": "5段"
       },
       "status": "audit",
       "notes": [
-        "仅抓到1期"
+        "仅抓到2期"
       ]
     },
     {
@@ -784,13 +788,13 @@
       "url": "https://gboqrz.sm0a0-x9x2c-xyvjdr.work/topic/224745.html",
       "pick": "top",
       "fingerprint": {
+        "307": "3段",
         "306": "5段",
         "305": "6段",
         "304": "4段",
         "303": "1段",
         "302": "3段",
-        "301": "1段",
-        "300": "6段"
+        "301": "1段"
       },
       "status": "audit",
       "notes": [
@@ -803,12 +807,20 @@
       "url": "https://gboqrz.sm0a0-x9x2c-xyvjdr.work/topic/205645.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "2段",
         "306": "6段",
-        "305": "5段"
+        "305": "5段",
+        "304": "2段",
+        "303": "3段",
+        "302": "7段",
+        "301": "5段",
+        "300": "4段",
+        "299": "3段",
+        "288": "3段"
       },
       "status": "audit",
       "notes": [
-        "仅抓到2期"
+        "期数不连续"
       ]
     },
     {
@@ -817,6 +829,7 @@
       "url": "https://gboqrz.sm0a0-x9x2c-xyvjdr.work/topic/205462.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "3段",
         "306": "2段",
         "305": "5段",
         "304": "3段",
@@ -829,7 +842,6 @@
       },
       "status": "audit",
       "notes": [
-        "仅抓到9期",
         "期数不连续"
       ]
     },
@@ -839,6 +851,7 @@
       "url": "https://cthvktrb.am9a6-vk0h6-lwbxab.xyz:16677/topic/324761.html",
       "pick": "top",
       "fingerprint": {
+        "307": "2段",
         "306": "5段",
         "305": "6段",
         "304": "3段",
@@ -846,8 +859,7 @@
         "302": "2段",
         "301": "3段",
         "300": "5段",
-        "299": "4段",
-        "298": "2段"
+        "299": "4段"
       },
       "status": "audit",
       "notes": [
@@ -860,6 +872,7 @@
       "url": "https://ugtzszfp.ldpiz-8xhrd-wpkjkn.xyz:16677/topic/573666.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "4段",
         "306": "5段",
         "305": "7段",
         "304": "6段",
@@ -868,8 +881,7 @@
         "301": "4段",
         "300": "7段",
         "299": "6段",
-        "298": "7段",
-        "297": "5段"
+        "298": "7段"
       },
       "status": "ok"
     },
@@ -879,6 +891,7 @@
       "url": "https://ugtzszfp.ldpiz-8xhrd-wpkjkn.xyz:16677/topic/639337.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "7段",
         "306": "6段",
         "305": "7段",
         "304": "7段",
@@ -887,8 +900,7 @@
         "301": "4段",
         "300": "6段",
         "299": "4段",
-        "298": "4段",
-        "297": "1段"
+        "298": "4段"
       },
       "status": "ok"
     },
@@ -898,12 +910,13 @@
       "url": "https://spkhheda.6pb1u-v37cv-dcemcz.xyz:16677/topic/445668.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "7段",
         "306": "1段",
         "305": "2段"
       },
       "status": "audit",
       "notes": [
-        "仅抓到2期"
+        "仅抓到3期"
       ]
     },
     {
@@ -912,10 +925,10 @@
       "url": "https://uhaxnrzx.q76gf-deec8-zqckeo.xyz:16677/topic/615680.html",
       "pick": "top",
       "fingerprint": {
+        "307": "1段",
         "306": "2段",
         "305": "3段",
-        "304": "5段",
-        "303": "2段"
+        "304": "5段"
       },
       "status": "audit",
       "notes": [
@@ -928,8 +941,8 @@
       "url": "https://rafllgob.23z93-ww9uq-tjnvdx.xyz:16677/",
       "pick": "top",
       "fingerprint": {
-        "306": "4段",
-        "305": "3段"
+        "307": "2段",
+        "306": "4段"
       },
       "status": "audit",
       "notes": [
@@ -942,6 +955,7 @@
       "url": "https://ebhxngwb.2ljj5-vdh8s-gbvkgl.xyz:16677/topic/258480.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "6段",
         "306": "4段",
         "305": "7段",
         "304": "3段",
@@ -953,7 +967,7 @@
       },
       "status": "audit",
       "notes": [
-        "仅抓到8期"
+        "仅抓到9期"
       ]
     },
     {
@@ -962,6 +976,7 @@
       "url": "https://ebhxngwb.2ljj5-vdh8s-gbvkgl.xyz:16677/topic/255950.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "7段",
         "306": "2段",
         "305": "3段",
         "304": "6段",
@@ -973,7 +988,7 @@
       },
       "status": "audit",
       "notes": [
-        "仅抓到8期"
+        "仅抓到9期"
       ]
     },
     {
@@ -982,6 +997,7 @@
       "url": "https://stkfbbns.yrfhc-z5x6i-ykoqqu.xyz:16677/topic/251230.html",
       "pick": "top",
       "fingerprint": {
+        "307": "7段",
         "306": "4段",
         "305": "1段",
         "304": "6段",
@@ -989,8 +1005,7 @@
         "302": "5段",
         "301": "7段",
         "300": "4段",
-        "299": "1段",
-        "298": "3段"
+        "299": "1段"
       },
       "status": "audit",
       "notes": [
@@ -1003,6 +1018,7 @@
       "url": "https://stkfbbns.yrfhc-z5x6i-ykoqqu.xyz:16677/topic/251232.html",
       "pick": "top",
       "fingerprint": {
+        "307": "5段",
         "306": "2段",
         "305": "7段",
         "304": "4段",
@@ -1010,8 +1026,7 @@
         "302": "3段",
         "301": "6段",
         "300": "2段",
-        "299": "5段",
-        "298": "1段"
+        "299": "5段"
       },
       "status": "audit",
       "notes": [
@@ -1024,6 +1039,7 @@
       "url": "https://grjawf.sp5ee-ol941-nkuroa.xyz:16677/topic/254826.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "7段",
         "306": "4段",
         "305": "5段",
         "304": "2段",
@@ -1032,8 +1048,7 @@
         "301": "6段",
         "300": "7段",
         "299": "4段",
-        "298": "6段",
-        "297": "2段"
+        "298": "6段"
       },
       "status": "ok"
     },
@@ -1043,13 +1058,13 @@
       "url": "https://bbuueerm.pxcma-jyfok-mvduyw.xyz:16633/topic/455096.html",
       "pick": "top",
       "fingerprint": {
+        "307": "1段",
         "306": "6段",
         "305": "2段",
         "304": "7段",
         "303": "5段",
         "302": "2段",
-        "301": "6段",
-        "300": "1段"
+        "301": "6段"
       },
       "status": "audit",
       "notes": [
@@ -1062,10 +1077,10 @@
       "url": "https://vmfvzmh.7jh1y-qgjk8-lavfxb.work:16677/topic/782052.html",
       "pick": "top",
       "fingerprint": {
+        "307": "1段",
         "306": "3段",
         "305": "7段",
-        "304": "2段",
-        "303": "5段"
+        "304": "2段"
       },
       "status": "audit",
       "notes": [
@@ -1078,6 +1093,7 @@
       "url": "https://sgxozo.4b5jw-x2zou-ukbybu.xyz:16677/topic/267724.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "4段",
         "306": "1段",
         "305": "2段",
         "304": "6段",
@@ -1086,8 +1102,7 @@
         "301": "3段",
         "300": "7段",
         "299": "6段",
-        "298": "5段",
-        "297": "3段"
+        "298": "5段"
       },
       "status": "ok"
     },
@@ -1097,10 +1112,10 @@
       "url": "https://pkrcani.cm4li-554vw-zuncoa.xyz:16677/",
       "pick": "top",
       "fingerprint": {
+        "307": "4段",
         "306": "5段",
         "305": "2段",
-        "304": "4段",
-        "303": "5段"
+        "304": "4段"
       },
       "status": "audit",
       "notes": [
@@ -1113,6 +1128,7 @@
       "url": "https://knhlnvo.zvdsi-8qf2t-wchuxk.xyz:16677/topic/437720.html",
       "pick": "top",
       "fingerprint": {
+        "307": "4段",
         "306": "2段",
         "305": "3段",
         "304": "5段",
@@ -1120,8 +1136,7 @@
         "302": "4段",
         "301": "3段",
         "300": "1段",
-        "299": "5段",
-        "298": "2段"
+        "299": "5段"
       },
       "status": "audit",
       "notes": [
@@ -1134,6 +1149,7 @@
       "url": "https://knhlnvo.zvdsi-8qf2t-wchuxk.xyz:16677/topic/437751.html",
       "pick": "top",
       "fingerprint": {
+        "307": "4段",
         "306": "2段",
         "305": "6段",
         "304": "5段",
@@ -1141,8 +1157,7 @@
         "302": "2段",
         "301": "6段",
         "300": "7段",
-        "299": "4段",
-        "298": "3段"
+        "299": "4段"
       },
       "status": "audit",
       "notes": [
@@ -1155,6 +1170,7 @@
       "url": "https://knhlnvo.zvdsi-8qf2t-wchuxk.xyz:16677/topic/437732.html",
       "pick": "top",
       "fingerprint": {
+        "307": "3段",
         "306": "1段",
         "305": "5段",
         "304": "4段",
@@ -1163,8 +1179,7 @@
         "301": "3段",
         "300": "1段",
         "299": "5段",
-        "298": "4段",
-        "297": "3段"
+        "298": "4段"
       },
       "status": "ok"
     },
@@ -1174,12 +1189,13 @@
       "url": "https://txhbxsi.160ar-q87yu-rnnpxl.xyz:16677/topic/439182.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "3段",
         "306": "5段",
         "305": "2段"
       },
       "status": "audit",
       "notes": [
-        "仅抓到2期"
+        "仅抓到3期"
       ]
     },
     {
@@ -1188,6 +1204,7 @@
       "url": "https://cahgjib.5blx9-z8506-ekiwxc.work:29488/article/admin/6a143c15bf0a6cb1dd38fb69?url=lqz",
       "pick": "bottom",
       "fingerprint": {
+        "307": "3段",
         "306": "5段",
         "305": "6段",
         "304": "5段",
@@ -1196,8 +1213,7 @@
         "301": "5段",
         "300": "6段",
         "299": "5段",
-        "298": "1段",
-        "297": "7段"
+        "298": "1段"
       },
       "status": "ok",
       "article_records": [
@@ -1206,7 +1222,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "著作等身",
-          "title": "<p><strong>306期：【绝杀一段】圆梦六合 </strong></p>",
+          "title": "<p><strong>307期：【绝杀一段】圆梦六合 </strong></p>",
           "column": "主条目",
           "pick": "bottom",
           "target_field": "html",
@@ -1220,6 +1236,7 @@
       "url": "https://skgdjjmz.l54vq-9httr-cmdnip.work:29477/article/admin/6a041de44ea5c20141013ddc?url=xdr",
       "pick": "bottom",
       "fingerprint": {
+        "307": "6段",
         "306": "4段",
         "305": "7段",
         "304": "1段",
@@ -1228,8 +1245,7 @@
         "301": "4段",
         "300": "2段",
         "299": "4段",
-        "298": "6段",
-        "297": "2段"
+        "298": "6段"
       },
       "status": "ok",
       "article_records": [
@@ -1238,7 +1254,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "谈笑自若",
-          "title": "<p><span style=\"font-family: SimHei; font-size: 14px; color: rgb(33, 150, 243);\"><strong>306期：【绝杀①段】〓 平地风波</strong></span></p>",
+          "title": "<p><span style=\"font-family: SimHei; font-size: 14px; color: rgb(33, 150, 243);\"><strong>307期：【绝杀①段】〓 平地风波</strong></span></p>",
           "column": "123",
           "pick": "bottom",
           "target_field": "html",
@@ -1252,6 +1268,7 @@
       "url": "https://flrmed.u3l95-7ktwf-clwwtq.work:29455/article/admin/6a13feb4741e3e91a04e59d7?url=sgnn",
       "pick": "bottom",
       "fingerprint": {
+        "307": "7段",
         "306": "3段",
         "305": "2段",
         "304": "6段",
@@ -1260,8 +1277,7 @@
         "301": "7段",
         "300": "3段",
         "299": "2段",
-        "298": "7段",
-        "297": "4段"
+        "298": "7段"
       },
       "status": "ok",
       "article_records": [
@@ -1270,7 +1286,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "望穿秋水",
-          "title": "<p><strong>306期：【绝杀一段】〓 天天中奖 </strong></p>",
+          "title": "<p><strong>307期：【绝杀一段】〓 天天中奖 </strong></p>",
           "column": "主条目",
           "pick": "bottom",
           "target_field": "html",
@@ -1284,6 +1300,7 @@
       "url": "https://yqjfwqsc.1dayz-aetgp-kbjidr.xyz:16677/topic/682019.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "2段",
         "306": "4段",
         "305": "6段",
         "304": "3段",
@@ -1292,8 +1309,7 @@
         "301": "1段",
         "300": "4段",
         "299": "3段",
-        "298": "1段",
-        "297": "6段"
+        "298": "1段"
       },
       "status": "ok"
     },
@@ -1303,7 +1319,7 @@
       "url": "https://tjetrfr.jocy8-cy4wk-fmpeer.xyz:16677/",
       "pick": "top",
       "fingerprint": {
-        "306": "5段"
+        "307": "3段"
       },
       "status": "audit",
       "notes": [
@@ -1316,6 +1332,7 @@
       "url": "https://tjetrfr.jocy8-cy4wk-fmpeer.xyz:16677/topic/221371.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "4段",
         "306": "1段",
         "305": "6段",
         "304": "4段",
@@ -1324,8 +1341,7 @@
         "301": "6段",
         "300": "4段",
         "299": "2段",
-        "298": "1段",
-        "297": "4段"
+        "298": "1段"
       },
       "status": "ok"
     },
@@ -1335,6 +1351,7 @@
       "url": "https://mkhomxq.gqmpb-vuxji-pfnheu.work:16677/topic/510823.html",
       "pick": "top",
       "fingerprint": {
+        "307": "2段",
         "306": "7段",
         "305": "5段",
         "304": "4段",
@@ -1343,8 +1360,7 @@
         "301": "7段",
         "300": "5段",
         "297": "1段",
-        "296": "6段",
-        "295": "5段"
+        "296": "6段"
       },
       "status": "audit",
       "notes": [
@@ -1357,6 +1373,7 @@
       "url": "https://ykeejph.z9koz-18xjn-pvglgy.xyz:16677/topic/682116.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "6段",
         "306": "3段",
         "305": "2段",
         "304": "4段",
@@ -1365,8 +1382,7 @@
         "301": "1段",
         "300": "6段",
         "299": "2段",
-        "298": "5段",
-        "297": "2段"
+        "298": "5段"
       },
       "status": "ok"
     },
@@ -1376,8 +1392,8 @@
       "url": "https://wojedcr.ltslh-5g80v-eeujep.xyz:16677/",
       "pick": "top",
       "fingerprint": {
-        "306": "7段",
-        "305": "4段"
+        "307": "3段",
+        "306": "7段"
       },
       "status": "audit",
       "notes": [
@@ -1390,7 +1406,7 @@
       "url": "https://pfnbkfar.770mb-fnzbt-ohljja.xyz:16677/topic/223549.html",
       "pick": "top",
       "fingerprint": {
-        "306": "7段"
+        "307": "3段"
       },
       "status": "audit",
       "notes": [
@@ -1403,6 +1419,7 @@
       "url": "https://jdjzpkce.osyaf-gxlte-otlblr.xyz:16677/",
       "pick": "top",
       "fingerprint": {
+        "307": "7段",
         "306": "4段",
         "305": "7段",
         "304": "1段",
@@ -1411,8 +1428,7 @@
         "301": "7段",
         "299": "6段",
         "298": "7段",
-        "297": "7段",
-        "296": "2段"
+        "297": "7段"
       },
       "status": "audit",
       "notes": [
@@ -1425,7 +1441,7 @@
       "url": "https://piaqjtxw.13p7c-zv13a-nohkeq.xyz:16677/",
       "pick": "top",
       "fingerprint": {
-        "306": "7段"
+        "307": "6段"
       },
       "status": "audit",
       "notes": [
@@ -1438,12 +1454,13 @@
       "url": "https://bzdolgna.0115r-u1nk5-zioots.xyz:16677/topic/468068.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "2段",
         "306": "6段",
         "305": "3段"
       },
       "status": "audit",
       "notes": [
-        "仅抓到2期"
+        "仅抓到3期"
       ]
     },
     {
@@ -1452,7 +1469,7 @@
       "url": "https://xoxtpupt.bvptr-i3mv8-pbjxin.work:17455/topic/205746.html",
       "pick": "top",
       "fingerprint": {
-        "306": "2段"
+        "307": "5段"
       },
       "status": "audit",
       "notes": [
@@ -1465,9 +1482,9 @@
       "url": "https://drmthln.beqj8-tntx4-ukbetl.xyz:16677/topic/687489.html",
       "pick": "top",
       "fingerprint": {
+        "307": "2段",
         "306": "4段",
-        "305": "3段",
-        "304": "4段"
+        "305": "3段"
       },
       "status": "audit",
       "notes": [
@@ -1480,11 +1497,12 @@
       "url": "https://vdyyghji.ta1sh-i5yr8-gplabg.work:16677/topic/485971.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "5段",
         "306": "1段"
       },
       "status": "audit",
       "notes": [
-        "仅抓到1期"
+        "仅抓到2期"
       ]
     },
     {
@@ -1493,6 +1511,7 @@
       "url": "https://herymche.x6l2j-h6kfu-qdresg.work:29466/article/admin/6a2059bdb67e3ff2e4c4f8e3?url=txbb",
       "pick": "bottom",
       "fingerprint": {
+        "307": "2段",
         "306": "3段",
         "305": "1段",
         "304": "6段",
@@ -1501,8 +1520,7 @@
         "301": "3段",
         "300": "2段",
         "299": "1段",
-        "298": "6段",
-        "297": "3段"
+        "298": "6段"
       },
       "status": "ok",
       "article_records": [
@@ -1511,7 +1529,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "云淡风轻",
-          "title": "<p><span style=\"color: rgb(156, 39, 176);\"><strong>306期：【绝杀一段】〓精准推断</strong></span></p>",
+          "title": "<p><span style=\"color: rgb(156, 39, 176);\"><strong>307期：【绝杀一段】〓精准推断</strong></span></p>",
           "column": "123",
           "pick": "bottom",
           "target_field": "html",
@@ -1525,6 +1543,7 @@
       "url": "https://ztpqrap.m8sbq-na911-wmojzb.work:29444/article/admin/6a145108597e16d57eacb69f?url=gsw",
       "pick": "bottom",
       "fingerprint": {
+        "307": "3段",
         "306": "1段",
         "305": "5段",
         "304": "2段",
@@ -1533,8 +1552,7 @@
         "301": "1段",
         "300": "6段",
         "299": "1段",
-        "298": "4段",
-        "297": "3段"
+        "298": "4段"
       },
       "status": "ok",
       "article_records": [
@@ -1543,7 +1561,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "天霸福星",
-          "title": "<p><strong>306期：【绝杀一段】〓 妙手回春</strong></p>",
+          "title": "<p><strong>307期：【绝杀一段】〓 妙手回春</strong></p>",
           "column": "主条目",
           "pick": "bottom",
           "target_field": "html",
@@ -1557,6 +1575,7 @@
       "url": "https://cpvqejp.avdja-la48l-xnsdva.xyz:16677/topic/336841.html",
       "pick": "top",
       "fingerprint": {
+        "307": "6段",
         "306": "3段",
         "305": "1段",
         "304": "4段",
@@ -1565,8 +1584,7 @@
         "301": "3段",
         "300": "1段",
         "299": "5段",
-        "298": "2段",
-        "297": "4段"
+        "298": "2段"
       },
       "status": "ok"
     },
@@ -1576,6 +1594,7 @@
       "url": "https://www28651a.com/read.php?tid=364",
       "pick": "bottom",
       "fingerprint": {
+        "307": "2段",
         "306": "1段",
         "305": "1段",
         "304": "3段",
@@ -1584,8 +1603,7 @@
         "301": "2段",
         "300": "5段",
         "299": "5段",
-        "298": "2段",
-        "297": "5段"
+        "298": "2段"
       },
       "status": "ok"
     },
@@ -1595,11 +1613,12 @@
       "url": "https://xeyzmutd.ulazy-l7v28-mgqrqs.xyz:16677/topic/470747.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "3段",
         "306": "4段"
       },
       "status": "audit",
       "notes": [
-        "仅抓到1期"
+        "仅抓到2期"
       ]
     },
     {
@@ -1608,6 +1627,7 @@
       "url": "https://www28651a.com/read.php?tid=477",
       "pick": "bottom",
       "fingerprint": {
+        "307": "1段",
         "306": "3段",
         "305": "1段",
         "304": "2段",
@@ -1616,8 +1636,7 @@
         "301": "7段",
         "300": "1段",
         "299": "4段",
-        "298": "1段",
-        "297": "1段"
+        "298": "1段"
       },
       "status": "ok"
     },
@@ -1627,6 +1646,7 @@
       "url": "https://www28651a.com/read.php?tid=547",
       "pick": "bottom",
       "fingerprint": {
+        "307": "3段",
         "306": "3段",
         "305": "2段",
         "304": "1段",
@@ -1635,8 +1655,7 @@
         "301": "6段",
         "300": "2段",
         "299": "2段",
-        "298": "1段",
-        "297": "4段"
+        "298": "1段"
       },
       "status": "ok"
     },
@@ -1646,6 +1665,7 @@
       "url": "https://czcvzk.4n5g7-o871g-hqmkwz.work:29422/article/admin/6a096442291caff3edcb8af9?url=tsp",
       "pick": "bottom",
       "fingerprint": {
+        "307": "4段",
         "306": "2段",
         "305": "4段",
         "304": "5段",
@@ -1654,8 +1674,7 @@
         "301": "7段",
         "300": "1段",
         "299": "6段",
-        "298": "5段",
-        "297": "3段"
+        "298": "5段"
       },
       "status": "ok",
       "article_records": [
@@ -1664,7 +1683,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "天天开心",
-          "title": "<p><strong>306期：【绝杀一段】〓 福临万家</strong></p>",
+          "title": "<p><strong>307期：【绝杀一段】〓 福临万家</strong></p>",
           "column": "主条目",
           "pick": "bottom",
           "target_field": "html",
@@ -1678,6 +1697,7 @@
       "url": "https://fbgbfg.www27521c.com:8443/gsb/am13.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "4段",
         "306": "6段",
         "305": "1段",
         "304": "2段",
@@ -1686,8 +1706,7 @@
         "301": "7段",
         "300": "4段",
         "299": "7段",
-        "298": "5段",
-        "297": "3段"
+        "298": "5段"
       },
       "status": "ok"
     },
@@ -1697,6 +1716,7 @@
       "url": "https://aszmkf.c3z3l-qrlqm-mwgccr.work:29411/article/admin/6a0837fe08adb5ed7357efce?url=lhw",
       "pick": "bottom",
       "fingerprint": {
+        "307": "5段",
         "306": "6段",
         "305": "3段",
         "304": "5段",
@@ -1705,8 +1725,7 @@
         "301": "3段",
         "300": "6段",
         "299": "2段",
-        "298": "7段",
-        "297": "4段"
+        "298": "7段"
       },
       "status": "ok",
       "article_records": [
@@ -1715,7 +1734,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "大放光彩",
-          "title": "<p><strong>306期：【绝杀一段】〓 久跟必发</strong></p>",
+          "title": "<p><strong>307期：【绝杀一段】〓 久跟必发</strong></p>",
           "column": "主条目-排在第一位",
           "pick": "bottom",
           "target_field": "html",
@@ -1729,6 +1748,7 @@
       "url": "https://kk.212557a.com:1888/art_zhuanqu/8148.html",
       "pick": "top",
       "fingerprint": {
+        "307": "7段",
         "306": "1段",
         "305": "7段",
         "304": "6段",
@@ -1740,7 +1760,7 @@
       },
       "status": "audit",
       "notes": [
-        "仅抓到8期",
+        "仅抓到9期",
         "期数不连续"
       ]
     },
@@ -1750,16 +1770,19 @@
       "url": "https://ocnrhq.du156-vb27w-tmhsed.xyz:16677/",
       "pick": "top",
       "fingerprint": {
+        "307": "4段",
         "306": "7段",
         "305": "5段",
         "304": "2段",
         "303": "3段",
         "302": "1段",
-        "301": "1段"
+        "301": "1段",
+        "300": "4段",
+        "299": "2段"
       },
       "status": "audit",
       "notes": [
-        "仅抓到6期"
+        "仅抓到9期"
       ]
     },
     {
@@ -1768,6 +1791,7 @@
       "url": "https://sheuzjss.tgpcj-9w0vl-mwyhly.work:29422/article/admin/6a2450aaeb2a95d39b6678a7?url=zfw",
       "pick": "bottom",
       "fingerprint": {
+        "307": "2段",
         "306": "1段",
         "305": "7段",
         "304": "3段",
@@ -1776,8 +1800,7 @@
         "301": "5段",
         "300": "5段",
         "299": "5段",
-        "298": "6段",
-        "297": "5段"
+        "298": "6段"
       },
       "status": "ok",
       "article_records": [
@@ -1786,7 +1809,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "凉秋瑾言",
-          "title": "<p><strong>306期：👑绝杀①段🐎上发财✔实力公开</strong></p>",
+          "title": "<p><strong>307期：👑绝杀①段🐎上发财✔实力公开</strong></p>",
           "column": "主表单",
           "pick": "bottom",
           "target_field": "html",
@@ -1800,6 +1823,7 @@
       "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a282f6a514a4348ac4f0630?url=fcw",
       "pick": "bottom",
       "fingerprint": {
+        "307": "6段",
         "306": "1段",
         "305": "4段",
         "304": "3段",
@@ -1808,8 +1832,7 @@
         "301": "7段",
         "300": "1段",
         "299": "2段",
-        "298": "4段",
-        "297": "6段"
+        "298": "4段"
       },
       "status": "ok",
       "article_records": [
@@ -1818,7 +1841,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "金刚护体",
-          "title": "<p><strong>306期：【绝杀一段】〓 步步发财</strong></p>",
+          "title": "<p><strong>307期：【绝杀一段】〓 步步发财</strong></p>",
           "column": "主条目-排在第一位",
           "pick": "bottom",
           "target_field": "html",
@@ -1832,6 +1855,7 @@
       "url": "https://sndaygl.egjtc-sgs8w-taclan.work:29400/article/admin/6a140eeebf0a6cb1dd38f9dd?url=nmw",
       "pick": "bottom",
       "fingerprint": {
+        "307": "4段",
         "306": "3段",
         "305": "3段",
         "304": "3段",
@@ -1840,8 +1864,7 @@
         "301": "3段",
         "300": "3段",
         "299": "4段",
-        "298": "3段",
-        "297": "2段"
+        "298": "3段"
       },
       "status": "ok",
       "article_records": [
@@ -1850,7 +1873,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "忧烟殇往",
-          "title": "<p><strong>306期：【绝杀①段】- 步步发财</strong></p>",
+          "title": "<p><strong>307期：【绝杀①段】- 步步发财</strong></p>",
           "column": "主条目",
           "pick": "bottom",
           "target_field": "html",
@@ -1864,10 +1887,10 @@
       "url": "https://qdufkx.sjb5z-pi4k6-jlhnig.xyz:16677/topic/797866.html",
       "pick": "top",
       "fingerprint": {
+        "307": "6段",
         "306": "3段",
         "305": "1段",
-        "304": "7段",
-        "303": "5段"
+        "304": "7段"
       },
       "status": "audit",
       "notes": [
@@ -1880,6 +1903,7 @@
       "url": "https://mm.737799b.com:1888/art_gsb/8148",
       "pick": "top",
       "fingerprint": {
+        "307": "3段",
         "306": "7段",
         "305": "1段",
         "304": "7段",
@@ -1888,8 +1912,7 @@
         "301": "1段",
         "300": "5段",
         "299": "6段",
-        "298": "1段",
-        "297": "5段"
+        "298": "1段"
       },
       "status": "ok"
     },
@@ -1899,6 +1922,7 @@
       "url": "https://dd.62782b.com:1888/bbs/10746",
       "pick": "top",
       "fingerprint": {
+        "307": "5段",
         "306": "2段",
         "305": "3段",
         "304": "6段",
@@ -1907,8 +1931,7 @@
         "301": "1段",
         "300": "1段",
         "299": "5段",
-        "298": "1段",
-        "297": "1段"
+        "298": "1段"
       },
       "status": "ok"
     },
@@ -1918,6 +1941,7 @@
       "url": "https://aa.62782b.com:1888/bbs/10744",
       "pick": "top",
       "fingerprint": {
+        "307": "3段",
         "306": "2段",
         "305": "3段",
         "304": "6段",
@@ -1926,8 +1950,7 @@
         "301": "4段",
         "300": "5段",
         "299": "3段",
-        "298": "1段",
-        "297": "1段"
+        "298": "1段"
       },
       "status": "ok"
     },
@@ -1937,6 +1960,7 @@
       "url": "https://rwraojf.l54vq-9httr-cmdnip.work:29477/article/admin/6a0436d94ea5c20141013e32?url=xdr",
       "pick": "bottom",
       "fingerprint": {
+        "307": "3段",
         "306": "5段",
         "305": "6段",
         "304": "2段",
@@ -1945,8 +1969,7 @@
         "301": "5段",
         "300": "3段",
         "299": "1段",
-        "298": "5段",
-        "297": "3段"
+        "298": "5段"
       },
       "status": "ok",
       "article_records": [
@@ -1955,7 +1978,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "创世奇彩",
-          "title": "<p><span style=\"font-family: SimHei; font-size: 14px; color: rgb(33, 150, 243);\"><strong>306期：【绝杀一段】〓 期期真实</strong></span></p>",
+          "title": "<p><span style=\"font-family: SimHei; font-size: 14px; color: rgb(33, 150, 243);\"><strong>307期：【绝杀一段】〓 期期真实</strong></span></p>",
           "column": "123",
           "pick": "bottom",
           "target_field": "html",
@@ -1969,6 +1992,7 @@
       "url": "https://pgyzulb.iwnn7-gyyip-pnpfqv.work:29477/article/admin/6a153e7b8be59b17287c6d03?url=bflc",
       "pick": "bottom",
       "fingerprint": {
+        "307": "3段",
         "306": "2段",
         "305": "4段",
         "304": "3段",
@@ -1977,8 +2001,7 @@
         "301": "6段",
         "300": "4段",
         "299": "2段",
-        "298": "4段",
-        "297": "1段"
+        "298": "4段"
       },
       "status": "ok",
       "article_records": [
@@ -1987,7 +2010,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "南天财柱",
-          "title": "<p><strong>306期：【绝杀一段】〓 关注中奖 </strong></p>",
+          "title": "<p><strong>307期：【绝杀一段】〓 关注中奖 </strong></p>",
           "column": "主条目",
           "pick": "bottom",
           "target_field": "html",
@@ -2001,6 +2024,7 @@
       "url": "https://pgyzulb.iwnn7-gyyip-pnpfqv.work:29477/article/admin/6a153b4c8be59b17287c6ce5?url=bflc",
       "pick": "bottom",
       "fingerprint": {
+        "307": "5段",
         "306": "3段",
         "305": "2段",
         "304": "3段",
@@ -2009,8 +2033,7 @@
         "301": "6段",
         "300": "4段",
         "299": "5段",
-        "298": "2段",
-        "297": "4段"
+        "298": "2段"
       },
       "status": "ok",
       "article_records": [
@@ -2019,7 +2042,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "英雄豪杰",
-          "title": "<p><strong>306期：【绝杀①段】〓 继续公开 </strong></p>",
+          "title": "<p><strong>307期：【绝杀①段】〓 继续公开 </strong></p>",
           "column": "主条目",
           "pick": "bottom",
           "target_field": "html",
@@ -2033,6 +2056,7 @@
       "url": "https://gqdbokpx.ji2oa-rdhxt-girktl.work:29411/article/admin/6a02a0b2300734f7aa12dfac?url=hj",
       "pick": "bottom",
       "fingerprint": {
+        "307": "5段",
         "306": "3段",
         "305": "2段",
         "304": "4段",
@@ -2041,8 +2065,7 @@
         "301": "2段",
         "300": "6段",
         "299": "3段",
-        "298": "4段",
-        "297": "2段"
+        "298": "4段"
       },
       "status": "ok",
       "article_records": [
@@ -2051,7 +2074,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "福星王子",
-          "title": "<p><span style=\"font-family: &quot;Microsoft YaHei&quot;; font-size: 16px; color: rgb(244, 67, 54);\"><strong>306期：🀄️绝杀一段🀄️💯实力公开✔专业赚钱</strong></span></p>",
+          "title": "<p><span style=\"font-family: &quot;Microsoft YaHei&quot;; font-size: 16px; color: rgb(244, 67, 54);\"><strong>307期：🀄️绝杀一段🀄️💯实力公开✔专业赚钱</strong></span></p>",
           "column": "123",
           "pick": "bottom",
           "target_field": "html",
@@ -2065,6 +2088,7 @@
       "url": "https://uqdccnri.oy2bh-swrfr-gvzxkk.work:29499/article/admin/6a0331f5e09a39d316b223b4?url=lcz",
       "pick": "bottom",
       "fingerprint": {
+        "307": "4段",
         "306": "1段",
         "305": "5段",
         "304": "7段",
@@ -2073,8 +2097,7 @@
         "301": "5段",
         "300": "6段",
         "299": "6段",
-        "298": "7段",
-        "297": "5段"
+        "298": "7段"
       },
       "status": "ok",
       "article_records": [
@@ -2083,7 +2106,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "六合料王",
-          "title": "<p><span style=\"color: rgb(33, 150, 243);\"><strong>306期：【绝杀①段】〓 步步发财</strong></span></p>",
+          "title": "<p><span style=\"color: rgb(33, 150, 243);\"><strong>307期：【绝杀①段】〓 步步发财</strong></span></p>",
           "column": "123",
           "pick": "bottom",
           "target_field": "html",
@@ -2097,6 +2120,7 @@
       "url": "https://yzpbdkow.6m1ba-7p7u4-ppolcy.work:29433/article/admin/6a02cfa28bad0a3579e9f741?url=tdg",
       "pick": "bottom",
       "fingerprint": {
+        "307": "3段",
         "306": "4段",
         "305": "1段",
         "304": "7段",
@@ -2105,8 +2129,7 @@
         "301": "4段",
         "300": "1段",
         "299": "2段",
-        "298": "3段",
-        "297": "2段"
+        "298": "3段"
       },
       "status": "ok",
       "article_records": [
@@ -2115,7 +2138,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "夏意正浓",
-          "title": "<p><span style=\"color: rgb(33, 150, 243);\"><strong>306期：【绝杀一段】〓 信心百倍</strong></span></p>",
+          "title": "<p><span style=\"color: rgb(33, 150, 243);\"><strong>307期：【绝杀一段】〓 信心百倍</strong></span></p>",
           "column": "主条目",
           "pick": "bottom",
           "target_field": "html",
@@ -2129,6 +2152,7 @@
       "url": "https://zlkcyl.e6mlx-wj46o-rzcukg.work:29499/article/admin/6a0816e2e0d076537e1df825?url=hyl",
       "pick": "bottom",
       "fingerprint": {
+        "307": "1段",
         "306": "4段",
         "305": "6段",
         "304": "2段",
@@ -2137,8 +2161,7 @@
         "301": "1段",
         "300": "6段",
         "299": "6段",
-        "298": "7段",
-        "297": "7段"
+        "298": "7段"
       },
       "status": "ok",
       "article_records": [
@@ -2147,7 +2170,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "追彩少年",
-          "title": "<p><strong>306期：【绝杀①段】🐎年大吉✔实力公开 ໊ཀྃ</strong></p>",
+          "title": "<p><strong>307期：【绝杀①段】🐎年大吉✔实力公开 ໊ཀྃ</strong></p>",
           "column": "123",
           "pick": "bottom",
           "target_field": "html",
@@ -2161,6 +2184,7 @@
       "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a09a8c2291caff3edcb9002?url=fcw",
       "pick": "bottom",
       "fingerprint": {
+        "307": "3段",
         "306": "6段",
         "305": "2段",
         "304": "6段",
@@ -2169,8 +2193,7 @@
         "301": "4段",
         "300": "3段",
         "299": "1段",
-        "298": "5段",
-        "297": "4段"
+        "298": "5段"
       },
       "status": "ok",
       "article_records": [
@@ -2179,7 +2202,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "传真神彩",
-          "title": "<p><strong>306期：【绝杀一段】〓 公式推算</strong></p>",
+          "title": "<p><strong>307期：【绝杀一段】〓 公式推算</strong></p>",
           "column": "主条目-排在第一位",
           "pick": "bottom",
           "target_field": "html",
@@ -2193,6 +2216,7 @@
       "url": "https://asmfkb.dfkxu-0rwnp-wevqzo.work:29466/article/admin/6a0998a5291caff3edcb8f16?url=fcw",
       "pick": "bottom",
       "fingerprint": {
+        "307": "2段",
         "306": "4段",
         "305": "3段",
         "304": "6段",
@@ -2201,8 +2225,7 @@
         "301": "3段",
         "300": "2段",
         "299": "3段",
-        "298": "2段",
-        "297": "5段"
+        "298": "2段"
       },
       "status": "ok",
       "article_records": [
@@ -2211,7 +2234,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "高人彩经",
-          "title": "<p><strong>306期：【绝杀一段】〓 连准多期</strong></p>",
+          "title": "<p><strong>307期：【绝杀一段】〓 连准多期</strong></p>",
           "column": "主条目-排在第一位",
           "pick": "bottom",
           "target_field": "html",
@@ -2225,6 +2248,7 @@
       "url": "https://xozgdo.um2zi-vbge0-emngyq.work:29422/article/admin/6a1414f4bf0a6cb1dd38fa29?url=sgnn",
       "pick": "bottom",
       "fingerprint": {
+        "307": "4段",
         "306": "7段",
         "305": "2段",
         "304": "5段",
@@ -2233,8 +2257,7 @@
         "301": "5段",
         "300": "7段",
         "299": "3段",
-        "298": "4段",
-        "297": "7段"
+        "298": "4段"
       },
       "status": "ok",
       "article_records": [
@@ -2243,7 +2266,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "青翠欲滴",
-          "title": "<p><strong>306期：【绝杀①段】〓 公式推算 </strong></p>",
+          "title": "<p><strong>307期：【绝杀①段】〓 公式推算 </strong></p>",
           "column": "主条目",
           "pick": "bottom",
           "target_field": "html",
@@ -2257,6 +2280,7 @@
       "url": "https://fymxwnyg.ttmzc-muvns-udlfln.work:29455/article/admin/6a096e98291caff3edcb8c03?url=lhbd",
       "pick": "bottom",
       "fingerprint": {
+        "307": "3段",
         "306": "4段",
         "305": "3段",
         "304": "1段",
@@ -2265,8 +2289,7 @@
         "301": "2段",
         "300": "1段",
         "299": "1段",
-        "298": "4段",
-        "297": "2段"
+        "298": "4段"
       },
       "status": "ok",
       "article_records": [
@@ -2275,7 +2298,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "素雪怜影",
-          "title": "<p><span style=\"font-family: SimHei; font-size: 14px; color: rgb(33, 150, 243);\"><strong>306期：【绝杀一段】〓 期期实战</strong></span></p>",
+          "title": "<p><span style=\"font-family: SimHei; font-size: 14px; color: rgb(33, 150, 243);\"><strong>307期：【绝杀一段】〓 期期实战</strong></span></p>",
           "column": "主条目-排在第一位",
           "pick": "bottom",
           "target_field": "html",
@@ -2289,6 +2312,7 @@
       "url": "https://fymxwnyg.ttmzc-muvns-udlfln.work:29455/article/admin/6a096c0c291caff3edcb8bc5?url=lhbd",
       "pick": "bottom",
       "fingerprint": {
+        "307": "3段",
         "306": "4段",
         "305": "2段",
         "304": "3段",
@@ -2297,8 +2321,7 @@
         "301": "1段",
         "300": "2段",
         "299": "1段",
-        "298": "2段",
-        "297": "3段"
+        "298": "2段"
       },
       "status": "ok",
       "article_records": [
@@ -2307,7 +2330,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "节节胜利",
-          "title": "<p><span style=\"font-family: SimHei; font-size: 14px; color: rgb(33, 150, 243);\"><strong>306期：【绝杀①段】〓 继续公开</strong></span></p>",
+          "title": "<p><span style=\"font-family: SimHei; font-size: 14px; color: rgb(33, 150, 243);\"><strong>307期：【绝杀①段】〓 继续公开</strong></span></p>",
           "column": "主条目-排在第一位",
           "pick": "bottom",
           "target_field": "html",
@@ -2321,6 +2344,7 @@
       "url": "https://18118.73829.com/read.php?tid=472",
       "pick": "bottom",
       "fingerprint": {
+        "307": "6段",
         "306": "5段",
         "305": "7段",
         "304": "6段",
@@ -2329,8 +2353,7 @@
         "301": "6段",
         "300": "5段",
         "299": "7段",
-        "298": "3段",
-        "297": "2段"
+        "298": "3段"
       },
       "status": "ok"
     },
@@ -2340,6 +2363,7 @@
       "url": "https://aszmkf.c3z3l-qrlqm-mwgccr.work:29411/article/admin/6a0838e608adb5ed7357efe5?url=lhw",
       "pick": "bottom",
       "fingerprint": {
+        "307": "6段",
         "306": "2段",
         "305": "5段",
         "304": "2段",
@@ -2348,8 +2372,7 @@
         "301": "2段",
         "300": "6段",
         "299": "3段",
-        "298": "4段",
-        "297": "1段"
+        "298": "4段"
       },
       "status": "ok",
       "article_records": [
@@ -2358,7 +2381,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "及第成名",
-          "title": "<p><strong>306期：【绝杀①段】〓 免费发表</strong></p>",
+          "title": "<p><strong>307期：【绝杀①段】〓 免费发表</strong></p>",
           "column": "主条目-排在第一位",
           "pick": "bottom",
           "target_field": "html",
@@ -2372,6 +2395,7 @@
       "url": "https://zxlfxpp.2n0je-9ecrg-kadbbu.work:29411/article/admin/6a141df74346bc68aea4efb3?url=tmw",
       "pick": "bottom",
       "fingerprint": {
+        "307": "6段",
         "306": "2段",
         "305": "7段",
         "304": "5段",
@@ -2380,8 +2404,7 @@
         "301": "2段",
         "300": "7段",
         "299": "3段",
-        "298": "5段",
-        "297": "1段"
+        "298": "5段"
       },
       "status": "ok",
       "article_records": [
@@ -2390,7 +2413,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "蛇口蜂针",
-          "title": "<p><strong>306期：【绝杀①段】大吉大利✔实力公开 </strong></p>",
+          "title": "<p><strong>307期：【绝杀①段】大吉大利✔实力公开 </strong></p>",
           "column": "主条目",
           "pick": "bottom",
           "target_field": "html",
@@ -2404,6 +2427,7 @@
       "url": "https://jusbfyu.mkdwi-xa2ua-rsovan.work:29422/article/admin/6a3230163220dda7ed33be33?url=hjc",
       "pick": "bottom",
       "fingerprint": {
+        "307": "5段",
         "306": "2段",
         "305": "6段",
         "304": "2段",
@@ -2412,8 +2436,7 @@
         "301": "5段",
         "300": "1段",
         "299": "7段",
-        "298": "5段",
-        "297": "7段"
+        "298": "5段"
       },
       "status": "ok",
       "article_records": [
@@ -2422,7 +2445,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "探囊取物",
-          "title": "<p>306期：【绝杀一段】〓 关注中奖 </p>",
+          "title": "<p>307期：【绝杀一段】〓 关注中奖 </p>",
           "column": "主表单",
           "pick": "bottom",
           "target_field": "html",
@@ -2436,6 +2459,7 @@
       "url": "https://jusbfyu.mkdwi-xa2ua-rsovan.work:29422/article/admin/6a31485c49afa07fb590ec77?url=hjc",
       "pick": "bottom",
       "fingerprint": {
+        "307": "2段",
         "306": "3段",
         "305": "7段",
         "304": "1段",
@@ -2444,8 +2468,7 @@
         "301": "4段",
         "300": "3段",
         "299": "2段",
-        "298": "2段",
-        "297": "1段"
+        "298": "2段"
       },
       "status": "ok",
       "article_records": [
@@ -2454,7 +2477,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "澳门杀肖",
-          "title": "<p>306期：【绝杀①段】〓 天天中奖 </p>",
+          "title": "<p>307期：【绝杀①段】〓 天天中奖 </p>",
           "column": "主表单",
           "pick": "bottom",
           "target_field": "html",
@@ -2468,7 +2491,7 @@
       "url": "https://eebysckd.2go6k-y0pfv-fqbdsm.xyz:16677/topic/626102.html",
       "pick": "top",
       "fingerprint": {
-        "306": "6段"
+        "307": "4段"
       },
       "status": "audit",
       "notes": [
@@ -2481,9 +2504,9 @@
       "url": "https://eebysckd.2go6k-y0pfv-fqbdsm.xyz:16677/topic/625517.html",
       "pick": "top",
       "fingerprint": {
+        "307": "7段",
         "306": "2段",
-        "305": "1段",
-        "304": "4段"
+        "305": "1段"
       },
       "status": "audit",
       "notes": [
@@ -2496,6 +2519,7 @@
       "url": "https://zdwcig.iyo4d-81klf-udwkqg.work:16677/topic/350521.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "3段",
         "306": "1段",
         "305": "4段",
         "304": "1段",
@@ -2504,8 +2528,7 @@
         "301": "1段",
         "300": "3段",
         "299": "1段",
-        "298": "3段",
-        "297": "1段"
+        "298": "3段"
       },
       "status": "ok"
     },
@@ -2515,6 +2538,7 @@
       "url": "https://kxglojup.fao5v-9u0oz-okhubb.work:16677/topic/237352.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "3段",
         "306": "4段",
         "305": "7段",
         "304": "6段",
@@ -2523,8 +2547,7 @@
         "301": "2段",
         "300": "1段",
         "299": "4段",
-        "298": "6段",
-        "297": "7段"
+        "298": "6段"
       },
       "status": "ok"
     },
@@ -2534,6 +2557,7 @@
       "url": "https://qdufkx.sjb5z-pi4k6-jlhnig.xyz:16677/topic/798386.html",
       "pick": "bottom",
       "fingerprint": {
+        "307": "2段",
         "306": "1段",
         "305": "4段",
         "304": "3段",
@@ -2541,7 +2565,7 @@
       },
       "status": "audit",
       "notes": [
-        "仅抓到4期"
+        "仅抓到5期"
       ]
     },
     {
@@ -2550,14 +2574,14 @@
       "url": "https://anhomo.n03wh-m2skn-wssphn.xyz/topic/770530.html",
       "pick": "top",
       "fingerprint": {
+        "307": "4段",
         "306": "1段",
         "305": "2段",
         "304": "6段",
         "303": "3段",
         "302": "1段",
         "301": "2段",
-        "300": "5段",
-        "299": "1段"
+        "300": "5段"
       },
       "status": "audit",
       "notes": [
@@ -2570,14 +2594,14 @@
       "url": "https://oifsonk.e0h72-f6bxs-juqrkd.xyz:16677/topic/450982.html",
       "pick": "top",
       "fingerprint": {
+        "307": "5段",
         "306": "3段",
         "305": "6段",
         "304": "5段",
         "303": "2段",
         "302": "6段",
         "301": "4段",
-        "300": "1段",
-        "299": "2段"
+        "300": "1段"
       },
       "status": "audit",
       "notes": [
@@ -2590,10 +2614,10 @@
       "url": "https://mxiscni.nkh6s-vfni4-lwgfvw.xyz:16677/topic/257907.html",
       "pick": "top",
       "fingerprint": {
+        "307": "6段",
         "306": "3段",
         "305": "6段",
-        "304": "4段",
-        "303": "6段"
+        "304": "4段"
       },
       "status": "audit",
       "notes": [
@@ -2606,6 +2630,7 @@
       "url": "https://hl.90216a.com/read.php?tid=735",
       "pick": "bottom",
       "fingerprint": {
+        "307": "5段",
         "306": "3段",
         "305": "1段",
         "304": "1段",
@@ -2614,8 +2639,7 @@
         "301": "3段",
         "300": "3段",
         "299": "4段",
-        "298": "3段",
-        "297": "2段"
+        "298": "3段"
       },
       "status": "ok"
     },
@@ -2625,6 +2649,7 @@
       "url": "https://hl.www73261a.com/read.php?tid=550",
       "pick": "bottom",
       "fingerprint": {
+        "307": "3段",
         "306": "4段",
         "305": "4段",
         "304": "3段",
@@ -2633,8 +2658,7 @@
         "301": "7段",
         "300": "1段",
         "299": "4段",
-        "298": "2段",
-        "297": "7段"
+        "298": "2段"
       },
       "status": "ok"
     },
@@ -2644,6 +2668,7 @@
       "url": "https://hlhl.69281.com/read.php?tid=813",
       "pick": "bottom",
       "fingerprint": {
+        "307": "2段",
         "306": "4段",
         "305": "6段",
         "304": "4段",
@@ -2652,8 +2677,7 @@
         "301": "4段",
         "300": "4段",
         "299": "5段",
-        "298": "4段",
-        "297": "6段"
+        "298": "4段"
       },
       "status": "ok"
     },
@@ -2663,6 +2687,7 @@
       "url": "https://hlhl.69281.com/read.php?tid=593",
       "pick": "bottom",
       "fingerprint": {
+        "307": "6段",
         "306": "7段",
         "305": "6段",
         "304": "3段",
@@ -2671,8 +2696,7 @@
         "301": "6段",
         "300": "7段",
         "299": "3段",
-        "298": "7段",
-        "297": "5段"
+        "298": "7段"
       },
       "status": "ok"
     },
@@ -2682,6 +2706,7 @@
       "url": "https://rmpsmal.hi84f-zpj90-mvqksp.xyz:29477/article/manager/6a48ee7157dc857ae1bf771a?url=jfh",
       "pick": "bottom",
       "fingerprint": {
+        "307": "6段",
         "306": "4段",
         "305": "6段",
         "304": "2段",
@@ -2690,8 +2715,7 @@
         "301": "5段",
         "300": "7段",
         "299": "7段",
-        "298": "1段",
-        "297": "5段"
+        "298": "1段"
       },
       "status": "ok",
       "article_records": [
@@ -2700,7 +2724,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "天机神料",
-          "title": "<p><strong>306期：【绝杀①段】幸运中奖</strong></p>",
+          "title": "<p><strong>307期：【绝杀①段】幸运中奖</strong></p>",
           "column": "主表单",
           "pick": "bottom",
           "target_field": "html",
@@ -2714,6 +2738,7 @@
       "url": "https://mbsqhpk.8ivvt-u3cx5-enwlld.xyz:29400/article/manager/6a33d099dfa16552b923d069?url=lhzj",
       "pick": "bottom",
       "fingerprint": {
+        "307": "1段",
         "306": "7段",
         "305": "6段",
         "304": "7段",
@@ -2722,8 +2747,7 @@
         "301": "4段",
         "300": "6段",
         "299": "7段",
-        "298": "2段",
-        "297": "1段"
+        "298": "2段"
       },
       "status": "ok",
       "article_records": [
@@ -2732,7 +2756,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "彩事顺意",
-          "title": "<p><strong>306期：【绝杀①段】〓 稳定下注</strong></p>",
+          "title": "<p><strong>307期：【绝杀①段】〓 稳定下注</strong></p>",
           "column": "主表单",
           "pick": "bottom",
           "target_field": "html",
@@ -2746,6 +2770,7 @@
       "url": "https://knfoaep.ivqs8-1depw-yoirtw.xyz:29444/article/manager/6a0f0e09fc651d66e6399b89?url=lf",
       "pick": "bottom",
       "fingerprint": {
+        "307": "6段",
         "306": "5段",
         "305": "4段",
         "304": "1段",
@@ -2754,8 +2779,7 @@
         "301": "1段",
         "300": "4段",
         "299": "2段",
-        "298": "7段",
-        "297": "2段"
+        "298": "7段"
       },
       "status": "ok",
       "article_records": [
@@ -2764,7 +2788,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "天上人间",
-          "title": "<p><strong>306期：【绝杀一段】〓 期期实战</strong></p>",
+          "title": "<p><strong>307期：【绝杀一段】〓 期期实战</strong></p>",
           "column": "主条目",
           "pick": "bottom",
           "target_field": "html",
@@ -2778,6 +2802,7 @@
       "url": "https://drxgkjt.uu1oc-eyjpt-uxyccu.xyz:29400/article/manager/6a33e9afdfa16552b923d41d?url=jyb",
       "pick": "bottom",
       "fingerprint": {
+        "307": "1段",
         "306": "2段",
         "305": "7段",
         "304": "1段",
@@ -2786,8 +2811,7 @@
         "301": "2段",
         "300": "1段",
         "299": "6段",
-        "298": "7段",
-        "297": "1段"
+        "298": "7段"
       },
       "status": "ok",
       "article_records": [
@@ -2796,7 +2820,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "金刚财子",
-          "title": "<p><strong>306期：【绝杀一段】〓 更新中奖</strong></p>",
+          "title": "<p><strong>307期：【绝杀一段】〓 更新中奖</strong></p>",
           "column": "主表单",
           "pick": "bottom",
           "target_field": "html",
@@ -2810,6 +2834,7 @@
       "url": "https://hcsuuoy.nimo7-9bgj4-fmspxt.xyz:29466/article/manager/6a31433af4129ac0e1595569?url=cww",
       "pick": "bottom",
       "fingerprint": {
+        "307": "1段",
         "306": "4段",
         "305": "6段",
         "304": "5段",
@@ -2818,8 +2843,7 @@
         "301": "6段",
         "300": "7段",
         "299": "2段",
-        "298": "6段",
-        "297": "2段"
+        "298": "6段"
       },
       "status": "ok",
       "article_records": [
@@ -2828,7 +2852,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "披金执锐",
-          "title": "<p><strong>306期：【绝杀①段】〓 精英资料</strong></p>",
+          "title": "<p><strong>307期：【绝杀①段】〓 精英资料</strong></p>",
           "column": "主表单",
           "pick": "bottom",
           "target_field": "html",
@@ -2842,6 +2866,7 @@
       "url": "https://hcsuuoy.nimo7-9bgj4-fmspxt.xyz:29466/article/manager/6a31447432c7c4bb3c056f7e?url=cww",
       "pick": "bottom",
       "fingerprint": {
+        "307": "1段",
         "306": "4段",
         "305": "1段",
         "304": "5段",
@@ -2850,8 +2875,7 @@
         "301": "2段",
         "300": "3段",
         "299": "3段",
-        "298": "3段",
-        "297": "5段"
+        "298": "3段"
       },
       "status": "ok",
       "article_records": [
@@ -2860,7 +2884,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "自知者明",
-          "title": "<p><strong>306期：【绝杀一段】〓 信心百倍</strong></p>",
+          "title": "<p><strong>307期：【绝杀一段】〓 信心百倍</strong></p>",
           "column": "主表单",
           "pick": "bottom",
           "target_field": "html",
@@ -2874,6 +2898,7 @@
       "url": "https://nwrkkmv.rx287-rkrai-jsjccc.xyz:29499/article/manager/6a33d2b3dfa16552b923d0ab?url=ggz",
       "pick": "bottom",
       "fingerprint": {
+        "307": "2段",
         "306": "7段",
         "305": "2段",
         "304": "5段",
@@ -2882,8 +2907,7 @@
         "301": "3段",
         "300": "7段",
         "299": "6段",
-        "298": "5段",
-        "297": "6段"
+        "298": "5段"
       },
       "status": "ok",
       "article_records": [
@@ -2892,7 +2916,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "最佳女主",
-          "title": "<p><strong>306期：【绝杀一段】〓 送钱猛料 </strong></p>",
+          "title": "<p><strong>307期：【绝杀一段】〓 送钱猛料 </strong></p>",
           "column": "主表单",
           "pick": "bottom",
           "target_field": "html",
@@ -2906,6 +2930,7 @@
       "url": "https://zqrtppa.9swju-6haxn-dlkint.work:29455/article/lottery/6a33a197dfa16552b923cae5?url=yjs",
       "pick": "bottom",
       "fingerprint": {
+        "307": "2段",
         "306": "4段",
         "305": "2段",
         "304": "7段",
@@ -2914,8 +2939,7 @@
         "301": "7段",
         "300": "6段",
         "299": "5段",
-        "298": "3段",
-        "297": "4段"
+        "298": "3段"
       },
       "status": "ok",
       "article_records": [
@@ -2924,7 +2948,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "诗情画意",
-          "title": "<p>306期：【绝杀①段】〓 完美中奖 </p>",
+          "title": "<p>307期：【绝杀①段】〓 完美中奖 </p>",
           "column": "主表单",
           "pick": "bottom",
           "target_field": "html",
@@ -2938,6 +2962,7 @@
       "url": "https://knrpona.3b0v8-i91jw-dlnvfg.work:29433/article/lottery/6a64784cb3f65fed7d62506a?url=dfh",
       "pick": "bottom",
       "fingerprint": {
+        "307": "3段",
         "306": "5段",
         "305": "4段",
         "304": "3段",
@@ -2946,8 +2971,7 @@
         "301": "4段",
         "300": "4段",
         "299": "2段",
-        "298": "5段",
-        "297": "3段"
+        "298": "5段"
       },
       "status": "ok",
       "article_records": [
@@ -2956,7 +2980,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "天天向上",
-          "title": "<p>306期【绝杀1段】已更新</p>",
+          "title": "<p>307期【绝杀1段】已更新</p>",
           "column": "主表单",
           "pick": "bottom",
           "target_field": "html",
@@ -2970,6 +2994,7 @@
       "url": "https://8818.www19753a.com/read.php?tid=507",
       "pick": "bottom",
       "fingerprint": {
+        "307": "5段",
         "306": "6段",
         "305": "2段",
         "304": "2段",
@@ -2978,8 +3003,7 @@
         "301": "2段",
         "300": "3段",
         "299": "3段",
-        "298": "3段",
-        "297": "5段"
+        "298": "3段"
       },
       "status": "ok"
     },
@@ -2989,6 +3013,7 @@
       "url": "https://hquomm.20t3f-0yztv-jiozun.xyz:29444/article/lottery/6a3285508b1df821e006cce6?url=dgd",
       "pick": "bottom",
       "fingerprint": {
+        "307": "2段",
         "306": "4段",
         "305": "5段",
         "304": "3段",
@@ -2997,8 +3022,7 @@
         "301": "5段",
         "300": "4段",
         "299": "6段",
-        "298": "2段",
-        "297": "3段"
+        "298": "2段"
       },
       "status": "ok",
       "article_records": [
@@ -3007,7 +3031,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "树大根深",
-          "title": "<p>306期：【绝杀①段】〓 点击查看 </p>",
+          "title": "<p>307期：【绝杀①段】〓 点击查看 </p>",
           "column": "主表单",
           "pick": "bottom",
           "target_field": "html",
@@ -3021,6 +3045,7 @@
       "url": "https://5ipaulfv56.1081085bbs1.shop/bbs/topic.php?id=2483",
       "pick": "bottom",
       "fingerprint": {
+        "307": "7段",
         "306": "2段",
         "305": "3段",
         "304": "1段",
@@ -3029,8 +3054,7 @@
         "301": "2段",
         "300": "1段",
         "299": "5段",
-        "298": "7段",
-        "297": "6段"
+        "298": "7段"
       },
       "status": "ok"
     },
@@ -3040,6 +3064,7 @@
       "url": "https://fansiggg.jc2q8-whfmg-vajjui.xyz:29433/article/lottery/6a096a8a291caff3edcb8b86?url=dyj",
       "pick": "bottom",
       "fingerprint": {
+        "307": "5段",
         "306": "3段",
         "305": "2段",
         "304": "4段",
@@ -3048,8 +3073,7 @@
         "301": "6段",
         "300": "5段",
         "299": "3段",
-        "298": "2段",
-        "297": "4段"
+        "298": "2段"
       },
       "status": "ok",
       "article_records": [
@@ -3058,7 +3082,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "喜气洋洋",
-          "title": "<p><strong>306期：【绝杀一段】〓 天赐良机</strong></p>",
+          "title": "<p><strong>307期：【绝杀一段】〓 天赐良机</strong></p>",
           "column": "主条目",
           "pick": "bottom",
           "target_field": "html",
@@ -3072,6 +3096,7 @@
       "url": "https://fansiggg.jc2q8-whfmg-vajjui.xyz:29433/article/lottery/6a5fadbb1c5fe6eb8304fed3?url=dyj",
       "pick": "bottom",
       "fingerprint": {
+        "307": "2段",
         "306": "4段",
         "305": "5段",
         "304": "3段",
@@ -3080,8 +3105,7 @@
         "301": "6段",
         "300": "3段",
         "299": "5段",
-        "298": "3段",
-        "297": "2段"
+        "298": "3段"
       },
       "status": "ok",
       "article_records": [
@@ -3090,7 +3114,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "插疏篱却",
-          "title": "<p><strong>306期：【绝杀一段】〓 精英资料</strong></p>",
+          "title": "<p><strong>307期：【绝杀一段】〓 精英资料</strong></p>",
           "column": "主条目",
           "pick": "bottom",
           "target_field": "html",
@@ -3104,6 +3128,7 @@
       "url": "https://fansiggg.jc2q8-whfmg-vajjui.xyz:29433/article/lottery/6a096b6b291caff3edcb8ba3?url=dyj",
       "pick": "bottom",
       "fingerprint": {
+        "307": "5段",
         "306": "2段",
         "305": "3段",
         "304": "4段",
@@ -3112,8 +3137,7 @@
         "301": "6段",
         "300": "4段",
         "299": "2段",
-        "298": "3段",
-        "297": "2段"
+        "298": "3段"
       },
       "status": "ok",
       "article_records": [
@@ -3122,7 +3146,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "穷源溯流",
-          "title": "<p><strong>306期：【绝杀①段】〓 赚钱秘籍</strong></p>",
+          "title": "<p><strong>307期：【绝杀①段】〓 赚钱秘籍</strong></p>",
           "column": "主条目",
           "pick": "bottom",
           "target_field": "html",
@@ -3136,6 +3160,7 @@
       "url": "https://nwrkkmv.rx287-rkrai-jsjccc.xyz:29499/article/lottery/6a55d6e6f447e21b02daa636?url=ggz",
       "pick": "bottom",
       "fingerprint": {
+        "307": "2段",
         "306": "2段",
         "305": "1段",
         "304": "3段",
@@ -3144,8 +3169,7 @@
         "301": "4段",
         "300": "7段",
         "299": "6段",
-        "298": "1段",
-        "297": "3段"
+        "298": "1段"
       },
       "status": "ok",
       "article_records": [
@@ -3154,7 +3178,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "快乐之家",
-          "title": "<p><strong>306期：【绝杀一段】〓 连续中奖</strong></p>",
+          "title": "<p><strong>307期：【绝杀一段】〓 连续中奖</strong></p>",
           "column": "主表单",
           "pick": "bottom",
           "target_field": "html",
@@ -3168,6 +3192,7 @@
       "url": "https://nwrkkmv.rx287-rkrai-jsjccc.xyz:29499/article/lottery/6a55da4af447e21b02daa64b?url=ggz",
       "pick": "bottom",
       "fingerprint": {
+        "307": "5段",
         "306": "6段",
         "305": "7段",
         "304": "2段",
@@ -3176,8 +3201,7 @@
         "301": "4段",
         "300": "4段",
         "299": "5段",
-        "298": "4段",
-        "297": "1段"
+        "298": "4段"
       },
       "status": "ok",
       "article_records": [
@@ -3186,7 +3210,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "得意洋洋",
-          "title": "<p><strong>306期：【绝杀①段】〓 连续中奖</strong></p>",
+          "title": "<p><strong>307期：【绝杀①段】〓 连续中奖</strong></p>",
           "column": "主表单",
           "pick": "bottom",
           "target_field": "html",
@@ -3200,6 +3224,7 @@
       "url": "https://hcsuuoy.nimo7-9bgj4-fmspxt.xyz:29466/article/lottery/6a6488c2b3f65fed7d625131?url=cww",
       "pick": "bottom",
       "fingerprint": {
+        "307": "4段",
         "306": "7段",
         "305": "2段",
         "304": "7段",
@@ -3208,8 +3233,7 @@
         "301": "5段",
         "300": "3段",
         "299": "1段",
-        "298": "1段",
-        "297": "2段"
+        "298": "1段"
       },
       "status": "ok",
       "article_records": [
@@ -3218,7 +3242,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "鲜花绿叶",
-          "title": "<p><strong>306期：【绝杀①段】〓 步步发财</strong></p>",
+          "title": "<p><strong>307期：【绝杀①段】〓 步步发财</strong></p>",
           "column": "主表单",
           "pick": "bottom",
           "target_field": "html",
@@ -3232,6 +3256,7 @@
       "url": "https://djimkyw.n7ht1-wp4vm-ljitjr.xyz:29488/article/lottery/6a329ef2b8abbf5af1a54eab?url=cmzj",
       "pick": "bottom",
       "fingerprint": {
+        "307": "6段",
         "306": "2段",
         "305": "7段",
         "304": "3段",
@@ -3240,8 +3265,7 @@
         "301": "4段",
         "300": "7段",
         "299": "4段",
-        "298": "3段",
-        "297": "1段"
+        "298": "3段"
       },
       "status": "ok",
       "article_records": [
@@ -3250,7 +3274,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "美丽动人",
-          "title": "<p><strong>306期：【绝杀①段】〓 完美中奖</strong></p>",
+          "title": "<p><strong>307期：【绝杀①段】〓 完美中奖</strong></p>",
           "column": "主表单",
           "pick": "bottom",
           "target_field": "html",
@@ -3264,6 +3288,7 @@
       "url": "https://buzsxio.821n4-hgj04-edkrft.xyz:29455/article/lottery/6a5132475e6c7637a3f4ff2b?url=bxj",
       "pick": "bottom",
       "fingerprint": {
+        "307": "5段",
         "306": "7段",
         "305": "4段",
         "304": "3段",
@@ -3272,8 +3297,7 @@
         "301": "6段",
         "300": "2段",
         "299": "7段",
-        "298": "7段",
-        "297": "4段"
+        "298": "7段"
       },
       "status": "ok",
       "article_records": [
@@ -3282,7 +3306,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "思念无涯",
-          "title": "<p>306期：【绝杀一段】〓 天天中奖</p>",
+          "title": "<p>307期：【绝杀一段】〓 天天中奖</p>",
           "column": "主条目",
           "pick": "bottom",
           "target_field": "html",
@@ -3296,6 +3320,7 @@
       "url": "https://buzsxio.821n4-hgj04-edkrft.xyz:29455/article/lottery/6a7ee601ee4739fbe9ea2716?url=bxj",
       "pick": "bottom",
       "fingerprint": {
+        "307": "4段",
         "306": "2段",
         "305": "7段",
         "304": "2段",
@@ -3304,8 +3329,7 @@
         "301": "4段",
         "300": "2段",
         "299": "7段",
-        "298": "5段",
-        "297": "1段"
+        "298": "5段"
       },
       "status": "ok",
       "article_records": [
@@ -3314,7 +3338,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "澳彩经理",
-          "title": "<p>306期：【绝杀①段】〓 通过验证</p>",
+          "title": "<p>307期：【绝杀①段】〓 通过验证</p>",
           "column": "主条目",
           "pick": "bottom",
           "target_field": "html",
@@ -3328,6 +3352,7 @@
       "url": "https://buzsxio.821n4-hgj04-edkrft.xyz:29455/article/lottery/6a5eef84f447e21b02dd548c?url=bxj",
       "pick": "bottom",
       "fingerprint": {
+        "307": "4段",
         "306": "5段",
         "305": "1段",
         "304": "3段",
@@ -3336,8 +3361,7 @@
         "301": "4段",
         "300": "6段",
         "299": "7段",
-        "298": "1段",
-        "297": "2段"
+        "298": "1段"
       },
       "status": "ok",
       "article_records": [
@@ -3346,7 +3370,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "天龙传彩",
-          "title": "<p>306期：【绝杀①段】〓 连准多期</p>",
+          "title": "<p>307期：【绝杀①段】〓 连准多期</p>",
           "column": "主条目",
           "pick": "bottom",
           "target_field": "html",
@@ -3360,6 +3384,7 @@
       "url": "https://wigrzse.3acpt-tc9xa-kzxasm.xyz:29444/article/lottery/6a82d3daee4739fbe9eb4c33?url=pg",
       "pick": "bottom",
       "fingerprint": {
+        "307": "3段",
         "306": "4段",
         "305": "2段",
         "304": "1段",
@@ -3368,8 +3393,7 @@
         "301": "4段",
         "300": "1段",
         "299": "7段",
-        "298": "6段",
-        "297": "1段"
+        "298": "6段"
       },
       "status": "ok",
       "article_records": [
@@ -3378,7 +3402,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "日月星辰",
-          "title": "<p><strong>306期：【绝杀一段】关注中奖</strong></p>",
+          "title": "<p><strong>307期：【绝杀一段】关注中奖</strong></p>",
           "column": "主条目",
           "pick": "bottom",
           "target_field": "html",
@@ -3392,6 +3416,7 @@
       "url": "https://wigrzse.3acpt-tc9xa-kzxasm.xyz:29444/article/lottery/6a809824ee4739fbe9eab5bf?url=pg",
       "pick": "bottom",
       "fingerprint": {
+        "307": "4段",
         "306": "6段",
         "305": "2段",
         "304": "3段",
@@ -3400,8 +3425,7 @@
         "301": "7段",
         "300": "3段",
         "299": "2段",
-        "298": "1段",
-        "297": "7段"
+        "298": "1段"
       },
       "status": "ok",
       "article_records": [
@@ -3410,7 +3434,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "寒风凌厉",
-          "title": "<p><strong>306期：【绝杀一段】 神级预测</strong></p>",
+          "title": "<p><strong>307期：【绝杀一段】 神级预测</strong></p>",
           "column": "主条目",
           "pick": "bottom",
           "target_field": "html",
@@ -3424,6 +3448,7 @@
       "url": "https://wigrzse.3acpt-tc9xa-kzxasm.xyz:29444/article/lottery/6a446d7c57dc857ae1be3a7d?url=pg",
       "pick": "bottom",
       "fingerprint": {
+        "307": "3段",
         "306": "2段",
         "305": "4段",
         "304": "5段",
@@ -3432,8 +3457,7 @@
         "301": "1段",
         "300": "4段",
         "299": "2段",
-        "298": "2段",
-        "297": "6段"
+        "298": "2段"
       },
       "status": "ok",
       "article_records": [
@@ -3442,7 +3466,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "王者归来",
-          "title": "<p><strong> 306期：【绝杀一段】 玄机预测</strong></p>",
+          "title": "<p><strong> 307期：【绝杀一段】 玄机预测</strong></p>",
           "column": "主条目",
           "pick": "bottom",
           "target_field": "html",
@@ -3456,6 +3480,7 @@
       "url": "https://wigrzse.3acpt-tc9xa-kzxasm.xyz:29444/article/lottery/6a155bf08be59b17287c6d80?url=pg",
       "pick": "bottom",
       "fingerprint": {
+        "307": "3段",
         "306": "1段",
         "305": "3段",
         "304": "2段",
@@ -3464,8 +3489,7 @@
         "301": "1段",
         "300": "3段",
         "299": "2段",
-        "298": "5段",
-        "297": "4段"
+        "298": "5段"
       },
       "status": "ok",
       "article_records": [
@@ -3474,7 +3498,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "完美资料",
-          "title": "<p><strong>306期：【绝杀①段】 赚钱机会 </strong></p>",
+          "title": "<p><strong>307期：【绝杀①段】 赚钱机会 </strong></p>",
           "column": "主条目",
           "pick": "bottom",
           "target_field": "html",
@@ -3488,6 +3512,7 @@
       "url": "https://xjsjbkv.b3e4x-wxhjo-lbdbjg.xyz:29477/article/lottery/6a324e079064062ca99f2332?url=jbx",
       "pick": "bottom",
       "fingerprint": {
+        "307": "2段",
         "306": "5段",
         "305": "6段",
         "304": "7段",
@@ -3496,8 +3521,7 @@
         "301": "6段",
         "300": "4段",
         "299": "2段",
-        "298": "1段",
-        "297": "5段"
+        "298": "1段"
       },
       "status": "ok",
       "article_records": [
@@ -3506,7 +3530,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "扫庄致富",
-          "title": "<p><strong>306期：【绝杀一段】〓 致富之路</strong></p>",
+          "title": "<p><strong>307期：【绝杀一段】〓 致富之路</strong></p>",
           "column": "主表单",
           "pick": "bottom",
           "target_field": "html",
@@ -3520,6 +3544,7 @@
       "url": "https://xjsjbkv.b3e4x-wxhjo-lbdbjg.xyz:29477/article/lottery/6a32731755781f6efb14896f?url=jbx",
       "pick": "bottom",
       "fingerprint": {
+        "307": "5段",
         "306": "2段",
         "305": "5段",
         "304": "3段",
@@ -3528,8 +3553,7 @@
         "301": "5段",
         "300": "1段",
         "299": "1段",
-        "298": "6段",
-        "297": "4段"
+        "298": "6段"
       },
       "status": "ok",
       "article_records": [
@@ -3538,7 +3562,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "亦可相拥",
-          "title": "<p><strong>306期：【绝杀①段】〓 千万富翁</strong></p>",
+          "title": "<p><strong>307期：【绝杀①段】〓 千万富翁</strong></p>",
           "column": "主表单",
           "pick": "bottom",
           "target_field": "html",
@@ -3552,6 +3576,7 @@
       "url": "https://xjsjbkv.b3e4x-wxhjo-lbdbjg.xyz:29477/article/lottery/6a326f8f55781f6efb14895b?url=jbx",
       "pick": "bottom",
       "fingerprint": {
+        "307": "4段",
         "306": "1段",
         "305": "3段",
         "304": "5段",
@@ -3560,8 +3585,7 @@
         "301": "6段",
         "300": "3段",
         "299": "2段",
-        "298": "6段",
-        "297": "6段"
+        "298": "6段"
       },
       "status": "ok",
       "article_records": [
@@ -3570,7 +3594,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "人小鬼大",
-          "title": "<p><strong>306期：【绝杀①段】〓 继续公开</strong></p>",
+          "title": "<p><strong>307期：【绝杀①段】〓 继续公开</strong></p>",
           "column": "主表单",
           "pick": "bottom",
           "target_field": "html",
@@ -3584,6 +3608,7 @@
       "url": "https://rwraojf.l54vq-9httr-cmdnip.work:29477/article/lottery/6a623ffdb3f65fed7d61b5d0?url=xdr",
       "pick": "bottom",
       "fingerprint": {
+        "307": "4段",
         "306": "5段",
         "305": "5段",
         "304": "3段",
@@ -3592,8 +3617,7 @@
         "301": "6段",
         "300": "5段",
         "299": "7段",
-        "298": "4段",
-        "297": "3段"
+        "298": "4段"
       },
       "status": "ok",
       "article_records": [
@@ -3602,7 +3626,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "神算规律",
-          "title": "<p><span style=\"font-family: SimHei; font-size: 14px; color: rgb(33, 150, 243);\"><strong>306期：【绝杀①段】〓 妙手回春</strong></span></p>",
+          "title": "<p><span style=\"font-family: SimHei; font-size: 14px; color: rgb(33, 150, 243);\"><strong>307期：【绝杀①段】〓 妙手回春</strong></span></p>",
           "column": "123",
           "pick": "bottom",
           "target_field": "html",
@@ -3616,6 +3640,7 @@
       "url": "https://cahgjib.5blx9-z8506-ekiwxc.work:29488/article/lottery/6a80a68dee4739fbe9eabe63?url=lqz",
       "pick": "bottom",
       "fingerprint": {
+        "307": "7段",
         "306": "1段",
         "305": "5段",
         "304": "1段",
@@ -3624,8 +3649,7 @@
         "301": "7段",
         "300": "1段",
         "299": "1段",
-        "298": "2段",
-        "297": "1段"
+        "298": "2段"
       },
       "status": "ok",
       "article_records": [
@@ -3634,7 +3658,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "财神大亨",
-          "title": "<p><strong>306期：【绝杀①段】继续公开</strong></p>",
+          "title": "<p><strong>307期：【绝杀①段】继续公开</strong></p>",
           "column": "主条目",
           "pick": "bottom",
           "target_field": "html",
@@ -3648,6 +3672,7 @@
       "url": "https://pgyzulb.iwnn7-gyyip-pnpfqv.work:29477/article/lottery/6a5a4645f447e21b02dbee93?url=bflc",
       "pick": "bottom",
       "fingerprint": {
+        "307": "5段",
         "306": "3段",
         "305": "1段",
         "304": "5段",
@@ -3656,8 +3681,7 @@
         "301": "4段",
         "300": "6段",
         "299": "3段",
-        "298": "4段",
-        "297": "5段"
+        "298": "4段"
       },
       "status": "ok",
       "article_records": [
@@ -3666,7 +3690,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "八仙过海",
-          "title": "<p><strong>306期：【绝杀①段】〓 妙手回春 </strong></p>",
+          "title": "<p><strong>307期：【绝杀①段】〓 妙手回春 </strong></p>",
           "column": "主条目",
           "pick": "bottom",
           "target_field": "html",
@@ -3680,6 +3704,7 @@
       "url": "https://yzpbdkow.6m1ba-7p7u4-ppolcy.work:29433/article/lottery/6a84fdfeee4739fbe9ebfa3f?url=tdg",
       "pick": "bottom",
       "fingerprint": {
+        "307": "1段",
         "306": "4段",
         "305": "3段",
         "304": "2段",
@@ -3688,8 +3713,7 @@
         "301": "3段",
         "300": "7段",
         "299": "2段",
-        "298": "1段",
-        "297": "2段"
+        "298": "1段"
       },
       "status": "ok",
       "article_records": [
@@ -3698,7 +3722,7 @@
           "record_path": "$",
           "article_count": 1,
           "author": "烟雾弥漫",
-          "title": "<p><span style=\"color: rgb(33, 150, 243);\"><strong>306期：【绝杀①段】〓 极品资料</strong></span></p>",
+          "title": "<p><span style=\"color: rgb(33, 150, 243);\"><strong>307期：【绝杀①段】〓 极品资料</strong></span></p>",
           "column": "主条目",
           "pick": "bottom",
           "target_field": "html",
@@ -3712,6 +3736,7 @@
       "url": "https://6609960827.115646.xyz/bbs/topic.php?id=19777",
       "pick": "bottom",
       "fingerprint": {
+        "307": "2段",
         "306": "3段",
         "305": "3段",
         "304": "2段",
@@ -3720,8 +3745,7 @@
         "301": "1段",
         "300": "5段",
         "299": "2段",
-        "298": "6段",
-        "297": "5段"
+        "298": "6段"
       },
       "status": "ok"
     },
@@ -3731,6 +3755,7 @@
       "url": "https://0085680827.326455.xyz/bbs/topic.php?id=18780",
       "pick": "bottom",
       "fingerprint": {
+        "307": "7段",
         "306": "3段",
         "305": "5段",
         "304": "7段",
@@ -3739,8 +3764,7 @@
         "301": "2段",
         "300": "1段",
         "299": "4段",
-        "298": "1段",
-        "297": "1段"
+        "298": "1段"
       },
       "status": "ok"
     },
@@ -3750,6 +3774,7 @@
       "url": "https://12388990827.688756.xyz/bbs/topic.php?id=19186",
       "pick": "bottom",
       "fingerprint": {
+        "307": "4段",
         "306": "6段",
         "305": "5段",
         "304": "2段",
@@ -3758,8 +3783,7 @@
         "301": "6段",
         "300": "6段",
         "299": "7段",
-        "298": "3段",
-        "297": "4段"
+        "298": "3段"
       },
       "status": "ok"
     },
@@ -3769,6 +3793,7 @@
       "url": "https://11889900827.435458.xyz/bbs/topic.php?id=19472",
       "pick": "bottom",
       "fingerprint": {
+        "307": "1段",
         "306": "2段",
         "305": "1段",
         "304": "6段",
@@ -3777,8 +3802,7 @@
         "301": "2段",
         "300": "7段",
         "299": "5段",
-        "298": "3段",
-        "297": "3段"
+        "298": "3段"
       },
       "status": "ok"
     },
@@ -3788,6 +3812,7 @@
       "url": "https://11008880827.456732.xyz/bbs/topic.php?id=19391",
       "pick": "bottom",
       "fingerprint": {
+        "307": "5段",
         "306": "4段",
         "305": "6段",
         "304": "7段",
@@ -3796,8 +3821,7 @@
         "301": "7段",
         "300": "6段",
         "299": "6段",
-        "298": "1段",
-        "297": "4段"
+        "298": "1段"
       },
       "status": "ok"
     },
@@ -3807,6 +3831,7 @@
       "url": "https://0130190827.987860.xyz/bbs/topic.php?id=19451",
       "pick": "bottom",
       "fingerprint": {
+        "307": "3段",
         "306": "2段",
         "305": "2段",
         "304": "1段",
@@ -3815,8 +3840,7 @@
         "301": "5段",
         "300": "5段",
         "299": "7段",
-        "298": "1段",
-        "297": "4段"
+        "298": "1段"
       },
       "status": "ok"
     },
@@ -3826,6 +3850,7 @@
       "url": "https://67806780827.325346.xyz/bbs/topic.php?id=19578",
       "pick": "bottom",
       "fingerprint": {
+        "307": "1段",
         "306": "6段",
         "305": "5段",
         "304": "5段",
@@ -3834,8 +3859,7 @@
         "301": "6段",
         "300": "2段",
         "299": "5段",
-        "298": "5段",
-        "297": "7段"
+        "298": "5段"
       },
       "status": "ok"
     },
@@ -3845,6 +3869,7 @@
       "url": "https://88888020827.897657.xyz/bbs/topic.php?id=19260",
       "pick": "bottom",
       "fingerprint": {
+        "307": "2段",
         "306": "5段",
         "305": "6段",
         "304": "3段",
@@ -3853,8 +3878,7 @@
         "301": "3段",
         "300": "3段",
         "299": "7段",
-        "298": "2段",
-        "297": "4段"
+        "298": "2段"
       },
       "status": "ok"
     },
@@ -3864,6 +3888,7 @@
       "url": "https://88888020827.997595.xyz/bbs/topic.php?id=19443",
       "pick": "bottom",
       "fingerprint": {
+        "307": "1段",
         "306": "1段",
         "305": "4段",
         "304": "4段",
@@ -3872,8 +3897,7 @@
         "301": "4段",
         "300": "7段",
         "299": "7段",
-        "298": "3段",
-        "297": "2段"
+        "298": "3段"
       },
       "status": "ok"
     },
@@ -3883,6 +3907,7 @@
       "url": "https://lf29cc.1231978.com/shaxiao/036.htm",
       "pick": "bottom",
       "fingerprint": {
+        "307": "4段",
         "306": "6段",
         "305": "2段",
         "304": "6段",
@@ -3891,8 +3916,7 @@
         "301": "1段",
         "300": "5段",
         "299": "4段",
-        "298": "2段",
-        "297": "3段"
+        "298": "2段"
       },
       "status": "ok"
     }
@@ -3904,11 +3928,11 @@
     "max_search": 30,
     "summary": {
       "site_count": 175,
-      "ok_count": 108,
-      "audit_count": 67,
+      "ok_count": 109,
+      "audit_count": 66,
       "error_count": 0,
       "no_candidates_count": 0,
-      "full_10_count": 111
+      "full_10_count": 114
     }
   }
 }
