@@ -78,8 +78,8 @@
     "pick": "bottom"
   },
   "https://4m6dz.5qa9g-yt3d1-vfqhud.xyz/topic/216489.html": {
-    "fail_streak": 0,
-    "last_status": "OK",
+    "fail_streak": 1,
+    "last_status": "SSL握手失败",
     "name": "折节下士",
     "pick": "top"
   },
@@ -516,8 +516,8 @@
     "pick": "bottom"
   },
   "https://hfauoob.xu36n-9s7v3-jtrkpg.xyz:16677/topic/448332.html": {
-    "fail_streak": 0,
-    "last_status": "OK",
+    "fail_streak": 1,
+    "last_status": "SSL握手失败",
     "name": "烘云托月",
     "pick": "bottom"
   },
@@ -822,8 +822,8 @@
     "pick": "top"
   },
   "https://sdzvp.lh8uo-ee9ru-cfpyti.xyz/topic/227458.html": {
-    "fail_streak": 0,
-    "last_status": "OK",
+    "fail_streak": 1,
+    "last_status": "SSL握手失败",
     "name": "河梁之谊",
     "pick": "bottom"
   },
