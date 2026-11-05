@@ -1,7 +1,7 @@
 ﻿{
   "base_period": 309,
   "periods": 10,
-  "updated_at": "2026-11-05 18:33:55",
+  "updated_at": "2026-11-05 18:53:23",
   "sites": [
     {
       "id": "s001_topic_157484",
@@ -2391,6 +2391,7 @@
       "url": "https://zxlfxpp.2n0je-9ecrg-kadbbu.work:29411/article/admin/6a141df74346bc68aea4efb3?url=tmw",
       "pick": "bottom",
       "fingerprint": {
+        "309": "4段",
         "308": "4段",
         "307": "6段",
         "306": "2段",
@@ -2399,14 +2400,12 @@
         "303": "2段",
         "302": "6段",
         "301": "2段",
-        "300": "7段",
-        "299": "3段"
+        "300": "7段"
       },
-      "status": "error",
+      "status": "audit",
       "notes": [
-        "本次实时判定失败：尾部最新3个有效候选期数为[307期、308期]，不含指定309期"
+        "用户手动指定309期4段：站方正文期号未更新（最新行标注308期未开奖）"
       ],
-      "error": "尾部最新3个有效候选期数为[307期、308期]，不含指定309期",
       "article_records": [
         {
           "record_id": "6a141df74346bc68aea4efb3",
@@ -3931,8 +3930,8 @@
     "summary": {
       "site_count": 175,
       "ok_count": 110,
-      "audit_count": 64,
-      "error_count": 1,
+      "audit_count": 65,
+      "error_count": 0,
       "no_candidates_count": 0,
       "full_10_count": 114
     }
