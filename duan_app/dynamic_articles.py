@@ -8,7 +8,7 @@ from urllib.parse import urljoin, urlparse
 from duan_app.constants import DECODE_B64_RE, ISSUE_RE, PAGE_DATA_RE, STRDECODE_RE
 from duan_app.domain import ArticleDocumentList, ArticlePayloadUnavailableError, ArticleRecordError
 from duan_app.parsing.engine import has_result_keyword
-from duan_app.text_utils import normalize_text
+from duan_app.text_utils import html_to_text, normalize_text
 
 
 def decode_base64_payload(payload: str) -> str | None:
@@ -282,7 +282,10 @@ def validate_article_record(
         raise ArticleRecordError(f"作者校验失败[{author!r}]")
     title = decode_article_field(record, "title")
     body = decode_article_field(record, "html")
-    if not ISSUE_RE.search(normalize_text(title)) or not has_result_keyword(title):
+    # 标题可能是带行内标签的 HTML（站方把期数与「期」拆进不同 span），
+    # 校验前先取纯文本，否则 ISSUE_RE 会被标签隔断而误判。
+    title_text = html_to_text(title) if "<" in title else title
+    if not ISSUE_RE.search(normalize_text(title_text)) or not has_result_keyword(title_text):
         raise ArticleRecordError("标题未通过期数和数据关键词校验")
     sections = record.get("formSections")
     if not isinstance(sections, list):
