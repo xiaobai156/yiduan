@@ -3657,30 +3657,6 @@
       "custom_parser": null
     },
     {
-      "site_id": "6bc3f0d54ac5f21e",
-      "name": "天天向上",
-      "url": "https://knrpona.3b0v8-i91jw-dlnvfg.work:29433/article/lottery/6a64784cb3f65fed7d62506a?url=dfh",
-      "pick": "bottom",
-      "name_anchors": [
-        "天天向上"
-      ],
-      "section_keywords": [
-        "绝杀一段",
-        "绝杀1段",
-        "杀一段",
-        "杀1段"
-      ],
-      "value_keyword": "段",
-      "candidate_window": 3,
-      "value_min": 1,
-      "value_max": 7,
-      "document_sources": [
-        "api"
-      ],
-      "record_id_required": true,
-      "custom_parser": null
-    },
-    {
       "site_id": "bb89db7ea9ecc06e",
       "name": "天马行空",
       "url": "https://8818.www19753a.com/read.php?tid=507",
@@ -4366,32 +4342,6 @@
       "custom_parser": null
     },
     {
-      "site_id": "d300f5613773f069",
-      "name": "绝杀一合",
-      "url": "https://11008880827.456732.xyz/bbs/topic.php?id=19391",
-      "pick": "bottom",
-      "name_anchors": [
-        "绝杀一合"
-      ],
-      "section_keywords": [
-        "绝杀一段",
-        "绝杀1段",
-        "杀一段",
-        "杀1段"
-      ],
-      "value_keyword": "段",
-      "candidate_window": 3,
-      "value_min": 1,
-      "value_max": 7,
-      "document_sources": [
-        "page",
-        "script",
-        "iframe"
-      ],
-      "record_id_required": false,
-      "custom_parser": null
-    },
-    {
       "site_id": "64be985f06c5b934",
       "name": "诚意满满",
       "url": "https://0130190827.987860.xyz/bbs/topic.php?id=19451",
@@ -4424,32 +4374,6 @@
       "pick": "bottom",
       "name_anchors": [
         "高才絶学"
-      ],
-      "section_keywords": [
-        "绝杀一段",
-        "绝杀1段",
-        "杀一段",
-        "杀1段"
-      ],
-      "value_keyword": "段",
-      "candidate_window": 3,
-      "value_min": 1,
-      "value_max": 7,
-      "document_sources": [
-        "page",
-        "script",
-        "iframe"
-      ],
-      "record_id_required": false,
-      "custom_parser": null
-    },
-    {
-      "site_id": "e46ac56c522b0aef",
-      "name": "精品赐码",
-      "url": "https://88888020827.897657.xyz/bbs/topic.php?id=19260",
-      "pick": "bottom",
-      "name_anchors": [
-        "精品赐码"
       ],
       "section_keywords": [
         "绝杀一段",

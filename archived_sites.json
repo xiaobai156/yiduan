@@ -1791,6 +1791,221 @@
         "name": "禾尽风起",
         "pick": "bottom"
       }
+    },
+    {
+      "archived_at": "2026-11-09T18:51:22+08:00",
+      "reason": "313期失败清单处置：站方标题已改为『313期[绝杀1段]已更新』，但正文块最后两行仍是 『312期 [6段] 开:蛇38错』『312期 [7段] 开:00准』占位，API 解码正文 122074 字节内 '313期' 出现 0 次。判定为无数据（正文未发布313期），非解析异常；用户点名封存并停止抓取",
+      "last_failure": {
+        "period": 313,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "尾部最新3个有效候选期数为[311期、312期]，不含指定313期"
+      },
+      "raw_failure_line": "失败 天天向上 https://knrpona.3b0v8-i91jw-dlnvfg.work:29433/article/lottery/6a64784cb3f65fed7d62506a?url=dfh 方向: bottom 期数: 313 阶段: 指定期数校验 原因: 尾部最新3个有效候选期数为[311期、312期]，不含指定313期",
+      "site": {
+        "name": "天天向上",
+        "url": "https://knrpona.3b0v8-i91jw-dlnvfg.work:29433/article/lottery/6a64784cb3f65fed7d62506a?url=dfh",
+        "pick": "bottom",
+        "api_url": "https://knrpona.3b0v8-i91jw-dlnvfg.work:29433/api/proxy/manager-articles/6a64784cb3f65fed7d62506a"
+      },
+      "profile": {
+        "site_id": "6bc3f0d54ac5f21e",
+        "name": "天天向上",
+        "url": "https://knrpona.3b0v8-i91jw-dlnvfg.work:29433/article/lottery/6a64784cb3f65fed7d62506a?url=dfh",
+        "pick": "bottom",
+        "name_anchors": [
+          "天天向上"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "api"
+        ],
+        "record_id_required": true,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s141_article_6a64784cb3f65fed7d62506a",
+        "name": "天天向上",
+        "url": "https://knrpona.3b0v8-i91jw-dlnvfg.work:29433/article/lottery/6a64784cb3f65fed7d62506a?url=dfh",
+        "pick": "bottom",
+        "fingerprint": {
+          "312": "7段",
+          "311": "3段",
+          "310": "5段",
+          "309": "3段",
+          "308": "5段",
+          "307": "3段",
+          "306": "5段",
+          "305": "4段",
+          "304": "3段",
+          "303": "5段"
+        },
+        "status": "error",
+        "notes": [
+          "本次实时判定失败：尾部最新3个有效候选期数为[311期、312期]，不含指定313期"
+        ],
+        "error": "尾部最新3个有效候选期数为[311期、312期]，不含指定313期",
+        "article_records": [
+          {
+            "record_id": "6a64784cb3f65fed7d62506a",
+            "record_path": "$",
+            "article_count": 1,
+            "author": "天天向上",
+            "title": "<p>313期【绝杀1段】已更新</p>",
+            "column": "主表单",
+            "pick": "bottom",
+            "target_field": "html",
+            "source_url": "https://knrpona.3b0v8-i91jw-dlnvfg.work:29433/api/proxy/manager-articles/6a64784cb3f65fed7d62506a"
+          }
+        ]
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "方向范围外",
+        "name": "天天向上",
+        "pick": "bottom"
+      }
+    },
+    {
+      "archived_at": "2026-11-09T18:51:22+08:00",
+      "reason": "313期失败清单处置：站点 https://11008880827.456732.xyz/bbs/topic.php?id=19391 已下架帖子，浏览器与抓取通道均返回『此帖子ID已被下架』，页面无任何期数内容（gb2312 页面 50KB，'期'/'段' 命中 0）。判定为无数据（站点下架），非解析异常；用户点名封存并停止抓取",
+      "last_failure": {
+        "period": 313,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "抓取内容中未发现指定期数"
+      },
+      "raw_failure_line": "失败 绝杀一合 https://11008880827.456732.xyz/bbs/topic.php?id=19391 方向: bottom 期数: 313 阶段: 指定期数校验 原因: 抓取内容中未发现指定期数",
+      "site": {
+        "name": "绝杀一合",
+        "url": "https://11008880827.456732.xyz/bbs/topic.php?id=19391",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "d300f5613773f069",
+        "name": "绝杀一合",
+        "url": "https://11008880827.456732.xyz/bbs/topic.php?id=19391",
+        "pick": "bottom",
+        "name_anchors": [
+          "绝杀一合"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s170_id_19391",
+        "name": "绝杀一合",
+        "url": "https://11008880827.456732.xyz/bbs/topic.php?id=19391",
+        "pick": "bottom",
+        "fingerprint": {},
+        "status": "error",
+        "notes": [
+          "无候选数据",
+          "本次实时判定失败：无期数"
+        ],
+        "error": "无期数"
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "指定期数缺失",
+        "name": "绝杀一合",
+        "pick": "bottom"
+      }
+    },
+    {
+      "archived_at": "2026-11-10T18:50:23+08:00",
+      "reason": "314期失败清单处置：站方标题已改为『314期：【精品赐码★绝杀①段 ★重金铲庄】』，正文最后一行是 『314期: 绝杀①段【？？？？？段】 开:00准』，段值被 5 个问号遮蔽（需打赏金币可见）；其上 311→2段、312→5段、313→4段 均为明文。浏览器实开与项目抓取通道结果一致，判定为无数据（段值未公开），非解析异常；用户点名封存并停止抓取",
+      "last_failure": {
+        "period": 314,
+        "direction": "bottom",
+        "stage": "指定期数校验",
+        "reason": "尾部最新3个有效候选期数为[311期、312期、313期]，不含指定314期"
+      },
+      "raw_failure_line": "失败 精品赐码 https://88888020827.897657.xyz/bbs/topic.php?id=19260 方向: bottom 期数: 314 阶段: 指定期数校验 原因: 尾部最新3个有效候选期数为[311期、312期、313期]，不含指定314期",
+      "site": {
+        "name": "精品赐码",
+        "url": "https://88888020827.897657.xyz/bbs/topic.php?id=19260",
+        "pick": "bottom"
+      },
+      "profile": {
+        "site_id": "e46ac56c522b0aef",
+        "name": "精品赐码",
+        "url": "https://88888020827.897657.xyz/bbs/topic.php?id=19260",
+        "pick": "bottom",
+        "name_anchors": [
+          "精品赐码"
+        ],
+        "section_keywords": [
+          "绝杀一段",
+          "绝杀1段",
+          "杀一段",
+          "杀1段"
+        ],
+        "value_keyword": "段",
+        "candidate_window": 3,
+        "value_min": 1,
+        "value_max": 7,
+        "document_sources": [
+          "page",
+          "script",
+          "iframe"
+        ],
+        "record_id_required": false,
+        "custom_parser": null
+      },
+      "cache": {
+        "id": "s171_id_19260",
+        "name": "精品赐码",
+        "url": "https://88888020827.897657.xyz/bbs/topic.php?id=19260",
+        "pick": "bottom",
+        "fingerprint": {
+          "313": "4段",
+          "312": "5段",
+          "311": "2段",
+          "310": "1段",
+          "309": "2段",
+          "308": "3段",
+          "307": "2段",
+          "306": "5段",
+          "305": "6段",
+          "304": "3段"
+        },
+        "status": "error",
+        "notes": [
+          "本次实时判定失败：尾部最新3个有效候选期数为[311期、312期、313期]，不含指定314期"
+        ],
+        "error": "尾部最新3个有效候选期数为[311期、312期、313期]，不含指定314期"
+      },
+      "slow_site": {
+        "fail_streak": 0,
+        "last_status": "方向范围外",
+        "name": "精品赐码",
+        "pick": "bottom"
+      }
     }
   ]
 }
