@@ -1,0 +1,10 @@
+
+
+<style>.border-01{border-radius:6px;border:solid 6px #FFCC00;margin-bottom:5px;}</style><style>
+      .border-01A1 {
+      border: solid 6px #4292EF !important;
+    }
+  </style>
+<div class="border-01 border-01A1"><style>.topic-content {word-wrap: break-word;}
+.topic-content table{width:100% !important}</style><div style="min-height: 300px;">
+<div class="title"><p style="text-align: left;"><span style="font-family: 'Microsoft YaHei', 'Helvetica Neue', 'PingFang SC', sans-serif; font-size: 14pt;"><span class="cgi-gsb-tit" style="margin: 0px 8px 0px 0px; padding: 0px 5px; border: 0px; font-variant-numeric: inherit; font-stretch: inherit; line-height: 30px; vertical-align: baseline; height: 30px; color: #ffff00; border-radius: 5px; background: #169179; display: inline-block; font-size: 12pt;">高手贴</span><span style="font-size: 12pt;"><strong>320期:【绝杀一段】</strong></span></span></p></div>
