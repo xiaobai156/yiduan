@@ -89,6 +89,7 @@ def merge_success(text, values):
 
 
 def merge_failures(text, records, recovered):
+    """Drop recovered failures; return None when nothing fails so the TXT gets deleted."""
     removed = {number for number, identity, _ in records if identity in recovered}
     if not removed:
         return text
@@ -101,6 +102,8 @@ def merge_failures(text, records, recovered):
             continue
         body.append(line)
     remaining = [line.strip() for line in body if line.strip().startswith("失败 ")]
+    if not remaining:
+        return None
     newline = "\r\n" if "\r\n" in text else "\n"
     return "".join(body).rstrip("\r\n") + newline.join(build_failure_stats_lines(remaining)) + newline
 

@@ -7,7 +7,7 @@ from unittest.mock import patch
 from duan_app.domain import Candidate, Site, SiteResult
 from duan_app.fetcher import RenderedPage, render_browser_document
 from duan_app.documents import collect_documents
-from duan_app.retry_failed import merge_success, retry
+from duan_app.retry_failed import merge_failures, merge_success, retry
 
 
 class FakePage:
@@ -103,7 +103,7 @@ class RetryTests(unittest.TestCase):
             self.assertEqual(result['sites'][0]['fingerprint'], {'291': '1段', '292': '2段'})
             self.assertIn('其他审核原因', result['sites'][0]['notes'])
             self.assertNotIn('无候选数据', result['sites'][0]['notes'])
-            self.assertNotIn('失败 恢复站', fail.read_text(encoding='utf-8-sig'))
+            self.assertFalse(fail.exists())
             text = success.read_text(encoding='utf-8-sig')
             self.assertLess(text.index('3段 原有站'), text.index('2段 恢复站'))
             self.assertLess(text.index('2段 恢复站'), text.index('内容'))
@@ -138,6 +138,36 @@ class RetryTests(unittest.TestCase):
         merged, accepted = merge_success(text, {'原站': '2段'})
         self.assertEqual(merged, text)
         self.assertEqual(accepted, {})
+
+    def test_last_failure_deletes_fail_txt(self):
+        text = '失败 作者 https://example.test/topic/1.html 方向: top 期数: 292 阶段: 校验 原因: 无期数\n\n失败分类统计\n无候选数据 1条\n'
+        identity = ('作者', 'https://example.test/topic/1.html', 'top')
+        self.assertIsNone(merge_failures(text, [(0, identity, 292)], {identity: '3段'}))
+
+    def test_untouched_failures_keep_fail_txt(self):
+        text = ('失败 甲 https://example.test/a 方向: top 期数: 292 阶段: 校验 原因: 无期数\n\n'
+                '失败 乙 https://example.test/b 方向: top 期数: 292 阶段: 无候选 原因: 无期数\n\n'
+                '失败分类统计\n无期数 2条\n')
+        identity = ('甲', 'https://example.test/a', 'top')
+        merged = merge_failures(text, [(0, identity, 292)], {identity: '3段'})
+        self.assertIn('失败 乙', merged)
+        self.assertNotIn('失败 甲', merged)
+        self.assertIn('无期数 1条', merged)
+
+    def test_retry_deletes_fail_txt_when_all_recovered(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            fail, success = root/'292期-段-失败.txt', root/'292期-段.txt'
+            site = Site('作者', 'https://example.test/topic/1.html', 'bottom')
+            fail.write_bytes(
+                f'失败 作者 {site.url} 方向: bottom 期数: 292 阶段: 校验 原因: 无期数\n'.encode('utf-8-sig')
+            )
+            success.write_bytes('1段 原有站\n'.encode('utf-8-sig'))
+            found = Candidate(292, '292期', '3段', '标题', '292期绝杀一段【3段】', 255, 0, 0)
+            result = SiteResult(1, site, [found], None, 'OK')
+            self.assertEqual(retry(fail, success, [site], processor=lambda *a: result), (1, 0))
+            self.assertFalse(fail.exists())
+            self.assertIn('3段 作者', success.read_text(encoding='utf-8-sig'))
 
 
 if __name__ == '__main__':
