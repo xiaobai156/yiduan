@@ -1,0 +1,1474 @@
+[
+  {
+    "host": "4m6dz.5qa9g-yt3d1-vfqhud.xyz",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "折节下士"
+    ],
+    "tls": "fail",
+    "status": "CONNFAIL",
+    "location": "TimeoutError: _ssl.c:989: The handshake operation timed out"
+  },
+  {
+    "host": "aa.62782b.com",
+    "port": 1888,
+    "scheme": "https",
+    "sites": [
+      "杨进心水"
+    ],
+    "tls": "ok",
+    "status": "404",
+    "location": ""
+  },
+  {
+    "host": "anhomo.n03wh-m2skn-wssphn.xyz",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "大手大脚"
+    ],
+    "tls": "fail",
+    "status": "CONNFAIL",
+    "location": "TimeoutError: _ssl.c:989: The handshake operation timed out"
+  },
+  {
+    "host": "bbrqhvww.4eylv-8gp30-jpndzw.work",
+    "port": 17488,
+    "scheme": "https",
+    "sites": [
+      "蓝可爱鬼"
+    ],
+    "tls": "fail",
+    "status": "CONNFAIL",
+    "location": "TimeoutError: _ssl.c:989: The handshake operation timed out"
+  },
+  {
+    "host": "bbuueerm.pxcma-jyfok-mvduyw.xyz",
+    "port": 16633,
+    "scheme": "https",
+    "sites": [
+      "蝇营狗苟"
+    ],
+    "tls": "fail",
+    "status": "CONNFAIL",
+    "location": "TimeoutError: _ssl.c:989: The handshake operation timed out"
+  },
+  {
+    "host": "bzdolgna.0115r-u1nk5-zioots.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "目别汇分"
+    ],
+    "tls": "fail",
+    "status": "CONNFAIL",
+    "location": "TimeoutError: _ssl.c:989: The handshake operation timed out"
+  },
+  {
+    "host": "cpvqejp.avdja-la48l-xnsdva.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "先人后己"
+    ],
+    "tls": "fail",
+    "status": "CONNFAIL",
+    "location": "TimeoutError: _ssl.c:989: The handshake operation timed out"
+  },
+  {
+    "host": "cykiiyt.4hxms-k65ek-jsvqzm.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "喝醉的猫"
+    ],
+    "tls": "fail",
+    "status": "CONNFAIL",
+    "location": "TimeoutError: _ssl.c:989: The handshake operation timed out"
+  },
+  {
+    "host": "dd.62782b.com",
+    "port": 1888,
+    "scheme": "https",
+    "sites": [
+      "女神绝杀"
+    ],
+    "tls": "ok",
+    "status": "404",
+    "location": ""
+  },
+  {
+    "host": "dhqjbz.uxec9-jxs3h-fomubo.work",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "巷议街谈"
+    ],
+    "tls": "ok",
+    "status": "301",
+    "location": "https://mhj65yre.99hcl-bhy7a-htxfrv.work:16622#5.1"
+  },
+  {
+    "host": "jogavu.6bl6s-ilo1w-yfnvvl.work",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "高温凯子"
+    ],
+    "tls": "ok",
+    "status": "301",
+    "location": "https://mhrffdbg.99hcl-bhy7a-htxfrv.work:16644#5.1"
+  },
+  {
+    "host": "kjkkzzg.eiu7u-3edk2-gjzmrl.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "无怨无悔"
+    ],
+    "tls": "fail",
+    "status": "CONNFAIL",
+    "location": "TimeoutError: _ssl.c:989: The handshake operation timed out"
+  },
+  {
+    "host": "oifsonk.e0h72-f6bxs-juqrkd.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "淋漓尽精"
+    ],
+    "tls": "fail",
+    "status": "CONNFAIL",
+    "location": "TimeoutError: _ssl.c:989: The handshake operation timed out"
+  },
+  {
+    "host": "pcfwjde.22zu6-81144-kdlkyf.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "面红耳赤"
+    ],
+    "tls": "fail",
+    "status": "CONNFAIL",
+    "location": "TimeoutError: _ssl.c:989: The handshake operation timed out"
+  },
+  {
+    "host": "pkrcani.cm4li-554vw-zuncoa.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "宝马"
+    ],
+    "tls": "fail",
+    "status": "CONNFAIL",
+    "location": "TimeoutError: _ssl.c:989: The handshake operation timed out"
+  },
+  {
+    "host": "pvxiftuf.yumkw-u4s81-hpytyz.work",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "六合联盟",
+      "悠闲自在"
+    ],
+    "tls": "ok",
+    "status": "301",
+    "location": "https://mhrffdbg.99hcl-bhy7a-htxfrv.work:16644#5.1"
+  },
+  {
+    "host": "qwpapph.el7s4-pbxnj-aemcbt.work",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "夹谷笑过"
+    ],
+    "tls": "ok",
+    "status": "301",
+    "location": "https://muyrjn.89ip0-dar28-dswyrj.work:16633#5.1"
+  },
+  {
+    "host": "sadoleu.rznla-fgwyr-nzqalp.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "烟雨遥遥"
+    ],
+    "tls": "fail",
+    "status": "CONNFAIL",
+    "location": "TimeoutError: _ssl.c:989: The handshake operation timed out"
+  },
+  {
+    "host": "sgxozo.4b5jw-x2zou-ukbybu.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "不成方圆"
+    ],
+    "tls": "fail",
+    "status": "CONNFAIL",
+    "location": "TimeoutError: _ssl.c:989: The handshake operation timed out"
+  },
+  {
+    "host": "stkfbbns.yrfhc-z5x6i-ykoqqu.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "浪静风平",
+      "锦瑟安然"
+    ],
+    "tls": "fail",
+    "status": "CONNFAIL",
+    "location": "TimeoutError: _ssl.c:989: The handshake operation timed out"
+  },
+  {
+    "host": "tjetrfr.jocy8-cy4wk-fmpeer.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "六玄",
+      "交浅言深"
+    ],
+    "tls": "fail",
+    "status": "CONNFAIL",
+    "location": "TimeoutError: _ssl.c:989: The handshake operation timed out"
+  },
+  {
+    "host": "vbxl5.wp5pl-3ztz5-cwgbti.xyz",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "山河表里"
+    ],
+    "tls": "fail",
+    "status": "CONNFAIL",
+    "location": "TimeoutError: _ssl.c:989: The handshake operation timed out"
+  },
+  {
+    "host": "vdyyghji.ta1sh-i5yr8-gplabg.work",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "小诸葛"
+    ],
+    "tls": "fail",
+    "status": "CONNFAIL",
+    "location": "TimeoutError: _ssl.c:989: The handshake operation timed out"
+  },
+  {
+    "host": "ykafylrj.aa70q-k7jc0-igfkrd.work",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "天朗气清"
+    ],
+    "tls": "ok",
+    "status": "301",
+    "location": "https://wfvdfmh.99hcl-bhy7a-htxfrv.work:16633#5.1"
+  },
+  {
+    "host": "zdwcig.iyo4d-81klf-udwkqg.work",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "没有之后"
+    ],
+    "tls": "fail",
+    "status": "CONNFAIL",
+    "location": "TimeoutError: _ssl.c:989: The handshake operation timed out"
+  },
+  {
+    "host": "zwhzkjo.fc4fh-otded-nvhceu.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "阿世取容"
+    ],
+    "tls": "fail",
+    "status": "CONNFAIL",
+    "location": "TimeoutError: _ssl.c:989: The handshake operation timed out"
+  },
+  {
+    "host": "0085680827.326455.xyz",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "新光彩红"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "0130190827.987860.xyz",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "诚意满满"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "0cggq.9o9kf-k9voh-papahr.work",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "破烂流丢"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "111.246004.com",
+    "port": 9066,
+    "scheme": "https",
+    "sites": [
+      "猫三狗四"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "11889900827.435458.xyz",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "高枕无忧"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "12388990827.688756.xyz",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "娇生惯养"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "18118.73829.com",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "丰硕成果"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "5ipaulfv56.1081085bbs1.shop",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "吐故纳新"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "6609960827.115646.xyz",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "特政送礼"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "67806780827.325346.xyz",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "高才絶学"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "8818.www19753a.com",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "天马行空"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "88888020827.997595.xyz",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "快乐宝贝"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "979363.com.9795.in",
+    "port": 1888,
+    "scheme": "https",
+    "sites": [
+      "漓沐倾城"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "aq14f.2gdkh-2qrjm-hxaxji.xyz",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "混淆视听"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "asmfkb.dfkxu-0rwnp-wevqzo.work",
+    "port": 29466,
+    "scheme": "https",
+    "sites": [
+      "金刚护体",
+      "传真神彩",
+      "高人彩经"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "aszmkf.c3z3l-qrlqm-mwgccr.work",
+    "port": 29411,
+    "scheme": "https",
+    "sites": [
+      "大放光彩",
+      "及第成名"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "bucgnuda.sbsrh-yvu62-jrtrcm.xyz",
+    "port": 16633,
+    "scheme": "https",
+    "sites": [
+      "深情厚谊",
+      "废物费二"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "buzsxio.821n4-hgj04-edkrft.xyz",
+    "port": 29455,
+    "scheme": "https",
+    "sites": [
+      "思念无涯",
+      "澳彩经理",
+      "天龙传彩"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "cahgjib.5blx9-z8506-ekiwxc.work",
+    "port": 29488,
+    "scheme": "https",
+    "sites": [
+      "著作等身",
+      "财神大亨"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "cthvktrb.am9a6-vk0h6-lwbxab.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "澳门招财猫"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "czcvzk.4n5g7-o871g-hqmkwz.work",
+    "port": 29422,
+    "scheme": "https",
+    "sites": [
+      "天天开心"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "djimkyw.n7ht1-wp4vm-ljitjr.xyz",
+    "port": 29488,
+    "scheme": "https",
+    "sites": [
+      "美丽动人"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "drmthln.beqj8-tntx4-ukbetl.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "四通八达"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "drxgkjt.uu1oc-eyjpt-uxyccu.xyz",
+    "port": 29400,
+    "scheme": "https",
+    "sites": [
+      "金刚财子"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "dvglkfp.mueyy-uiuci-vtqiod.work",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "一劳永逸",
+      "黑风孽海",
+      "雷锋"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "e7rzi6.q42de-ffhtv-sshfhh.work",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "一丝一毫"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "ebhxngwb.2ljj5-vdh8s-gbvkgl.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "武松打虎",
+      "祝你发财"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "eebysckd.2go6k-y0pfv-fqbdsm.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "昙花一现",
+      "名扬天下"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "eqdfqyah.jigmo-9e498-sxucok.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "心慌意乱",
+      "猿啼鹤怨"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "eqyyanu.4rfyf-h2bx5-oxsbom.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "罪有应得"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "fansiggg.jc2q8-whfmg-vajjui.xyz",
+    "port": 29433,
+    "scheme": "https",
+    "sites": [
+      "喜气洋洋",
+      "插疏篱却",
+      "穷源溯流"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "fbgbfg.www27521c.com",
+    "port": 8443,
+    "scheme": "https",
+    "sites": [
+      "风止意平"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "fhrtnoy.10cus-ki4mn-mlcyap.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "天长地久"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "flrmed.u3l95-7ktwf-clwwtq.work",
+    "port": 29455,
+    "scheme": "https",
+    "sites": [
+      "望穿秋水"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "fptnapl.o7l2d-gr6ew-tvgvep.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "作戏而已"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "fymxwnyg.ttmzc-muvns-udlfln.work",
+    "port": 29455,
+    "scheme": "https",
+    "sites": [
+      "素雪怜影",
+      "节节胜利"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "gboqrz.d2cda-p5u2y-gwxmnf.work",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "神神道道"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "gboqrz.sm0a0-x9x2c-xyvjdr.work",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "令闻令望",
+      "十拿九稳",
+      "长度三十",
+      "众嘘漂山"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "gqdbokpx.ji2oa-rdhxt-girktl.work",
+    "port": 29411,
+    "scheme": "https",
+    "sites": [
+      "福星王子"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "grjawf.sp5ee-ol941-nkuroa.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "李立"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "gxixcfq.4hxms-k65ek-jsvqzm.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "南辕北辙"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "hcsuuoy.nimo7-9bgj4-fmspxt.xyz",
+    "port": 29466,
+    "scheme": "https",
+    "sites": [
+      "披金执锐",
+      "自知者明",
+      "鲜花绿叶"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "herymche.x6l2j-h6kfu-qdresg.work",
+    "port": 29466,
+    "scheme": "https",
+    "sites": [
+      "云淡风轻"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "hfauoob.xu36n-9s7v3-jtrkpg.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "烘云托月"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "hl.90216a.com",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "倚靠窗畔"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "hl.www73261a.com",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "敢拼敢博"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "hlhl.69281.com",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "寻宝先生",
+      "玄机码王"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "hquomm.20t3f-0yztv-jiozun.xyz",
+    "port": 29444,
+    "scheme": "https",
+    "sites": [
+      "树大根深"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "ikjaekum.yu2af-orn0b-hqbkee.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "悬梁刺股"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "jdjzpkce.osyaf-gxlte-otlblr.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "三地主"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "jusbfyu.mkdwi-xa2ua-rsovan.work",
+    "port": 29422,
+    "scheme": "https",
+    "sites": [
+      "探囊取物",
+      "澳门杀肖"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "kfsujebc.djiz8-4tqt6-hubani.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "皇帝奴才"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "kk.212557a.com",
+    "port": 1888,
+    "scheme": "https",
+    "sites": [
+      "朗朗权坤"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "knfoaep.ivqs8-1depw-yoirtw.xyz",
+    "port": 29444,
+    "scheme": "https",
+    "sites": [
+      "天上人间"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "knhlnvo.zvdsi-8qf2t-wchuxk.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "天道酬勤",
+      "遥遥领先",
+      "生无可恋"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "kpfhptru.s8hvq-ssvup-eladiw.xyz",
+    "port": 16622,
+    "scheme": "https",
+    "sites": [
+      "独一无二"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "kxglojup.fao5v-9u0oz-okhubb.work",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "眉头眼尾"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "lf29cc.1231978.com",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "置之死地"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "mbsqhpk.8ivvt-u3cx5-enwlld.xyz",
+    "port": 29400,
+    "scheme": "https",
+    "sites": [
+      "彩事顺意"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "mkhomxq.gqmpb-vuxji-pfnheu.work",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "白虎"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "mm.676626m.com",
+    "port": 1888,
+    "scheme": "https",
+    "sites": [
+      "小康在望"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "mm.737799b.com",
+    "port": 1888,
+    "scheme": "https",
+    "sites": [
+      "会飞的猪"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "mxiscni.nkh6s-vfni4-lwgfvw.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "逍遥浪子"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "narnesm.in79o-is98f-mncjoh.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "泪眼问花"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "niqyf.niwmj-1z0q3-wpylfo.xyz",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "委决不下"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "nwrkkmv.rx287-rkrai-jsjccc.xyz",
+    "port": 29499,
+    "scheme": "https",
+    "sites": [
+      "最佳女主",
+      "快乐之家",
+      "得意洋洋"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "ocnrhq.du156-vb27w-tmhsed.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "寒来暑往"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "pfnbkfar.770mb-fnzbt-ohljja.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "逆天违众"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "pgyzulb.iwnn7-gyyip-pnpfqv.work",
+    "port": 29477,
+    "scheme": "https",
+    "sites": [
+      "南天财柱",
+      "英雄豪杰",
+      "八仙过海"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "piaqjtxw.13p7c-zv13a-nohkeq.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "金多宝"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "qdufkx.sjb5z-pi4k6-jlhnig.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "海晏河清",
+      "恭喜发财"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "rafllgob.23z93-ww9uq-tjnvdx.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "澳门曾夫人"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "rmpsmal.hi84f-zpj90-mvqksp.xyz",
+    "port": 29477,
+    "scheme": "https",
+    "sites": [
+      "天机神料"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "rwraojf.l54vq-9httr-cmdnip.work",
+    "port": 29477,
+    "scheme": "https",
+    "sites": [
+      "创世奇彩",
+      "神算规律"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "sdzvp.lh8uo-ee9ru-cfpyti.xyz",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "河梁之谊"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "sheuzjss.tgpcj-9w0vl-mwyhly.work",
+    "port": 29422,
+    "scheme": "https",
+    "sites": [
+      "凉秋瑾言"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "skgdjjmz.l54vq-9httr-cmdnip.work",
+    "port": 29477,
+    "scheme": "https",
+    "sites": [
+      "谈笑自若"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "sndaygl.egjtc-sgs8w-taclan.work",
+    "port": 29400,
+    "scheme": "https",
+    "sites": [
+      "忧烟殇往"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "spkhheda.6pb1u-v37cv-dcemcz.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "一五一十"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "txhbxsi.160ar-q87yu-rnnpxl.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "习以为常"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "ugtzszfp.ldpiz-8xhrd-wpkjkn.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "赛马会第一版",
+      "赛马会第二版"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "uhaxnrzx.q76gf-deec8-zqckeo.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "魅笔生花"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "uqdccnri.oy2bh-swrfr-gvzxkk.work",
+    "port": 29499,
+    "scheme": "https",
+    "sites": [
+      "六合料王"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "vkrquo.xfbmz-7znxx-miaoej.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "吹散思绪"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "vmfvzmh.7jh1y-qgjk8-lavfxb.work",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "气吞山河"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "w4shq9.g9ldx-6077s-zvfqqu.work",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "名列前茅"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "wigrzse.3acpt-tc9xa-kzxasm.xyz",
+    "port": 29444,
+    "scheme": "https",
+    "sites": [
+      "日月星辰",
+      "寒风凌厉",
+      "王者归来",
+      "完美资料"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "wojedcr.ltslh-5g80v-eeujep.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "龙虎门"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "www28651a.com",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "玉软花柔",
+      "动地惊天",
+      "记得善良"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "xeyzmutd.ulazy-l7v28-mgqrqs.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "拐特大师"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "xjsjbkv.b3e4x-wxhjo-lbdbjg.xyz",
+    "port": 29477,
+    "scheme": "https",
+    "sites": [
+      "扫庄致富",
+      "亦可相拥",
+      "人小鬼大"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "xoxtpupt.bvptr-i3mv8-pbjxin.work",
+    "port": 17455,
+    "scheme": "https",
+    "sites": [
+      "人心善变"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "xozgdo.um2zi-vbge0-emngyq.work",
+    "port": 29422,
+    "scheme": "https",
+    "sites": [
+      "青翠欲滴"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "xxn08n.uf6h9-z8vxq-smsfdt.work",
+    "port": 443,
+    "scheme": "https",
+    "sites": [
+      "神魂摇荡"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "ykeejph.z9koz-18xjn-pvglgy.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "一言不发"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "yqjfwqsc.1dayz-aetgp-kbjidr.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "花间辞令"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "yzpbdkow.6m1ba-7p7u4-ppolcy.work",
+    "port": 29433,
+    "scheme": "https",
+    "sites": [
+      "夏意正浓",
+      "烟雾弥漫"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "zkjjuem.y2teq-2zq5t-rpmaqk.work",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "斗志昂扬"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "zlkcyl.e6mlx-wj46o-rzcukg.work",
+    "port": 29499,
+    "scheme": "https",
+    "sites": [
+      "追彩少年"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "zopeuze.1fjlt-g1hbj-hykofq.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "孤独滋味"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "zpyaxwke.rp89b-fwko2-buexgv.xyz",
+    "port": 16677,
+    "scheme": "https",
+    "sites": [
+      "力钧势敌"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "zqrtppa.9swju-6haxn-dlkint.work",
+    "port": 29455,
+    "scheme": "https",
+    "sites": [
+      "诗情画意"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "ztpqrap.m8sbq-na911-wmojzb.work",
+    "port": 29444,
+    "scheme": "https",
+    "sites": [
+      "天霸福星"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  },
+  {
+    "host": "zxlfxpp.2n0je-9ecrg-kadbbu.work",
+    "port": 29411,
+    "scheme": "https",
+    "sites": [
+      "蛇口蜂针"
+    ],
+    "tls": "ok",
+    "status": "200",
+    "location": ""
+  }
+]
